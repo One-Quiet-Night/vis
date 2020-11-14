@@ -42,7 +42,7 @@ const QuantileUSMAP = ({ setTooltipContent })  => {
                             geography={geo}
                             fill={cur ? colorScale(cur.unemployment_rate) : "#EEE"}
                             onMouseEnter={() => {
-                                console.log(cur.name)
+                                // console.log(cur.name)
                                 setTooltipContent(`${cur.name} : ${cur.unemployment_rate}`);
                             }}
                             onMouseLeave={() => {

@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 import './App.css';
+
+import Nav from './Components/Nav';
+import Home from './Components/Home';
+import Footer from './Components/Footer';
 
 import ReactTooltip from 'react-tooltip';
 import TooltipMap from './Maps/TooltipMap';
@@ -9,22 +15,23 @@ import MarkerMap from './Maps/MarkerMap';
 import QuantileUSMAP from './Maps/QuantileUSMap';
 
 
+
 function App() {
   const [content, setContent] = useState("");
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h2>One quiet night</h2>
-      </header>
-      <div className="map">
+      <Nav />
+      <Home />
+      <Footer />
+      {/* <div className="map">
         <BasicMap />
         <MarkerMap />
         <TooltipMap setTooltipContent={setContent} />
         <ReactTooltip>{content}</ReactTooltip>
         <UsMap />
         <QuantileUSMAP setTooltipContent={setContent} />
-    </div>
+      </div> */}
     </div>
 
   );
