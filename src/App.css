@@ -65,12 +65,13 @@ a {
   flex-direction: row;
 }
 
-.nav-right > p {
+.nav-right > a {
   padding: 0 20px;
 }
 
-.home {
+.container {
   padding: 100px 0;
+  margin: 0 50px;
 }
 
 footer {
@@ -84,9 +85,13 @@ footer {
   padding: 50px 0;
 }
 
+.forecast {
+  display: flex;
+}
+
 .map {
   padding: 2rem;
-  max-width: 850px;
+  border: 1px solid var(--black50);
 }
 
 svg {
