@@ -85,19 +85,19 @@ footer {
   padding: 50px 0;
 }
 
-.forecast {
-  display: flex;
-}
+/* .forecast {
+  display: inline-block;
+} */
 
 .map {
   padding: 2rem;
   border: 1px solid var(--black50);
 }
 
-svg {
+/* svg {
   display: inline-block;
   vertical-align: middle;
-}
+} */
 
 button {
   color: #000;
