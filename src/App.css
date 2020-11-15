@@ -6,7 +6,7 @@
   --black50: hsl(0,0%,50%);
   --white50: hsl(0,0%,50%);
   --white60: hsl(0,0%,60%);
-  --white70: hsl(0,0%,70%);
+  --white70: #b3b3b3;
   --white: #fff;
   --fs: #368243;
   --og: #F5A51C;
@@ -85,13 +85,33 @@ footer {
   padding: 50px 0;
 }
 
-/* .forecast {
+.vis-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.forecast {
   display: inline-block;
-} */
+  max-width: 600px;
+  width: 50%
+}
 
 .map {
   padding: 2rem;
   border: 1px solid var(--black50);
+}
+
+.usmap {
+  width: 1000px;
+}
+
+.recharts-wrapper {
+  /* border: red 1px solid; */
+  width: 50% 
+}
+
+.recharts-tooltip-wrapper {
+  font-size: 12px;
 }
 
 button {
@@ -114,4 +134,13 @@ button {
 
 button:hover {
   background-color: var(--white70);
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+}
+
+.options > p {
+  padding-right: 20px;
 }

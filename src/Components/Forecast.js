@@ -1,28 +1,23 @@
 import React, { useState, useEffect } from "react";
+import National from "../Components/National";
 
-import { csv } from "d3-fetch";
-import { scaleQuantile } from "d3-scale";
-import { ComposableMap, Geographies, Geography } from "react-simple-maps";
-
-import csvMap from '../Assets/format_2.csv';
-import Chart from "./Chart";
-import National from "./National";
-
-const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json";
 const latestDate = "2020-11-11";
 
 const Forecast = () => {
 
     return (
         <div className="container">
-            <p>National</p>
-            <p>States</p>
-            <p>Counties</p>
-            <div className="forecast">
+            <div className="options">
+                <p>Choose the option: </p>
+                <p>National</p>
+                <p>States</p>
+                <p>Counties</p>
+            </div>
+            <div>
+                <h3>Daily reported COVID-19 new cases per 100,000 people in US</h3>
                 <National />
             </div>
-            
-            
+
         </div>
     )
 }
