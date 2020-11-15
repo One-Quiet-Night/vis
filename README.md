@@ -40,3 +40,32 @@ yarn add -save react-simple-maps
     6,2020-01-23,Adair_Missouri_UnitedStates,0,29001
     ...
     ```
+
+# ReChart
+## LineChart
+- Data format for `LineChart` component from ReChart
+```js
+const data = [{name: 'a', value: 12}]
+const otherData = [{ "name": "Page A", "uv": 4000, "pv": 2400, "amt": 2400}, { "name": "Page B", "uv": 3000, "pv": 1398, "amt": 2210 }]
+```
+
+- Axis interval for line chart : useful for our x-axis (date) - [reference](https://recharts.org/en-US/examples/LineChartAxisInterval)
+    - interval : `preserverEnd` || `preserverStart` || `preserveStartEnd` || {`int`} - skip the `int`
+    - angle
+    - dx
+    - or customize the axis tick
+    ```js
+    class CustomizedAxisTick extends PureComponent {
+        render() {
+            const {
+            x, y, stroke, payload,
+            } = this.props;
+
+            return (
+            <g transform={`translate(${x},${y})`}>
+                <text x={0} y={0} dy={16} textAnchor="end" fill="#666" transform="rotate(-35)">{payload.value}</text>
+            </g>
+            );
+        }
+    }
+    ```
