@@ -94,11 +94,6 @@ footer {
   border: 1px solid var(--black50);
 }
 
-/* svg {
-  display: inline-block;
-  vertical-align: middle;
-} */
-
 button {
   color: #000;
   font-weight: 700;

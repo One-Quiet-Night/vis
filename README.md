@@ -69,3 +69,11 @@ const otherData = [{ "name": "Page A", "uv": 4000, "pv": 2400, "amt": 2400}, { "
         }
     }
     ```
+
+- edit color scheme, remove axis line/tick, distribute horizontal line (CartesianGrid) evenly, change x axis to 2 months (Jan1 > Apr1 > Jun 1 >>> ) / add axis name (Title)
+- National date marks : for referenceline
+    - Jan 20: First US COVID-19 case
+    - Mar 13 : National emergency declared
+    - Mar 27 : CARES act enacted
+    - Apr 15 : Stimulus payments starts
+    - Nov 3 : Election day
