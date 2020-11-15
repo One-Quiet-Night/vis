@@ -141,6 +141,23 @@ button:hover {
   flex-direction: row;
 }
 
-.options > p {
-  padding-right: 20px;
+.option-button  {
+  cursor: pointer;
+  margin-left: 20px;
+  padding: .5rem;
+  font-size: 12px;
+  background-color: none;
+  border-radius: 3px;
+  color: black;
 }
+
+.selected {
+  cursor: pointer;
+  margin-left: 20px;
+  padding: .5rem;
+  font-size: 12px;
+  background-color: var(--ps);
+  border-radius: 3px;
+  color: white;
+}
+

@@ -21,13 +21,12 @@ const formatXAxis = (tickItem) => {
 return tickItem.toString();
 }
 
-
 const National = () => {
 
     const [nationalData, setNationlData] = useState([]);
     useEffect(() => {
         csv(csvNation).then(nat => {
-            console.log(nat);
+            // console.log(nat);
             setNationlData(nat);
         })
     }, []);
@@ -92,7 +91,7 @@ const National = () => {
         { nationalData && 
         <div className="forecast">
             <LineChart width={600} height={400} data={nationalData} margin={{ top: 10, right: 40, bottom: 40, left: 5 }}>
-                <Line type="monotone" dataKey="US" stroke="#043b4e" strokeWidth={4} />
+                <Line type="monotone" dataKey="US" stroke="#043b4e" strokeWidth={4} dot={false} />
                 {/* <Line type="monotone" dataKey="uv" stroke="#82ca9d" /> */}
                 <CartesianGrid stroke="#ccc" strokeDasharray="5 5" vertical={false} />
                 <XAxis dataKey="dates" fontSize="10" axisLine={false} tickLine={false} tickFormatter={formatXAxis} />

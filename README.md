@@ -77,3 +77,24 @@ const otherData = [{ "name": "Page A", "uv": 4000, "pv": 2400, "amt": 2400}, { "
     - Mar 27 : CARES act enacted
     - Apr 15 : Stimulus payments starts
     - Nov 3 : Election day
+
+
+## Map state data
+- From the `<Geographies {geographies = geographies.map(geo)} />`
+    ```js
+    // geo
+    {
+        geometry: {type: "Polygon", coordinates: Array(1)}
+        id: "46"
+        properties: {name: "South Dakota"}
+        rsmKey: "geo-16"
+        svgPath: ...
+        type: "Feature"
+    }
+    ```
+- From our `CumulativeCases_State` data
+    ```js
+    // fetch the last element of the data for mapping
+    {
+        10: "2562.325162975834", 11: "2446.4788472955684", 12: "3736.6459976672586", 13: "3398.093868917156", ...
+    }
