@@ -34,7 +34,7 @@ const National = () => {
 
     return (
         <div>
-            <p style={{fontSize: "14px"}}>In the <code>U.S.</code>, on <code>{latestDate}</code>, there were <code>{Math.round(nationalCase)}</code> reported COVID-19 cases per 100K people.</p>
+            <p style={{fontSize: "20px", fontWeight: "300"}}>In the <code>U.S.</code>, on <code>{latestDate}</code>, there were <code>{Math.round(nationalCase)}</code> reported COVID-19 cases per 100K people.</p>
             <div className="vis-wrapper">
                 <div className="forecast usmap" >
                     <ComposableMap projection="geoAlbersUsa" 

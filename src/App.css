@@ -209,6 +209,7 @@ button:hover {
 
 .text-height {
   line-height: 1.5;
+  font-weight: 300;
 }
 
 .c3-ai-link {
@@ -217,4 +218,16 @@ button:hover {
 
 .c3-ai-link:hover {
   text-decoration: underline;
+}
+
+ul {
+  padding-inline-start: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+li {
+  line-height: 2;
+  font-weight: 300;
 }

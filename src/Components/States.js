@@ -61,7 +61,7 @@ const States = () => {
     // for chart : filter out with the state fips id and plot
     return (
         <div>
-            <p style={{fontSize: "14px"}}>In <code>{stateInfo}</code> state, on <code>{latestDate}</code>, there were <code>{Math.round(stateCase)}</code> reported COVID-19 cases per 100K people.</p>
+            <p style={{fontSize: "20px", fontWeight: "300"}}>In <code>{stateInfo}</code> state, on <code>{latestDate}</code>, there were <code>{Math.round(stateCase)}</code> reported COVID-19 cases per 100K people.</p>
             <div className="vis-wrapper">
                     <div className="forecast usmap" >
                     <ComposableMap data-tip="" projection="geoAlbersUsa" 

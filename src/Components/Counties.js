@@ -58,7 +58,7 @@ const Counties = () => {
 
     return (
         <div>
-            <p style={{fontSize: "14px"}}>In the <code>{countyName}</code>, on <code>{latestDate}</code>, there were <code>{Math.round(countyCase)}</code> reported COVID-19 cases per 100K people.</p>
+            <p style={{fontSize: "20px", fontWeight: "300"}}>In the <code>{countyName}</code>, on <code>{latestDate}</code>, there were <code>{Math.round(countyCase)}</code> reported COVID-19 cases per 100K people.</p>
             <div className="vis-wrapper">
                 <div className="forecast usmap" >
                     <ComposableMap data-tip="" projection="geoAlbersUsa" projectionConfig={{ scale: 800 }} 
