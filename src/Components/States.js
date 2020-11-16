@@ -5,6 +5,7 @@ import ReactTooltip from "react-tooltip";
 
 import { csv } from "d3-fetch";
 import csvState from "../Data/State/JHU_CumulativeCases_State.csv";
+// I updated the JHU_CumulativeCases by adding last row from the OQN_CumulativeCasesForecast!!
 import allStates from "../Maps/allstates.json";
 
 import { scaleQuantile } from "d3-scale";
@@ -26,15 +27,20 @@ const States = () => {
     const [stateCase, setStateCase] = useState("1411"); // for WA cumulative case data
     const [error, setError] = useState('');
     const [tooltip, setTooltip] = useState('');
+    const [forecast, setForecast] = useState('');
+
 
     useEffect(() => {
         let isSubscribed = true;
         csv(csvState).then(state => {
             if (isSubscribed) {
-                let st = state[state.length-1];
+                let st = state[state.length-2];
                 let converted = Object.keys(st).map(key => ({ key, cases: st[key]}))
+                let forecastSt = state[state.length-1];
+                let forecastCov = Object.keys(forecastSt).map(key => ({ key, cases: st[key]}));
                 setStateData(converted);
                 setAllStatesData(state);
+                setForecast(forecastCov);
             } 
         })
         .catch(error => (isSubscribed ? setError(error.toString()) : null));
@@ -90,7 +96,6 @@ const States = () => {
                                             setStateCase(cur.cases);
                                         }}
                                         onMouseEnter={() => {
-                                            // console.log('mouse enter', geo.properties.name, geo.properties.name)
                                             setTooltip(`${geo.properties.name}: ${Math.round(cur.cases)}`);
                                         }}
                                         onMouseLeave={() => {

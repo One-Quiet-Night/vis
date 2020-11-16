@@ -57,7 +57,7 @@ a {
 }
 
 .logo-img {
-  max-width: 250px;
+  max-width: 200px;
 }
 
 .nav-right {
@@ -70,7 +70,7 @@ a {
 }
 
 .container {
-  padding: 100px 0;
+  padding: 50px 0 100px 0;
   margin: 0 50px;
 }
 
@@ -220,7 +220,7 @@ button:hover {
   text-decoration: underline;
 }
 
-ul {
+.c3-ul {
   padding-inline-start: 10px;
   font-size: 18px;
   font-weight: 400;

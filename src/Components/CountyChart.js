@@ -21,7 +21,7 @@ const CountyChart = ( props ) => {
                 <ReferenceLine x="2020-03-28" stroke="#809f3d" strokeDasharray="4 4" label={{ position: "bottom", value: "CARES act enacted", fill: "#809f3d", offset: "30", fontSize: "12" }} />          
                 <ReferenceLine x="2020-04-18" stroke="#F48620" strokeDasharray="4 4" label={{ position: 'bottom', value: "Stimulus payments starts", fill: "#F48620", offset: "45", fontSize: "12" }} />
                 <ReferenceLine x="2020-10-31" stroke="#368243" strokeDasharray="4 4" label={{ position: "bottom", value: "Election day", fill: "#368243", offset: "20", fontSize: "12" }} />
-                <Tooltip />
+                <Tooltip formatter={value => new Intl.NumberFormat('en').format(Math.round(value))}/>
             </LineChart>
         </div>
 

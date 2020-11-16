@@ -13,7 +13,7 @@ const About = () => {
                 <div>
                     <img className="logo-img" src={logo} alt="one quiet night logo from pandemic" />
                 </div>
-                <div className="text-height" style={{ margin: "10px 0 0 30px", textAlign: "left"}}>
+                <div className="text-height" style={{ margin: "0 0 0 30px", textAlign: "left"}}>
                     <p>We want to build data-driven models to answer these two questions:</p>
                     <p><span style={{ textAlign: "left", fontWeight: "300", fontSize: "24px" }}>Q. What are the chances that I will get COVID if I go out today?</span></p>
                     <p><span style={{ textAlign: "left", fontWeight: "300", fontSize: "24px", margin: "0 0 20px 0"}}>Q. How dangerous is COVID for someone like me?</span></p>
