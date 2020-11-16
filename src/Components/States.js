@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ComposableMap, Geographies, Geography, Marker, Annotation } from "react-simple-maps"
 import { geoCentroid } from "d3-geo";
+import ReactTooltip from "react-tooltip";
 
 import { csv } from "d3-fetch";
 import csvState from "../Data/State/JHU_CumulativeCases_State.csv";
@@ -24,6 +25,7 @@ const States = () => {
     const [allStatesData, setAllStatesData] = useState([]); 
     const [stateCase, setStateCase] = useState("1411"); // for WA cumulative case data
     const [error, setError] = useState('');
+    const [tooltip, setTooltip] = useState('');
 
     useEffect(() => {
         let isSubscribed = true;
@@ -59,7 +61,7 @@ const States = () => {
     // for chart : filter out with the state fips id and plot
     return (
         <div>
-            <p style={{fontSize: "14px"}}>In <code>{stateInfo}</code> state, on <code>{latestDate}</code>, there were <code>{stateCase}</code> reported COVID-19 cases per 100K people.</p>
+            <p style={{fontSize: "14px"}}>In <code>{stateInfo}</code> state, on <code>{latestDate}</code>, there were <code>{Math.round(stateCase)}</code> reported COVID-19 cases per 100K people.</p>
             <div className="vis-wrapper">
                     <div className="forecast usmap" >
                     <ComposableMap data-tip="" projection="geoAlbersUsa" 
@@ -72,7 +74,7 @@ const States = () => {
                                 { geographies.map(geo => {
                                     const cur = stateData.find(s => s.key === geo.id);
                                     return (
-                                    <Geography
+                                        <Geography
                                         key={geo.rsmKey}
                                         geography={geo}
                                         fill={cur ? colorScale(cur.cases) : "#EEE"}
@@ -84,18 +86,17 @@ const States = () => {
                                             }
                                         }}
                                         onClick={() => {
-                                            console.log(cur.key, cur.cases);
                                             setOnStateId(cur.key);
                                             setStateCase(cur.cases);
                                         }}
-                                        // onMouseEnter={() => {
-                                        //     // console.log(cur.cases)
-                                        //     // setTooltipContent(`${cur.name} : ${cur.cases}`);
-                                        // }}
-                                        // onMouseLeave={() => {
-                                        //     // setTooltipContent("");
-                                        // }}
-                                    />
+                                        onMouseEnter={() => {
+                                            // console.log('mouse enter', geo.properties.name, geo.properties.name)
+                                            setTooltip(`${geo.properties.name}: ${Math.round(cur.cases)}`);
+                                        }}
+                                        onMouseLeave={() => {
+                                            setTooltip("");
+                                        }}
+                                    />                                    
                                     );
                                 })}
                                 {geographies.map(geo => {
@@ -122,6 +123,7 @@ const States = () => {
                             )}
                         </Geographies>
                     </ComposableMap>
+                    <ReactTooltip backgroundColor="#b3b3b3" textColor="#1a1a1a">{tooltip}</ReactTooltip>
                 </div>
             {allStatesData && <StatesChart onStateId={onStateId} allStatesData={allStatesData} stateCase={stateCase}/> }
             </div>

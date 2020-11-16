@@ -6,6 +6,7 @@ import csvCounty from "../Data/County/JHU_CumulativeCases_County.csv";
 import csvLocation from "../Data/locations_information.csv";
 import { scaleQuantile } from "d3-scale";
 import CountyChart from "./CountyChart";
+import ReactTooltip from "react-tooltip";
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json";
 const latestDate = 'October 31 2020';
@@ -21,6 +22,7 @@ const Counties = () => {
     const [allCountiesData, setAllCountiesData] = useState([]);
     const [countyCase, setCountyCase] = useState("1231");
     const [countyLocation, setCountyLocation] = useState([]); 
+    const [tooltip, setTooltip] = useState('');
 
     useEffect(() => {
         csv(csvCounty).then(county => {
@@ -39,7 +41,6 @@ const Counties = () => {
     }, []);
 
     let countyName = countyLocation.filter(d => d.fips === onCountyId).map(d => `${d.name} in ${d.state}`);
-    // console.log('will>', countyName)
 
     const colorScale = scaleQuantile()
         .domain(countyData.map(d => d.cases))
@@ -57,7 +58,7 @@ const Counties = () => {
 
     return (
         <div>
-            <p style={{fontSize: "14px"}}>In the <code>{countyName}</code>, on <code>{latestDate}</code>, there were <code>{countyCase}</code> reported COVID-19 cases per 100K people.</p>
+            <p style={{fontSize: "14px"}}>In the <code>{countyName}</code>, on <code>{latestDate}</code>, there were <code>{Math.round(countyCase)}</code> reported COVID-19 cases per 100K people.</p>
             <div className="vis-wrapper">
                 <div className="forecast usmap" >
                     <ComposableMap data-tip="" projection="geoAlbersUsa" projectionConfig={{ scale: 800 }} 
@@ -76,12 +77,19 @@ const Counties = () => {
                                         setOnCountyId(cur.key);
                                         setCountyCase(cur.cases);
                                     }}
+                                    onMouseEnter={() => {
+                                        setTooltip(`${geo.properties.name} county : ${Math.round(cur.cases)}`);
+                                    }}
+                                    onMouseLeave={() => {
+                                        setTooltip("");
+                                    }}
                                 />
                                 );
                             })
                             }
                         </Geographies>
                     </ComposableMap>
+                    <ReactTooltip backgroundColor="#b3b3b3" textColor="#1a1a1a">{tooltip}</ReactTooltip>
                 </div>
             {allCountiesData && <CountyChart onCountyId={onCountyId} allCountiesData={allCountiesData} /> }
         </div>

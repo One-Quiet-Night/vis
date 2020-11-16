@@ -48,7 +48,7 @@ a {
 
 .App-header {
   background-color: var(--black20);
-  min-height: 7.5vh;
+  height: 55px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -83,6 +83,14 @@ footer {
   justify-content: center;
   color: var(--white);
   padding: 50px 0;
+}
+
+footer > a > p{
+  margin: 10px 0;
+}
+
+.small-text {
+  font-size: 12px;
 }
 
 .vis-wrapper {
@@ -166,3 +174,24 @@ button:hover {
   color: white;
 }
 
+.rsm-geographies {
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.about > div {
+  min-width: 50%;
+}
+
+.profile {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.text-height {
+  line-height: 1.5;
+}
