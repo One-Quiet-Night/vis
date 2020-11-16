@@ -139,6 +139,10 @@ button:hover {
 .options {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  box-shadow: 0 0 6px rgba(0,0,0,.25);
+  border-radius: 4px;
+  padding: 0 .55rem;
 }
 
 .option-button  {
@@ -149,6 +153,7 @@ button:hover {
   background-color: none;
   border-radius: 3px;
   color: black;
+  
 }
 
 .selected {

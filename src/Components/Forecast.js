@@ -3,8 +3,6 @@ import National from "../Components/National";
 import States from "./States";
 import Counties from "./Counties";
 
-const latestDate = "2020-11-11";
-
 const Forecast = () => {
 
     const [isNational, setIsNationl] = useState(true);
@@ -14,7 +12,7 @@ const Forecast = () => {
     return (
         <div className="container">
             <div className="options">
-                <p>Choose the option: </p>
+                <p className="option-button">Choose your view:</p>
                 <p className={isNational ? "selected" : "option-button"}
                     onClick={()=>{
                     setIsNationl(true)

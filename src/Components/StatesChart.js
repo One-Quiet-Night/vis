@@ -1,26 +1,17 @@
-import React, { useEffect } from "react";
+import React from "react";
 
-import { csv } from "d3-fetch";
-import csvState from "../Data/State/JHU_CumulativeCases_State.csv";
-import allStates from "../Maps/allstates.json";
-
-import { scaleQuantile } from "d3-scale";
-import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ReferenceLine, Label } from 'recharts';
+import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ReferenceLine } from 'recharts';
 
 const StatesChart = ( props ) => {
-    let { onStateData, setOnStateData, onStateId } = props;
+    let { onStateId, allStatesData } = props;
 
-    useEffect(() => {
-        csv(csvState).then(state => {
-            let oneState = state.map(function(d) {
-                return { date: d.dates, cases: d[onStateId] }});
-            setOnStateData(oneState);
-        })
-    }, [onStateData]);
-    console.log('statechart, ', onStateId);
+    let plotData = allStatesData.map(function(d) {
+        return { date: d.dates, cases: d[onStateId] };
+    })
+    
     return (
         <div className="forecast">
-            <LineChart width={600} height={400} data={onStateData} margin={{ top: 10, right: 40, bottom: 40, left: 5 }}>
+            <LineChart width={600} height={400} data={plotData} margin={{ top: 10, right: 40, bottom: 40, left: 5 }}>
                 <Line type="monotone" dataKey="cases" stroke="#043b4e" strokeWidth={4} dot={false} />
                 <CartesianGrid stroke="#ccc" strokeDasharray="5 5" vertical={false} />
                 <XAxis dataKey="date" fontSize="10" axisLine={false} tickLine={false}  />
