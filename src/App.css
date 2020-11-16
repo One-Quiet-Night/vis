@@ -181,10 +181,16 @@ button:hover {
 .about {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .about > div {
-  min-width: 50%;
+  max-width: 50%;
+  padding: 0 50px;
+}
+
+.about > a {
+  padding: 0 5px;
 }
 
 .profile {
@@ -192,6 +198,23 @@ button:hover {
   border-radius: 50%;
 }
 
+.profile-name {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.profile-title {
+  font-size: 18px;
+}
+
 .text-height {
   line-height: 1.5;
+}
+
+.c3-ai-link {
+  color: var(--it);
+}
+
+.c3-ai-link:hover {
+  text-decoration: underline;
 }
