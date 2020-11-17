@@ -6,7 +6,7 @@ const NotFoundPage = () => {
     return (
         <div className="container">
             <h1>404 NOT FOUND</h1>
-            <img src={PageNotFound} style={{ maxWidth: "500px", margin: "50px 0"}} />
+            <img src={PageNotFound} alt="page not found"style={{ maxWidth: "500px", margin: "50px 0"}} />
             <p>The page we were looking for doesn't exist.</p>
             <button>
               <Link to="/" style={{color: "black"}}>Go to Home </Link>

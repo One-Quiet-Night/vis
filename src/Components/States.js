@@ -10,6 +10,7 @@ import allStates from "../Maps/allstates.json";
 
 import { scaleQuantile } from "d3-scale";
 import StatesChart from "./StatesChart";
+import StateSelection from "./StateSelection";
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
@@ -69,6 +70,7 @@ const States = () => {
     return (
         <div>
             <p style={{fontSize: "20px", fontWeight: "300"}}>In <code>{stateInfo}</code> state, on <code>{latestDate}</code>, there were <code>{Math.round(stateCase)}</code> reported COVID-19 cases per 100K people.</p>
+            {onStateId && <StateSelection onStateId={onStateId} setOnStateId={setOnStateId} />}
             <div className="vis-wrapper">
                     <div className="forecast usmap" >
                     <ComposableMap data-tip="" projection="geoAlbersUsa" 

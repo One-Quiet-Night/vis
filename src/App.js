@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Nav />
       <Switch>
-        <Route exact path="/" component={Forecast} />
+        <Route exact path="/vis" component={Forecast} />
         <Route path="/about" component={About} />
         <Route path="/docs" component={Model} />
         <Route path="/c3-ai-challenge" component={C3} />
