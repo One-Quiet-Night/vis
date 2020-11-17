@@ -8,15 +8,14 @@ import { FaGithub, FaLinkedin, FaLaptop } from 'react-icons/fa';
 const About = () => {
     return (
         <div className="container" style={{ paddingTop: "30px"}}>
-            <p className="profile-name" style={{ fontSize: "30px"}}>Meet our team <code>One Quiet Night</code></p>
-            <div className="vis-wrapper" style={{ justifyContent: "center", maxWidth: "950px", margin: "70px auto"}}>
+            <p className="profile-name" style={{ fontSize: "30px"}}>Meet our team</p>
+            <p className="profile-name"><code>One Quiet Night</code></p>
+            <div className="vis-wrapper" style={{ justifyContent: "center", maxWidth: "800px", margin: "70px auto"}}>
                 <div>
                     <img className="logo-img" src={logo} alt="one quiet night logo from pandemic" />
                 </div>
                 <div className="text-height" style={{ margin: "0 0 0 30px", textAlign: "left"}}>
-                    <p>We want to build data-driven models to answer these two questions:</p>
-                    <p><span style={{ textAlign: "left", fontWeight: "300", fontSize: "24px" }}>Q. What are the chances that I will get COVID if I go out today?</span></p>
-                    <p><span style={{ textAlign: "left", fontWeight: "300", fontSize: "24px", margin: "0 0 20px 0"}}>Q. How dangerous is COVID for someone like me?</span></p>
+                    <p>We want to build data-driven models to to forecast potential outbreaks and on understanding its driving forces.</p>
                     <p><a className="c3-ai-link" href="https://c3.ai/customers/covid-19-data-lake/" target="_blank" rel="noreferrer">C3 AI COVID-19 Data Lake</a> collects and organizes various data sets that may bear on the spread of COVID-19 -- daily case reports, epidemiology line lists, clinical assets, government and regulatory policies, movement trends, public surveys, weather reports, and economic changes. Our models use this data to make predictions about the spread of COVID-19 infections in different geographic and demographic communities.</p>
                 </div>
             </div>

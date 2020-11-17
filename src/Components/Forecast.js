@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import National from "../Components/National";
 import States from "./States";
 import Counties from "./Counties";
@@ -12,7 +12,7 @@ const Forecast = () => {
     return (
         <div className="container">
             <div className="options">
-                <p className="option-button">Choose your view:</p>
+                <p className="option-button" style={{cursor: "default"}}>Choose your view:</p>
                 <p className={isNational ? "selected" : "option-button"}
                     onClick={()=>{
                     setIsNationl(true)

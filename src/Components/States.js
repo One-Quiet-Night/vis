@@ -28,6 +28,7 @@ const States = () => {
     const [error, setError] = useState('');
     const [tooltip, setTooltip] = useState('');
     const [forecast, setForecast] = useState('');
+    const [yMax, setYMax] = useState(1412);
 
 
     useEffect(() => {
@@ -94,6 +95,7 @@ const States = () => {
                                         onClick={() => {
                                             setOnStateId(cur.key);
                                             setStateCase(cur.cases);
+                                            setYMax(Math.round(cur.cases));
                                         }}
                                         onMouseEnter={() => {
                                             setTooltip(`${geo.properties.name}: ${Math.round(cur.cases)}`);
@@ -130,7 +132,7 @@ const States = () => {
                     </ComposableMap>
                     <ReactTooltip backgroundColor="#b3b3b3" textColor="#1a1a1a">{tooltip}</ReactTooltip>
                 </div>
-            {allStatesData && <StatesChart onStateId={onStateId} allStatesData={allStatesData} stateCase={stateCase}/> }
+            {allStatesData && <StatesChart yMax={yMax} onStateId={onStateId} allStatesData={allStatesData} stateCase={stateCase}/> }
             </div>
             </div>
             

@@ -57,7 +57,7 @@ a {
 }
 
 .logo-img {
-  max-width: 200px;
+  max-width: 175px;
 }
 
 .nav-right {
@@ -151,6 +151,7 @@ button:hover {
   box-shadow: 0 0 6px rgba(0,0,0,.25);
   border-radius: 4px;
   padding: 0 .55rem;
+  margin-bottom: 50px;;
 }
 
 .option-button  {
@@ -230,4 +231,17 @@ button:hover {
 li {
   line-height: 2;
   font-weight: 300;
+}
+
+.custom-tooltip {
+  margin: 0px; 
+  padding: 10px; 
+  background-color: var(--white); 
+  border: 1px solid rgb(204, 204, 204); 
+  white-space: nowrap;
+}
+
+.tooltip-label {
+  margin: 0px;
+  font-size: 14px;
 }

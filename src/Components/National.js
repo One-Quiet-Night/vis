@@ -15,6 +15,19 @@ const offsets = {
 };
 const latestDate = 'October 31 2020';
 
+const DataFormater = (number) => {
+    if (number > 1000000000){
+      return (number/1000000000).toString() + 'B';
+    } else if(number > 1000000){
+      return (number/1000000).toString() + 'M';
+    } else if(number > 1000){
+      return (number/1000).toString() + 'K';
+    } else{
+      return number.toString();
+    } 
+}
+// <YAxis tickFormatter={DataFormatter}
+
 const formatXAxis = (tickItem) => {
     return tickItem.toString();
 }
@@ -104,7 +117,8 @@ const National = () => {
                     <ReferenceLine x="2020-03-28" stroke="#809f3d" strokeDasharray="4 4" label={{ position: "bottom", value: "CARES act enacted", fill: "#809f3d", offset: 30, fontSize: "12" }} />          
                     <ReferenceLine x="2020-04-18" stroke="#F48620" strokeDasharray="4 4" label={{ position: 'bottom', value: "Stimulus payments starts", fill: "#F48620", offset: 45, fontSize: "12" }} />
                     <ReferenceLine x="2020-10-31" stroke="#368243" strokeDasharray="4 4" label={{ position: "bottom", value: "Election day", fill: "#368243", offset: 20, fontSize: "12" }} />
-                    <Tooltip formatter={value => new Intl.NumberFormat('en').format(Math.round(value))}/>
+                    {/* <Tooltip formatter={value => new Intl.NumberFormat('en').format(Math.round(value))}/> */}
+                    <Tooltip formatter={ value => Math.round(value) }/>
                 </LineChart>
             </div>
             }
