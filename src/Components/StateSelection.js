@@ -24,9 +24,9 @@ const customStyles = {
   
 const StateSelection = (props) => {
 
-    const { onStateId, setOnStateId } = props;
-
+    const { setOnStateId, oneStateData, setStateCase } = props;
     const [stateLocation, setStateLocation] = useState([]);
+
     useEffect(() => {
         csv(csvLocation).then(state => {
             let tempLoc = state.filter(d => d.type === "state").map(d =>  {
@@ -46,6 +46,8 @@ const StateSelection = (props) => {
                 styles={customStyles}
                 onChange={value => {
                     setOnStateId(value.value);
+                    console.log(oneStateData[value.value]);
+                    setStateCase(oneStateData[value.value])
                 }}
                 />
         </div>

@@ -10,7 +10,7 @@ const StatesChart = ( props ) => {
         return { date: d.dates, cases: d[onStateId] };
     })
     
-    let yDomain = Math.ceil((yMax+yMax*0.5)/1000) * 1000;
+    let yDomain = Math.ceil((yMax*1.7)/1000) * 1000;
 
     return (
         <div className="forecast">
@@ -23,7 +23,7 @@ const StatesChart = ( props ) => {
                 <ReferenceLine x="2020-03-28" stroke="#809f3d" strokeDasharray="4 4" label={{ position: "bottom", value: "CARES act enacted", fill: "#809f3d", offset: 30, fontSize: "12" }} />          
                 <ReferenceLine x="2020-04-18" stroke="#F48620" strokeDasharray="4 4" label={{ position: 'bottom', value: "Stimulus payments starts", fill: "#F48620", offset: 45, fontSize: "12" }} />
                 <ReferenceLine x="2020-11-07" stroke="#368243" strokeDasharray="4 4" label={{ position: "bottom", value: "Election day", fill: "#368243", offset: 20, fontSize: "12" }} />
-                <ReferenceArea x1="2020-10-31" x2="2020-11-07" y1={0} stroke="red" strokeOpacity={0.3} label={{ value: "8 wks forecast", fontSize: "16", position: "insideTopRight", fill: "323232" }}/>
+                <ReferenceArea x1="2020-11-21" x2="2021-01-09" y1={0} stroke="red" strokeOpacity={0.3} label={{ value: "8 wks forecast", fontSize: "16", position: "insideTopRight", fill: "323232" }}/>
                 <Line type="monotone" dataKey="cases" stroke="#043b4e" strokeWidth={4} dot={false} />
                 <Tooltip 
                     content={<CustomChartTooltip />}

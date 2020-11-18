@@ -111,7 +111,7 @@ const National = () => {
                     <ReferenceLine x="2020-04-18" stroke="#F48620" strokeDasharray="4 4" label={{ position: 'bottom', value: "Stimulus payments starts", fill: "#F48620", offset: 45, fontSize: "12" }} />
                     <ReferenceLine x="2020-11-07" stroke="#368243" strokeDasharray="4 4" label={{ position: "bottom", value: "Election day", fill: "#368243", offset: 20, fontSize: "12" }} />
                     {/* <Tooltip formatter={value => new Intl.NumberFormat('en').format(Math.round(value))}/> */}
-                    <ReferenceArea x1="2020-11-22" x2="2021-01-10" y1={0} stroke="red" strokeOpacity={0.3} label={{ value: "8 wks forecast", fontSize: "16", position: "insideTopRight", fill: "#323232" }}/>
+                    <ReferenceArea x1="2020-11-21" x2="2021-01-10" y1={0} stroke="red" strokeOpacity={0.3} label={{ value: "8 wks forecast", fontSize: "16", position: "insideTopRight", fill: "#323232" }}/>
                     <Line type="monotone" data={nationalData} dataKey="US" stroke="#043b4e" strokeWidth={4} dot={false} />
                     {/* <Line type="monotone" data={nationalData} dataKey="US" stroke="#111111" strokeWidth={3} dot={false} /> */}
                     <Tooltip 

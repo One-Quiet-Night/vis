@@ -23,13 +23,12 @@ const customStyles = {
 
 const CountySelection = (props) => {
 
-    const { onCountyId, setOnCountyId } = props;
+    const { onCountyId, setOnCountyId, } = props;
 
     const [stateLocation, setStateLocation] = useState([]);
     const [countyLocation, setCountyLocation] = useState([]);
     const [countyList, setCountyList] = useState([]);
     const [displayCounty, setDisplayCounty] = useState({});
-
     useEffect(() => {
       csv(csvLocation).then(state => {
         let tempState = state.filter(d => d.type === "state").map(d =>  {

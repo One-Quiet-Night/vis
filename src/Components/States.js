@@ -4,7 +4,7 @@ import { geoCentroid } from "d3-geo";
 import ReactTooltip from "react-tooltip";
 
 import { csv } from "d3-fetch";
-import csvState from "../Data/State/JHU_CumulativeCases_State.csv";
+import csvState from "../Data/State/JHU_IncidentCases_State.csv";
 // I updated the JHU_CumulativeCases by adding last row from the OQN_CumulativeCasesForecast!!
 import allStates from "../Maps/allstates.json";
 
@@ -18,30 +18,28 @@ const offsets = {
     DC: [30, 25]
 };
 
-const latestDate = 'October 31 2020';
+const latestDate = 'Nov 14 2020';
 
 const States = () => {
 
     const [stateData, setStateData] = useState([]); // for mapping
     const [onStateId, setOnStateId] = useState("53"); // for initializing WA data
     const [allStatesData, setAllStatesData] = useState([]); 
+    const [oneStateData, setOneStateDate] = useState([]);
     const [stateCase, setStateCase] = useState("1411"); // for WA cumulative case data
     const [error, setError] = useState('');
     const [tooltip, setTooltip] = useState('');
-    const [forecast, setForecast] = useState('');
-    const [yMax, setYMax] = useState(1412);
+    const [yMax, setYMax] = useState(1411);
 
     useEffect(() => {
         let isSubscribed = true;
         csv(csvState).then(state => {
             if (isSubscribed) {
-                let st = state[state.length-2];
+                let st = state[state.length-9];
                 let converted = Object.keys(st).map(key => ({ key, cases: st[key]}))
-                let forecastSt = state[state.length-1];
-                let forecastCov = Object.keys(forecastSt).map(key => ({ key, cases: st[key]}));
                 setStateData(converted);
                 setAllStatesData(state);
-                setForecast(forecastCov);
+                setOneStateDate(st);
             } 
         })
         .catch(error => (isSubscribed ? setError(error.toString()) : null));
@@ -68,8 +66,8 @@ const States = () => {
     // for chart : filter out with the state fips id and plot
     return (
         <div>
-            <p style={{fontSize: "20px", fontWeight: "300"}}>In <code>{stateInfo}</code> state, on <code>{latestDate}</code>, there were <code>{Math.round(stateCase)}</code> reported COVID-19 cases per 100K people.</p>
-            {onStateId && <StateSelection onStateId={onStateId} setOnStateId={setOnStateId} />}
+            <p style={{fontSize: "20px", fontWeight: "300"}}>In <code>{stateInfo}</code> state, on <code>{latestDate}</code>, there were <code>{Math.round(stateCase)}</code> newly reported COVID-19 cases per 100K people.</p>
+            {onStateId && <StateSelection setOnStateId={setOnStateId} oneStateData={oneStateData} setStateCase={setStateCase} />}
             <div className="vis-wrapper">
                     <div className="forecast usmap" >
                     <ComposableMap data-tip="" projection="geoAlbersUsa" 
@@ -133,7 +131,7 @@ const States = () => {
                     </ComposableMap>
                     <ReactTooltip backgroundColor="#b3b3b3" textColor="#1a1a1a">{tooltip}</ReactTooltip>
                 </div>
-            {allStatesData && <StatesChart yMax={yMax} onStateId={onStateId} allStatesData={allStatesData} stateCase={stateCase}/> }
+            {allStatesData && <StatesChart yMax={yMax} onStateId={onStateId} allStatesData={allStatesData} stateCase={stateCase} /> }
             </div>
             </div>
             
