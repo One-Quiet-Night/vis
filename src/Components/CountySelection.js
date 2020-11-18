@@ -23,12 +23,13 @@ const customStyles = {
 
 const CountySelection = (props) => {
 
-    const { onCountyId, setOnCountyId, } = props;
+    const { setOnCountyId, oneCountyData, setCountyCase, setYMax } = props;
 
     const [stateLocation, setStateLocation] = useState([]);
     const [countyLocation, setCountyLocation] = useState([]);
     const [countyList, setCountyList] = useState([]);
     const [displayCounty, setDisplayCounty] = useState({});
+
     useEffect(() => {
       csv(csvLocation).then(state => {
         let tempState = state.filter(d => d.type === "state").map(d =>  {
@@ -41,7 +42,6 @@ const CountySelection = (props) => {
         setCountyLocation(tempCounty); // {value: "45001", label: "Abbeville County", state: "SouthCarolina"}
         let firstCounty = tempCounty.filter(d => d.state === "Washington");
         setCountyList(firstCounty);
-        // console.log('countylist', countyList)
       })
     }, []);
 
@@ -69,6 +69,8 @@ const CountySelection = (props) => {
           // defaultValue={displayCounty}
           onChange={value => {
             setOnCountyId(value.value);
+            setCountyCase(oneCountyData[value.value]);
+            setYMax(Math.round(oneCountyData[value.value]));
           }}
           />
       </div>

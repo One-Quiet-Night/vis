@@ -67,7 +67,7 @@ const States = () => {
     return (
         <div>
             <p style={{fontSize: "20px", fontWeight: "300"}}>In <code>{stateInfo}</code> state, on <code>{latestDate}</code>, there were <code>{Math.round(stateCase)}</code> newly reported COVID-19 cases per 100K people.</p>
-            {onStateId && <StateSelection setOnStateId={setOnStateId} oneStateData={oneStateData} setStateCase={setStateCase} />}
+            {onStateId && <StateSelection setOnStateId={setOnStateId} oneStateData={oneStateData} setStateCase={setStateCase} setYMax={setYMax}/>}
             <div className="vis-wrapper">
                     <div className="forecast usmap" >
                     <ComposableMap data-tip="" projection="geoAlbersUsa" 

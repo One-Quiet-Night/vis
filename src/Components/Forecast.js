@@ -11,6 +11,7 @@ const Forecast = () => {
 
     return (
         <div className="container">
+            <p className="text-height" style={{maxWidth: "900px", margin: "0 auto 30px auto"}}><code>One Quiet Night</code> develops a methodology that augments scientific models with machine-learnable structures. Our models use temporal and spatial features of the daily case reports and movement trends data to accurately predict future Covid-19 cases. Our forecast based on these models achieves state-of-the-art accuracies.</p>
             <div className="options">
                 <p className="option-button" style={{cursor: "default"}}>Choose your view:</p>
                 <p className={isNational ? "selected" : "option-button"}
@@ -36,7 +37,7 @@ const Forecast = () => {
                 }
 
             </div>
-
+            <p className="text-height" style={{maxWidth: "500px", fontSize: "12px", margin: "30px auto 0 auto"}}><code>One Quiet Night</code> uses data from <a href="https://c3.ai/customers/covid-19-data-lake/" className="c3-ai-link">C3 AI COVID-19 Data Lake</a> and visualizes newly reported COVID-19 cases and forecast from our forecasting model with <a href="https://d3js.org/" className="c3-ai-link">D3.js.</a></p>
         </div>
     )
 }
