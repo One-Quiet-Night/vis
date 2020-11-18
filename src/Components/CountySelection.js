@@ -19,9 +19,8 @@ const customStyles = {
         position: 'static',
         color: '#1a1a1a'
       }),
-
 };
-  
+
 const CountySelection = (props) => {
 
     const { onCountyId, setOnCountyId } = props;
@@ -29,6 +28,7 @@ const CountySelection = (props) => {
     const [stateLocation, setStateLocation] = useState([]);
     const [countyLocation, setCountyLocation] = useState([]);
     const [countyList, setCountyList] = useState([]);
+    const [displayCounty, setDisplayCounty] = useState({});
 
     useEffect(() => {
       csv(csvLocation).then(state => {
@@ -40,6 +40,9 @@ const CountySelection = (props) => {
           return { value: d.fips, label: d.name, state: d.state };
         });
         setCountyLocation(tempCounty); // {value: "45001", label: "Abbeville County", state: "SouthCarolina"}
+        let firstCounty = tempCounty.filter(d => d.state === "Washington");
+        setCountyList(firstCounty);
+        // console.log('countylist', countyList)
       })
     }, []);
 
@@ -56,14 +59,15 @@ const CountySelection = (props) => {
               // console.log(e.label); // "Hawaii"
               // console.log(newCountyList);
               setCountyList(newCountyList);
+              setDisplayCounty(newCountyList[0]);
           }}
           />
-          <p className="option-button" style={{ cursor: "default"}}>county: </p>
-          <Select 
-          defaultValue={{ value: 53033, label: "King" }}
+        <p className="option-button" style={{ cursor: "default"}}>county: </p>
+        <Select 
           name="county"
           options={countyList}
           styles={customStyles}
+          // defaultValue={displayCounty}
           onChange={value => {
             setOnCountyId(value.value);
           }}

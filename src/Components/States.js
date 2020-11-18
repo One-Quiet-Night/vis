@@ -31,7 +31,6 @@ const States = () => {
     const [forecast, setForecast] = useState('');
     const [yMax, setYMax] = useState(1412);
 
-
     useEffect(() => {
         let isSubscribed = true;
         csv(csvState).then(state => {

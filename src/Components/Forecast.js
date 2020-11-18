@@ -29,7 +29,7 @@ const Forecast = () => {
                     setIsState(false)
                     setIsCounty(true)}} >Counties</p>
             </div>
-            <div>
+            <div style={{boxShadow: "0 0 6px rgba(0,0,0,.25)",   borderRadius: "4px", padding: "1rem .55rem"}}>
                 <h3 style={{ fontSize: "25px", fontWeight: "300"}}>Daily reported COVID-19 new cases per 100,000 people in US</h3>
                 {
                     isNational ? <National /> : isState ? <States /> : <Counties />

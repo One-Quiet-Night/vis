@@ -7,7 +7,6 @@
     { "id": "CA", "val": "06", "name": "California" },
     { "id": "CO", "val": "08", "name": "Colorado" },
     { "id": "CT", "val": "09", "name": "Connecticut" },
-    { "id": "CT", "val": "09", "name": "Connecticut" },
     { "id": "DE", "val": "10", "name": "" },
     { "id": "DC", "val": "11", "name": "Washington DC" },
     { "id": "FL", "val": "12", "name": "Florida" },

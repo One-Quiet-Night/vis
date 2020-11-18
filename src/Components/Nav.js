@@ -9,8 +9,7 @@ const Nav = () => {
             <div className="nav-right">
                 <Link to="/forecast"><p>Forecast</p></Link>
                 <Link to="/about"><p>About</p></Link>
-                <Link to="/docs"><p>Our Model</p></Link>
-                <Link to="c3-ai-challenge"><p>C3 AI COVID-19 Challenge</p></Link>
+                <Link to="/model"><p>Our Model</p></Link>
             </div>
         </header>
 
