@@ -4,12 +4,6 @@ import Select from 'react-select';
 import { csv } from 'd3-fetch';
 import csvLocation from '../Data/locations_information.csv';
 
-const options = [
-    { value: 'chocolate', label: 'Chocolate' },
-    { value: 'strawberry', label: 'Strawberry' },
-    { value: 'vanilla', label: 'Vanilla' }
-  ]
-
 const customStyles = {
     control: base => ({
         ...base,
@@ -42,7 +36,6 @@ const StateSelection = (props) => {
         })
     }, []);
 
-    // const { onStateId, setOnStateId } = props;
     return (
         <div style={{ margin: "20px auto", maxWidth: "500px", display: "flex", justifyContent: "center", alignItems: "center" }}>
             <p className="option-button" style={{ cursor: "default"}}>Choose your state: </p>

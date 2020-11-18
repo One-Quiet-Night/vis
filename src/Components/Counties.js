@@ -7,6 +7,7 @@ import csvLocation from "../Data/locations_information.csv";
 import { scaleQuantile } from "d3-scale";
 import CountyChart from "./CountyChart";
 import ReactTooltip from "react-tooltip";
+import CountySelection from "./CountySelection";
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json";
 const latestDate = 'October 31 2020';
@@ -58,6 +59,8 @@ const Counties = () => {
 
     return (
         <div>
+            {onCountyId && <CountySelection onCountyId={onCountyId} setOnCountyId={setOnCountyId} />}
+
             <p style={{fontSize: "20px", fontWeight: "300"}}>In the <code>{countyName}</code>, on <code>{latestDate}</code>, there were <code>{Math.round(countyCase)}</code> reported COVID-19 cases per 100K people.</p>
             <div className="vis-wrapper">
                 <div className="forecast usmap" >
