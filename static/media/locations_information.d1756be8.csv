@@ -1,0 +1,3187 @@
+fips,name,type,state,CBSA
+01,Alabama,state,,
+02,Alaska,state,,
+04,Arizona,state,,
+05,Arkansas,state,,
+06,California,state,,
+08,Colorado,state,,
+09,Connecticut,state,,
+10,Delaware,state,,
+11,District of Columbia,state,,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+12,Florida,state,,
+13,Georgia,state,,
+15,Hawaii,state,,
+16,Idaho,state,,
+17,Illinois,state,,
+18,Indiana,state,,
+19,Iowa,state,,
+20,Kansas,state,,
+21,Kentucky,state,,
+22,Louisiana,state,,
+23,Maine,state,,
+24,Maryland,state,,
+25,Massachusetts,state,,
+26,Michigan,state,,
+27,Minnesota,state,,
+28,Mississippi,state,,
+29,Missouri,state,,
+30,Montana,state,,
+31,Nebraska,state,,
+32,Nevada,state,,
+33,New Hampshire,state,,
+34,New Jersey,state,,
+35,New Mexico,state,,
+36,New York,state,,
+37,North Carolina,state,,
+38,North Dakota,state,,
+39,Ohio,state,,
+40,Oklahoma,state,,
+41,Oregon,state,,
+42,Pennsylvania,state,,
+44,Rhode Island,state,,
+45,South Carolina,state,,
+46,South Dakota,state,,
+47,Tennessee,state,,
+48,Texas,state,,
+US,US,country,,
+49,Utah,state,,
+50,Vermont,state,,
+51,Virginia,state,,
+53,Washington,state,,
+54,West Virginia,state,,
+55,Wisconsin,state,,
+56,Wyoming,state,,
+45001,Abbeville,county,South Carolina,
+22001,Acadia,county,Louisiana,"Lafayette, LA"
+51001,Accomack,county,Virginia,
+16001,Ada,county,Idaho,"Boise City, ID"
+19001,Adair,county,Iowa,
+21001,Adair,county,Kentucky,
+29001,Adair,county,Missouri,"Kirksville, MO"
+40001,Adair,county,Oklahoma,
+08001,Adams,county,Colorado,"Denver-Aurora-Lakewood, CO"
+16003,Adams,county,Idaho,
+17001,Adams,county,Illinois,"Quincy, IL-MO"
+18001,Adams,county,Indiana,"Decatur, IN"
+19003,Adams,county,Iowa,
+28001,Adams,county,Mississippi,"Natchez, MS-LA"
+31001,Adams,county,Nebraska,"Hastings, NE"
+38001,Adams,county,North Dakota,
+39001,Adams,county,Ohio,
+42001,Adams,county,Pennsylvania,"Gettysburg, PA"
+53001,Adams,county,Washington,"Othello, WA"
+55001,Adams,county,Wisconsin,
+50001,Addison,county,Vermont,
+45003,Aiken,county,South Carolina,"Augusta-Richmond County, GA-SC"
+27001,Aitkin,county,Minnesota,
+12001,Alachua,county,Florida,"Gainesville, FL"
+37001,Alamance,county,North Carolina,"Burlington, NC"
+06001,Alameda,county,California,"San Francisco-Oakland-Berkeley, CA"
+08003,Alamosa,county,Colorado,
+36001,Albany,county,New York,"Albany-Schenectady-Troy, NY"
+56001,Albany,county,Wyoming,"Laramie, WY"
+51003,Albemarle,county,Virginia,"Charlottesville, VA"
+26001,Alcona,county,Michigan,
+28003,Alcorn,county,Mississippi,"Corinth, MS"
+02013,Aleutians East,county,Alaska,
+02016,Aleutians West,county,Alaska,
+17003,Alexander,county,Illinois,"Cape Girardeau, MO-IL"
+37003,Alexander,county,North Carolina,"Hickory-Lenoir-Morganton, NC"
+51510,Alexandria,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+40003,Alfalfa,county,Oklahoma,
+26003,Alger,county,Michigan,
+19005,Allamakee,county,Iowa,
+26005,Allegan,county,Michigan,"Holland, MI"
+24001,Allegany,county,Maryland,"Cumberland, MD-WV"
+36003,Allegany,county,New York,
+37005,Alleghany,county,North Carolina,
+51005,Alleghany,county,Virginia,
+42003,Allegheny,county,Pennsylvania,"Pittsburgh, PA"
+18003,Allen,county,Indiana,"Fort Wayne, IN"
+20001,Allen,county,Kansas,
+21003,Allen,county,Kentucky,"Bowling Green, KY"
+22003,Allen,county,Louisiana,
+39003,Allen,county,Ohio,"Lima, OH"
+45005,Allendale,county,South Carolina,
+26007,Alpena,county,Michigan,"Alpena, MI"
+06003,Alpine,county,California,
+06005,Amador,county,California,
+51007,Amelia,county,Virginia,"Richmond, VA"
+51009,Amherst,county,Virginia,"Lynchburg, VA"
+28005,Amite,county,Mississippi,
+02020,Anchorage,county,Alaska,"Anchorage, AK"
+20003,Anderson,county,Kansas,
+21005,Anderson,county,Kentucky,"Frankfort, KY"
+45007,Anderson,county,South Carolina,"Greenville-Anderson, SC"
+47001,Anderson,county,Tennessee,"Knoxville, TN"
+48001,Anderson,county,Texas,"Palestine, TX"
+29003,Andrew,county,Missouri,"St. Joseph, MO-KS"
+48003,Andrews,county,Texas,"Andrews, TX"
+23001,Androscoggin,county,Maine,"Lewiston-Auburn, ME"
+48005,Angelina,county,Texas,"Lufkin, TX"
+24003,Anne Arundel,county,Maryland,"Baltimore-Columbia-Towson, MD"
+27003,Anoka,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+37007,Anson,county,North Carolina,"Charlotte-Concord-Gastonia, NC-SC"
+31003,Antelope,county,Nebraska,
+26009,Antrim,county,Michigan,
+04001,Apache,county,Arizona,
+19007,Appanoose,county,Iowa,
+13001,Appling,county,Georgia,
+51011,Appomattox,county,Virginia,"Lynchburg, VA"
+48007,Aransas,county,Texas,"Rockport, TX"
+08005,Arapahoe,county,Colorado,"Denver-Aurora-Lakewood, CO"
+48009,Archer,county,Texas,"Wichita Falls, TX"
+08007,Archuleta,county,Colorado,
+26011,Arenac,county,Michigan,
+05001,Arkansas,county,Arkansas,
+51013,Arlington,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+42005,Armstrong,county,Pennsylvania,"Pittsburgh, PA"
+48011,Armstrong,county,Texas,"Amarillo, TX"
+23003,Aroostook,county,Maine,
+31005,Arthur,county,Nebraska,
+22005,Ascension,county,Louisiana,"Baton Rouge, LA"
+37009,Ashe,county,North Carolina,
+39005,Ashland,county,Ohio,"Ashland, OH"
+55003,Ashland,county,Wisconsin,
+05003,Ashley,county,Arkansas,
+39007,Ashtabula,county,Ohio,"Ashtabula, OH"
+53003,Asotin,county,Washington,"Lewiston, ID-WA"
+22007,Assumption,county,Louisiana,"Baton Rouge, LA"
+48013,Atascosa,county,Texas,"San Antonio-New Braunfels, TX"
+20005,Atchison,county,Kansas,"Atchison, KS"
+29005,Atchison,county,Missouri,
+39009,Athens,county,Ohio,"Athens, OH"
+13003,Atkinson,county,Georgia,"Douglas, GA"
+34001,Atlantic,county,New Jersey,"Atlantic City-Hammonton, NJ"
+40005,Atoka,county,Oklahoma,
+28007,Attala,county,Mississippi,
+29007,Audrain,county,Missouri,"Mexico, MO"
+19009,Audubon,county,Iowa,
+39011,Auglaize,county,Ohio,"Wapakoneta, OH"
+51015,Augusta,county,Virginia,"Staunton, VA"
+46003,Aurora,county,South Dakota,
+48015,Austin,county,Texas,"Houston-The Woodlands-Sugar Land, TX"
+01001,Autauga,county,Alabama,"Montgomery, AL"
+37011,Avery,county,North Carolina,
+22009,Avoyelles,county,Louisiana,
+08009,Baca,county,Colorado,
+13005,Bacon,county,Georgia,
+48017,Bailey,county,Texas,
+12003,Baker,county,Florida,"Jacksonville, FL"
+13007,Baker,county,Georgia,
+41001,Baker,county,Oregon,
+01003,Baldwin,county,Alabama,"Daphne-Fairhope-Foley, AL"
+13009,Baldwin,county,Georgia,"Milledgeville, GA"
+21007,Ballard,county,Kentucky,"Paducah, KY-IL"
+24510,Baltimore City,county,Maryland,"Baltimore-Columbia-Towson, MD"
+24005,Baltimore,county,Maryland,"Baltimore-Columbia-Towson, MD"
+45009,Bamberg,county,South Carolina,
+48019,Bandera,county,Texas,"San Antonio-New Braunfels, TX"
+13011,Banks,county,Georgia,
+31007,Banner,county,Nebraska,"Scottsbluff, NE"
+16005,Bannock,county,Idaho,"Pocatello, ID"
+26013,Baraga,county,Michigan,
+20007,Barber,county,Kansas,
+01005,Barbour,county,Alabama,"Eufaula, AL-GA"
+54001,Barbour,county,West Virginia,
+38003,Barnes,county,North Dakota,
+25001,Barnstable,county,Massachusetts,"Barnstable Town, MA"
+45011,Barnwell,county,South Carolina,
+21009,Barren,county,Kentucky,"Glasgow, KY"
+55005,Barron,county,Wisconsin,
+13013,Barrow,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+26015,Barry,county,Michigan,
+29009,Barry,county,Missouri,
+18005,Bartholomew,county,Indiana,"Columbus, IN"
+20009,Barton,county,Kansas,"Great Bend, KS"
+29011,Barton,county,Missouri,
+13015,Bartow,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+48021,Bastrop,county,Texas,"Austin-Round Rock-Georgetown, TX"
+29013,Bates,county,Missouri,"Kansas City, MO-KS"
+21011,Bath,county,Kentucky,"Mount Sterling, KY"
+51017,Bath,county,Virginia,
+05005,Baxter,county,Arkansas,"Mountain Home, AR"
+12005,Bay,county,Florida,"Panama City, FL"
+26017,Bay,county,Michigan,"Bay City, MI"
+55007,Bayfield,county,Wisconsin,
+48023,Baylor,county,Texas,
+46005,Beadle,county,South Dakota,"Huron, SD"
+16007,Bear Lake,county,Idaho,
+37013,Beaufort,county,North Carolina,"Washington, NC"
+45013,Beaufort,county,South Carolina,"Hilton Head Island-Bluffton, SC"
+22011,Beauregard,county,Louisiana,"DeRidder, LA"
+40007,Beaver,county,Oklahoma,
+42007,Beaver,county,Pennsylvania,"Pittsburgh, PA"
+49001,Beaver,county,Utah,
+30001,Beaverhead,county,Montana,
+27005,Becker,county,Minnesota,
+40009,Beckham,county,Oklahoma,"Elk City, OK"
+42009,Bedford,county,Pennsylvania,
+47003,Bedford,county,Tennessee,"Shelbyville, TN"
+51019,Bedford,county,Virginia,"Lynchburg, VA"
+48025,Bee,county,Texas,"Beeville, TX"
+33001,Belknap,county,New Hampshire,"Laconia, NH"
+21013,Bell,county,Kentucky,"Middlesborough, KY"
+48027,Bell,county,Texas,"Killeen-Temple, TX"
+39013,Belmont,county,Ohio,"Wheeling, WV-OH"
+27007,Beltrami,county,Minnesota,"Bemidji, MN"
+13017,Ben Hill,county,Georgia,"Fitzgerald, GA"
+16009,Benewah,county,Idaho,
+46007,Bennett,county,South Dakota,
+50003,Bennington,county,Vermont,"Bennington, VT"
+38005,Benson,county,North Dakota,
+08011,Bent,county,Colorado,
+05007,Benton,county,Arkansas,"Fayetteville-Springdale-Rogers, AR"
+18007,Benton,county,Indiana,"Lafayette-West Lafayette, IN"
+19011,Benton,county,Iowa,"Cedar Rapids, IA"
+27009,Benton,county,Minnesota,"St. Cloud, MN"
+28009,Benton,county,Mississippi,
+29015,Benton,county,Missouri,
+41003,Benton,county,Oregon,"Corvallis, OR"
+47005,Benton,county,Tennessee,
+53005,Benton,county,Washington,"Kennewick-Richland, WA"
+26019,Benzie,county,Michigan,"Traverse City, MI"
+34003,Bergen,county,New Jersey,"New York-Newark-Jersey City, NY-NJ-PA"
+45015,Berkeley,county,South Carolina,"Charleston-North Charleston, SC"
+54003,Berkeley,county,West Virginia,"Hagerstown-Martinsburg, MD-WV"
+42011,Berks,county,Pennsylvania,"Reading, PA"
+25003,Berkshire,county,Massachusetts,"Pittsfield, MA"
+35001,Bernalillo,county,New Mexico,"Albuquerque, NM"
+13019,Berrien,county,Georgia,
+26021,Berrien,county,Michigan,"Niles, MI"
+37015,Bertie,county,North Carolina,
+02050,Bethel,county,Alaska,
+48029,Bexar,county,Texas,"San Antonio-New Braunfels, TX"
+01007,Bibb,county,Alabama,"Birmingham-Hoover, AL"
+13021,Bibb,county,Georgia,"Macon-Bibb County, GA"
+22013,Bienville,county,Louisiana,
+30003,Big Horn,county,Montana,
+56003,Big Horn,county,Wyoming,
+27011,Big Stone,county,Minnesota,
+38007,Billings,county,North Dakota,"Dickinson, ND"
+16011,Bingham,county,Idaho,"Blackfoot, ID"
+19013,Black Hawk,county,Iowa,"Waterloo-Cedar Falls, IA"
+18009,Blackford,county,Indiana,
+37017,Bladen,county,North Carolina,
+16013,Blaine,county,Idaho,"Hailey, ID"
+30005,Blaine,county,Montana,
+31009,Blaine,county,Nebraska,
+40011,Blaine,county,Oklahoma,
+42013,Blair,county,Pennsylvania,"Altoona, PA"
+48031,Blanco,county,Texas,
+51021,Bland,county,Virginia,"Bluefield, WV-VA"
+13023,Bleckley,county,Georgia,
+47007,Bledsoe,county,Tennessee,
+01009,Blount,county,Alabama,"Birmingham-Hoover, AL"
+47009,Blount,county,Tennessee,"Knoxville, TN"
+27013,Blue Earth,county,Minnesota,"Mankato, MN"
+16015,Boise,county,Idaho,"Boise City, ID"
+28011,Bolivar,county,Mississippi,"Cleveland, MS"
+29017,Bollinger,county,Missouri,"Cape Girardeau, MO-IL"
+46009,Bon Homme,county,South Dakota,
+17005,Bond,county,Illinois,"St. Louis, MO-IL"
+16017,Bonner,county,Idaho,"Sandpoint, ID"
+16019,Bonneville,county,Idaho,"Idaho Falls, ID"
+05009,Boone,county,Arkansas,"Harrison, AR"
+17007,Boone,county,Illinois,"Rockford, IL"
+18011,Boone,county,Indiana,"Indianapolis-Carmel-Anderson, IN"
+19015,Boone,county,Iowa,"Ames, IA"
+21015,Boone,county,Kentucky,"Cincinnati, OH-KY-IN"
+29019,Boone,county,Missouri,"Columbia, MO"
+31011,Boone,county,Nebraska,
+54005,Boone,county,West Virginia,"Charleston, WV"
+48033,Borden,county,Texas,
+48035,Bosque,county,Texas,
+22015,Bossier,county,Louisiana,"Shreveport-Bossier City, LA"
+51023,Botetourt,county,Virginia,"Roanoke, VA"
+38009,Bottineau,county,North Dakota,
+08013,Boulder,county,Colorado,"Boulder, CO"
+16021,Boundary,county,Idaho,
+20011,Bourbon,county,Kansas,
+21017,Bourbon,county,Kentucky,"Lexington-Fayette, KY"
+48037,Bowie,county,Texas,"Texarkana, TX-AR"
+38011,Bowman,county,North Dakota,
+31013,Box Butte,county,Nebraska,
+49003,Box Elder,county,Utah,"Ogden-Clearfield, UT"
+21019,Boyd,county,Kentucky,"Huntington-Ashland, WV-KY-OH"
+31015,Boyd,county,Nebraska,
+21021,Boyle,county,Kentucky,"Danville, KY"
+21023,Bracken,county,Kentucky,"Cincinnati, OH-KY-IN"
+12007,Bradford,county,Florida,
+42015,Bradford,county,Pennsylvania,"Sayre, PA"
+05011,Bradley,county,Arkansas,
+47011,Bradley,county,Tennessee,"Cleveland, TN"
+26023,Branch,county,Michigan,"Coldwater, MI"
+13025,Brantley,county,Georgia,"Brunswick, GA"
+54007,Braxton,county,West Virginia,
+48039,Brazoria,county,Texas,"Houston-The Woodlands-Sugar Land, TX"
+48041,Brazos,county,Texas,"College Station-Bryan, TX"
+21025,Breathitt,county,Kentucky,
+21027,Breckinridge,county,Kentucky,
+19017,Bremer,county,Iowa,"Waterloo-Cedar Falls, IA"
+12009,Brevard,county,Florida,"Palm Bay-Melbourne-Titusville, FL"
+48043,Brewster,county,Texas,
+48045,Briscoe,county,Texas,
+02060,Bristol Bay,county,Alaska,
+25005,Bristol,county,Massachusetts,"Providence-Warwick, RI-MA"
+44001,Bristol,county,Rhode Island,"Providence-Warwick, RI-MA"
+51520,Bristol,county,Virginia,"Kingsport-Bristol, TN-VA"
+30007,Broadwater,county,Montana,
+36005,Bronx,county,New York,"New York-Newark-Jersey City, NY-NJ-PA"
+54009,Brooke,county,West Virginia,"Weirton-Steubenville, WV-OH"
+46011,Brookings,county,South Dakota,"Brookings, SD"
+13027,Brooks,county,Georgia,"Valdosta, GA"
+48047,Brooks,county,Texas,
+36007,Broome,county,New York,"Binghamton, NY"
+08014,Broomfield,county,Colorado,"Denver-Aurora-Lakewood, CO"
+12011,Broward,county,Florida,"Miami-Fort Lauderdale-Pompano Beach, FL"
+17009,Brown,county,Illinois,
+18013,Brown,county,Indiana,"Indianapolis-Carmel-Anderson, IN"
+20013,Brown,county,Kansas,
+27015,Brown,county,Minnesota,"New Ulm, MN"
+31017,Brown,county,Nebraska,
+39015,Brown,county,Ohio,"Cincinnati, OH-KY-IN"
+46013,Brown,county,South Dakota,"Aberdeen, SD"
+48049,Brown,county,Texas,"Brownwood, TX"
+55009,Brown,county,Wisconsin,"Green Bay, WI"
+46015,Brule,county,South Dakota,
+37019,Brunswick,county,North Carolina,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC"
+51025,Brunswick,county,Virginia,
+13029,Bryan,county,Georgia,"Savannah, GA"
+40013,Bryan,county,Oklahoma,"Durant, OK"
+19019,Buchanan,county,Iowa,
+29021,Buchanan,county,Missouri,"St. Joseph, MO-KS"
+51027,Buchanan,county,Virginia,
+51029,Buckingham,county,Virginia,
+42017,Bucks,county,Pennsylvania,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"
+19021,Buena Vista,county,Iowa,"Storm Lake, IA"
+51530,Buena Vista,county,Virginia,
+31019,Buffalo,county,Nebraska,"Kearney, NE"
+46017,Buffalo,county,South Dakota,
+55011,Buffalo,county,Wisconsin,
+21029,Bullitt,county,Kentucky,"Louisville/Jefferson County, KY-IN"
+13031,Bulloch,county,Georgia,"Statesboro, GA"
+01011,Bullock,county,Alabama,
+37021,Buncombe,county,North Carolina,"Asheville, NC"
+17011,Bureau,county,Illinois,"Ottawa, IL"
+13033,Burke,county,Georgia,"Augusta-Richmond County, GA-SC"
+37023,Burke,county,North Carolina,"Hickory-Lenoir-Morganton, NC"
+38013,Burke,county,North Dakota,
+38015,Burleigh,county,North Dakota,"Bismarck, ND"
+48051,Burleson,county,Texas,"College Station-Bryan, TX"
+34005,Burlington,county,New Jersey,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"
+48053,Burnet,county,Texas,
+55013,Burnett,county,Wisconsin,
+31021,Burt,county,Nebraska,
+01013,Butler,county,Alabama,
+19023,Butler,county,Iowa,
+20015,Butler,county,Kansas,"Wichita, KS"
+21031,Butler,county,Kentucky,"Bowling Green, KY"
+29023,Butler,county,Missouri,"Poplar Bluff, MO"
+31023,Butler,county,Nebraska,
+39017,Butler,county,Ohio,"Cincinnati, OH-KY-IN"
+42019,Butler,county,Pennsylvania,"Pittsburgh, PA"
+06007,Butte,county,California,"Chico, CA"
+16023,Butte,county,Idaho,"Idaho Falls, ID"
+46019,Butte,county,South Dakota,
+13035,Butts,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+37025,Cabarrus,county,North Carolina,"Charlotte-Concord-Gastonia, NC-SC"
+54011,Cabell,county,West Virginia,"Huntington-Ashland, WV-KY-OH"
+49005,Cache,county,Utah,"Logan, UT-ID"
+22017,Caddo,county,Louisiana,"Shreveport-Bossier City, LA"
+40015,Caddo,county,Oklahoma,
+06009,Calaveras,county,California,
+22019,Calcasieu,county,Louisiana,"Lake Charles, LA"
+21033,Caldwell,county,Kentucky,
+22021,Caldwell,county,Louisiana,
+29025,Caldwell,county,Missouri,"Kansas City, MO-KS"
+37027,Caldwell,county,North Carolina,"Hickory-Lenoir-Morganton, NC"
+48055,Caldwell,county,Texas,"Austin-Round Rock-Georgetown, TX"
+50005,Caledonia,county,Vermont,
+01015,Calhoun,county,Alabama,"Anniston-Oxford, AL"
+05013,Calhoun,county,Arkansas,"Camden, AR"
+12013,Calhoun,county,Florida,
+13037,Calhoun,county,Georgia,
+17013,Calhoun,county,Illinois,"St. Louis, MO-IL"
+19025,Calhoun,county,Iowa,
+26025,Calhoun,county,Michigan,"Battle Creek, MI"
+28013,Calhoun,county,Mississippi,
+45017,Calhoun,county,South Carolina,"Columbia, SC"
+48057,Calhoun,county,Texas,"Port Lavaca, TX"
+54013,Calhoun,county,West Virginia,
+48059,Callahan,county,Texas,"Abilene, TX"
+29027,Callaway,county,Missouri,"Jefferson City, MO"
+21035,Calloway,county,Kentucky,"Murray, KY"
+55015,Calumet,county,Wisconsin,"Appleton, WI"
+24009,Calvert,county,Maryland,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+16025,Camas,county,Idaho,"Hailey, ID"
+42021,Cambria,county,Pennsylvania,"Johnstown, PA"
+13039,Camden,county,Georgia,"St. Marys, GA"
+29029,Camden,county,Missouri,
+34007,Camden,county,New Jersey,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"
+37029,Camden,county,North Carolina,"Virginia Beach-Norfolk-Newport News, VA-NC"
+22023,Cameron,county,Louisiana,"Lake Charles, LA"
+42023,Cameron,county,Pennsylvania,
+48061,Cameron,county,Texas,"Brownsville-Harlingen, TX"
+48063,Camp,county,Texas,"Mount Pleasant, TX"
+21037,Campbell,county,Kentucky,"Cincinnati, OH-KY-IN"
+46021,Campbell,county,South Dakota,
+47013,Campbell,county,Tennessee,"Knoxville, TN"
+51031,Campbell,county,Virginia,"Lynchburg, VA"
+56005,Campbell,county,Wyoming,"Gillette, WY"
+40017,Canadian,county,Oklahoma,"Oklahoma City, OK"
+13043,Candler,county,Georgia,
+47015,Cannon,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+16027,Canyon,county,Idaho,"Boise City, ID"
+29031,Cape Girardeau,county,Missouri,"Cape Girardeau, MO-IL"
+34009,Cape May,county,New Jersey,"Ocean City, NJ"
+30009,Carbon,county,Montana,"Billings, MT"
+42025,Carbon,county,Pennsylvania,"Allentown-Bethlehem-Easton, PA-NJ"
+49007,Carbon,county,Utah,"Price, UT"
+56007,Carbon,county,Wyoming,
+16029,Caribou,county,Idaho,
+21039,Carlisle,county,Kentucky,
+27017,Carlton,county,Minnesota,"Duluth, MN-WI"
+24011,Caroline,county,Maryland,
+51033,Caroline,county,Virginia,
+05015,Carroll,county,Arkansas,
+13045,Carroll,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+17015,Carroll,county,Illinois,
+18015,Carroll,county,Indiana,"Lafayette-West Lafayette, IN"
+19027,Carroll,county,Iowa,"Carroll, IA"
+21041,Carroll,county,Kentucky,
+24013,Carroll,county,Maryland,"Baltimore-Columbia-Towson, MD"
+28015,Carroll,county,Mississippi,"Greenwood, MS"
+29033,Carroll,county,Missouri,
+33003,Carroll,county,New Hampshire,
+39019,Carroll,county,Ohio,"Canton-Massillon, OH"
+47017,Carroll,county,Tennessee,
+51035,Carroll,county,Virginia,
+32510,Carson City,county,Nevada,"Carson City, NV"
+48065,Carson,county,Texas,"Amarillo, TX"
+21043,Carter,county,Kentucky,"Huntington-Ashland, WV-KY-OH"
+29035,Carter,county,Missouri,
+30011,Carter,county,Montana,
+40019,Carter,county,Oklahoma,"Ardmore, OK"
+47019,Carter,county,Tennessee,"Johnson City, TN"
+37031,Carteret,county,North Carolina,"Morehead City, NC"
+27019,Carver,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+30013,Cascade,county,Montana,"Great Falls, MT"
+21045,Casey,county,Kentucky,
+17017,Cass,county,Illinois,
+18017,Cass,county,Indiana,"Logansport, IN"
+19029,Cass,county,Iowa,
+26027,Cass,county,Michigan,"South Bend-Mishawaka, IN-MI"
+27021,Cass,county,Minnesota,"Brainerd, MN"
+29037,Cass,county,Missouri,"Kansas City, MO-KS"
+31025,Cass,county,Nebraska,"Omaha-Council Bluffs, NE-IA"
+38017,Cass,county,North Dakota,"Fargo, ND-MN"
+48067,Cass,county,Texas,
+16031,Cassia,county,Idaho,"Burley, ID"
+48069,Castro,county,Texas,
+37033,Caswell,county,North Carolina,
+22025,Catahoula,county,Louisiana,
+37035,Catawba,county,North Carolina,"Hickory-Lenoir-Morganton, NC"
+13047,Catoosa,county,Georgia,"Chattanooga, TN-GA"
+35003,Catron,county,New Mexico,
+36009,Cattaraugus,county,New York,"Olean, NY"
+38019,Cavalier,county,North Dakota,
+36011,Cayuga,county,New York,"Auburn, NY"
+24015,Cecil,county,Maryland,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"
+19031,Cedar,county,Iowa,
+29039,Cedar,county,Missouri,
+31027,Cedar,county,Nebraska,
+42027,Centre,county,Pennsylvania,"State College, PA"
+19033,Cerro Gordo,county,Iowa,"Mason City, IA"
+08015,Chaffee,county,Colorado,
+01017,Chambers,county,Alabama,"LaGrange, GA-AL"
+48071,Chambers,county,Texas,"Houston-The Woodlands-Sugar Land, TX"
+17019,Champaign,county,Illinois,"Champaign-Urbana, IL"
+39021,Champaign,county,Ohio,"Urbana, OH"
+29041,Chariton,county,Missouri,
+51036,Charles City,county,Virginia,"Richmond, VA"
+46023,Charles Mix,county,South Dakota,
+24017,Charles,county,Maryland,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+45019,Charleston,county,South Carolina,"Charleston-North Charleston, SC"
+26029,Charlevoix,county,Michigan,
+12015,Charlotte,county,Florida,"Punta Gorda, FL"
+51037,Charlotte,county,Virginia,
+51540,Charlottesville,county,Virginia,"Charlottesville, VA"
+13049,Charlton,county,Georgia,
+20017,Chase,county,Kansas,"Emporia, KS"
+31029,Chase,county,Nebraska,
+13051,Chatham,county,Georgia,"Savannah, GA"
+37037,Chatham,county,North Carolina,"Durham-Chapel Hill, NC"
+13053,Chattahoochee,county,Georgia,"Columbus, GA-AL"
+13055,Chattooga,county,Georgia,"Summerville, GA"
+20019,Chautauqua,county,Kansas,
+36013,Chautauqua,county,New York,"Jamestown-Dunkirk-Fredonia, NY"
+35005,Chaves,county,New Mexico,"Roswell, NM"
+47021,Cheatham,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+26031,Cheboygan,county,Michigan,
+53007,Chelan,county,Washington,"Wenatchee, WA"
+36015,Chemung,county,New York,"Elmira, NY"
+36017,Chenango,county,New York,
+01019,Cherokee,county,Alabama,
+13057,Cherokee,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+19035,Cherokee,county,Iowa,
+20021,Cherokee,county,Kansas,
+37039,Cherokee,county,North Carolina,
+40021,Cherokee,county,Oklahoma,"Tahlequah, OK"
+45021,Cherokee,county,South Carolina,"Gaffney, SC"
+48073,Cherokee,county,Texas,"Jacksonville, TX"
+31031,Cherry,county,Nebraska,
+51550,Chesapeake,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+33005,Cheshire,county,New Hampshire,"Keene, NH"
+42029,Chester,county,Pennsylvania,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"
+45023,Chester,county,South Carolina,"Charlotte-Concord-Gastonia, NC-SC"
+47023,Chester,county,Tennessee,"Jackson, TN"
+45025,Chesterfield,county,South Carolina,
+51041,Chesterfield,county,Virginia,"Richmond, VA"
+08017,Cheyenne,county,Colorado,
+20023,Cheyenne,county,Kansas,
+31033,Cheyenne,county,Nebraska,
+19037,Chickasaw,county,Iowa,
+28017,Chickasaw,county,Mississippi,
+05017,Chicot,county,Arkansas,
+48075,Childress,county,Texas,
+01021,Chilton,county,Alabama,"Birmingham-Hoover, AL"
+26033,Chippewa,county,Michigan,"Sault Ste. Marie, MI"
+27023,Chippewa,county,Minnesota,
+55017,Chippewa,county,Wisconsin,"Eau Claire, WI"
+27025,Chisago,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+50007,Chittenden,county,Vermont,"Burlington-South Burlington, VT"
+01023,Choctaw,county,Alabama,
+28019,Choctaw,county,Mississippi,
+40023,Choctaw,county,Oklahoma,
+30015,Chouteau,county,Montana,
+37041,Chowan,county,North Carolina,
+17021,Christian,county,Illinois,"Taylorville, IL"
+21047,Christian,county,Kentucky,"Clarksville, TN-KY"
+29043,Christian,county,Missouri,"Springfield, MO"
+32001,Churchill,county,Nevada,"Fallon, NV"
+35006,Cibola,county,New Mexico,"Grants, NM"
+40025,Cimarron,county,Oklahoma,
+12017,Citrus,county,Florida,"Homosassa Springs, FL"
+41005,Clackamas,county,Oregon,"Portland-Vancouver-Hillsboro, OR-WA"
+22027,Claiborne,county,Louisiana,
+28021,Claiborne,county,Mississippi,
+47025,Claiborne,county,Tennessee,
+53009,Clallam,county,Washington,"Port Angeles, WA"
+26035,Clare,county,Michigan,
+45027,Clarendon,county,South Carolina,"Sumter, SC"
+42031,Clarion,county,Pennsylvania,
+05019,Clark,county,Arkansas,"Arkadelphia, AR"
+16033,Clark,county,Idaho,
+17023,Clark,county,Illinois,
+18019,Clark,county,Indiana,"Louisville/Jefferson County, KY-IN"
+20025,Clark,county,Kansas,
+21049,Clark,county,Kentucky,"Lexington-Fayette, KY"
+29045,Clark,county,Missouri,"Fort Madison-Keokuk, IA-IL-MO"
+32003,Clark,county,Nevada,"Las Vegas-Henderson-Paradise, NV"
+39023,Clark,county,Ohio,"Springfield, OH"
+46025,Clark,county,South Dakota,
+53011,Clark,county,Washington,"Portland-Vancouver-Hillsboro, OR-WA"
+55019,Clark,county,Wisconsin,
+01025,Clarke,county,Alabama,
+13059,Clarke,county,Georgia,"Athens-Clarke County, GA"
+19039,Clarke,county,Iowa,
+28023,Clarke,county,Mississippi,"Meridian, MS"
+51043,Clarke,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+41007,Clatsop,county,Oregon,"Astoria, OR"
+01027,Clay,county,Alabama,
+05021,Clay,county,Arkansas,
+12019,Clay,county,Florida,"Jacksonville, FL"
+13061,Clay,county,Georgia,
+17025,Clay,county,Illinois,
+18021,Clay,county,Indiana,"Terre Haute, IN"
+19041,Clay,county,Iowa,"Spencer, IA"
+20027,Clay,county,Kansas,
+21051,Clay,county,Kentucky,"London, KY"
+27027,Clay,county,Minnesota,"Fargo, ND-MN"
+28025,Clay,county,Mississippi,"West Point, MS"
+29047,Clay,county,Missouri,"Kansas City, MO-KS"
+31035,Clay,county,Nebraska,
+37043,Clay,county,North Carolina,
+46027,Clay,county,South Dakota,"Vermillion, SD"
+47027,Clay,county,Tennessee,
+48077,Clay,county,Texas,"Wichita Falls, TX"
+54015,Clay,county,West Virginia,"Charleston, WV"
+13063,Clayton,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+19043,Clayton,county,Iowa,
+08019,Clear Creek,county,Colorado,"Denver-Aurora-Lakewood, CO"
+42033,Clearfield,county,Pennsylvania,"DuBois, PA"
+16035,Clearwater,county,Idaho,
+27029,Clearwater,county,Minnesota,
+01029,Cleburne,county,Alabama,
+05023,Cleburne,county,Arkansas,
+39025,Clermont,county,Ohio,"Cincinnati, OH-KY-IN"
+05025,Cleveland,county,Arkansas,"Pine Bluff, AR"
+37045,Cleveland,county,North Carolina,"Shelby, NC"
+40027,Cleveland,county,Oklahoma,"Oklahoma City, OK"
+13065,Clinch,county,Georgia,
+17027,Clinton,county,Illinois,"St. Louis, MO-IL"
+18023,Clinton,county,Indiana,"Frankfort, IN"
+19045,Clinton,county,Iowa,"Clinton, IA"
+21053,Clinton,county,Kentucky,
+26037,Clinton,county,Michigan,"Lansing-East Lansing, MI"
+29049,Clinton,county,Missouri,"Kansas City, MO-KS"
+36019,Clinton,county,New York,"Plattsburgh, NY"
+39027,Clinton,county,Ohio,"Wilmington, OH"
+42035,Clinton,county,Pennsylvania,"Lock Haven, PA"
+20029,Cloud,county,Kansas,
+28027,Coahoma,county,Mississippi,"Clarksdale, MS"
+40029,Coal,county,Oklahoma,
+13067,Cobb,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+04003,Cochise,county,Arizona,"Sierra Vista-Douglas, AZ"
+48079,Cochran,county,Texas,
+47029,Cocke,county,Tennessee,"Newport, TN"
+04005,Coconino,county,Arizona,"Flagstaff, AZ"
+46029,Codington,county,South Dakota,"Watertown, SD"
+01031,Coffee,county,Alabama,"Enterprise, AL"
+13069,Coffee,county,Georgia,"Douglas, GA"
+47031,Coffee,county,Tennessee,"Tullahoma-Manchester, TN"
+20031,Coffey,county,Kansas,
+48081,Coke,county,Texas,
+01033,Colbert,county,Alabama,"Florence-Muscle Shoals, AL"
+29051,Cole,county,Missouri,"Jefferson City, MO"
+48083,Coleman,county,Texas,
+17029,Coles,county,Illinois,"Charleston-Mattoon, IL"
+31037,Colfax,county,Nebraska,
+35007,Colfax,county,New Mexico,
+45029,Colleton,county,South Carolina,
+12021,Collier,county,Florida,"Naples-Marco Island, FL"
+48085,Collin,county,Texas,"Dallas-Fort Worth-Arlington, TX"
+48087,Collingsworth,county,Texas,
+51570,Colonial Heights,county,Virginia,"Richmond, VA"
+48089,Colorado,county,Texas,
+13071,Colquitt,county,Georgia,"Moultrie, GA"
+05027,Columbia,county,Arkansas,"Magnolia, AR"
+12023,Columbia,county,Florida,"Lake City, FL"
+13073,Columbia,county,Georgia,"Augusta-Richmond County, GA-SC"
+36021,Columbia,county,New York,"Hudson, NY"
+41009,Columbia,county,Oregon,"Portland-Vancouver-Hillsboro, OR-WA"
+42037,Columbia,county,Pennsylvania,"Bloomsburg-Berwick, PA"
+53013,Columbia,county,Washington,
+55021,Columbia,county,Wisconsin,"Madison, WI"
+39029,Columbiana,county,Ohio,"Salem, OH"
+37047,Columbus,county,North Carolina,
+06011,Colusa,county,California,
+48091,Comal,county,Texas,"San Antonio-New Braunfels, TX"
+20033,Comanche,county,Kansas,
+40031,Comanche,county,Oklahoma,"Lawton, OK"
+48093,Comanche,county,Texas,
+48095,Concho,county,Texas,
+22029,Concordia,county,Louisiana,"Natchez, MS-LA"
+01035,Conecuh,county,Alabama,
+08021,Conejos,county,Colorado,
+06013,Contra Costa,county,California,"San Francisco-Oakland-Berkeley, CA"
+56009,Converse,county,Wyoming,
+05029,Conway,county,Arkansas,
+13075,Cook,county,Georgia,
+17031,Cook,county,Illinois,"Chicago-Naperville-Elgin, IL-IN-WI"
+27031,Cook,county,Minnesota,
+48097,Cooke,county,Texas,"Gainesville, TX"
+29053,Cooper,county,Missouri,"Columbia, MO"
+33007,Coos,county,New Hampshire,"Berlin, NH"
+41011,Coos,county,Oregon,"Coos Bay, OR"
+01037,Coosa,county,Alabama,"Alexander City, AL"
+28029,Copiah,county,Mississippi,"Jackson, MS"
+46031,Corson,county,South Dakota,
+36023,Cortland,county,New York,"Cortland, NY"
+48099,Coryell,county,Texas,"Killeen-Temple, TX"
+39031,Coshocton,county,Ohio,"Coshocton, OH"
+08023,Costilla,county,Colorado,
+48101,Cottle,county,Texas,
+40033,Cotton,county,Oklahoma,"Lawton, OK"
+27033,Cottonwood,county,Minnesota,
+01039,Covington,county,Alabama,
+28031,Covington,county,Mississippi,"Hattiesburg, MS"
+51580,Covington,county,Virginia,
+13077,Coweta,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+20035,Cowley,county,Kansas,"Winfield, KS"
+53015,Cowlitz,county,Washington,"Longview, WA"
+40035,Craig,county,Oklahoma,
+51045,Craig,county,Virginia,"Roanoke, VA"
+05031,Craighead,county,Arkansas,"Jonesboro, AR"
+48103,Crane,county,Texas,
+37049,Craven,county,North Carolina,"New Bern, NC"
+05033,Crawford,county,Arkansas,"Fort Smith, AR-OK"
+13079,Crawford,county,Georgia,"Macon-Bibb County, GA"
+17033,Crawford,county,Illinois,
+18025,Crawford,county,Indiana,
+19047,Crawford,county,Iowa,
+20037,Crawford,county,Kansas,"Pittsburg, KS"
+26039,Crawford,county,Michigan,
+29055,Crawford,county,Missouri,
+39033,Crawford,county,Ohio,"Bucyrus-Galion, OH"
+42039,Crawford,county,Pennsylvania,"Meadville, PA"
+55023,Crawford,county,Wisconsin,
+40037,Creek,county,Oklahoma,"Tulsa, OK"
+01041,Crenshaw,county,Alabama,
+13081,Crisp,county,Georgia,"Cordele, GA"
+05035,Crittenden,county,Arkansas,"Memphis, TN-MS-AR"
+21055,Crittenden,county,Kentucky,
+47033,Crockett,county,Tennessee,"Jackson, TN"
+48105,Crockett,county,Texas,
+41013,Crook,county,Oregon,"Prineville, OR"
+56011,Crook,county,Wyoming,"Gillette, WY"
+48107,Crosby,county,Texas,"Lubbock, TX"
+05037,Cross,county,Arkansas,
+27035,Crow Wing,county,Minnesota,"Brainerd, MN"
+08025,Crowley,county,Colorado,
+48109,Culberson,county,Texas,
+01043,Cullman,county,Alabama,"Cullman, AL"
+51047,Culpeper,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+17035,Cumberland,county,Illinois,"Charleston-Mattoon, IL"
+21057,Cumberland,county,Kentucky,
+23005,Cumberland,county,Maine,"Portland-South Portland, ME"
+34011,Cumberland,county,New Jersey,"Vineland-Bridgeton, NJ"
+37051,Cumberland,county,North Carolina,"Fayetteville, NC"
+42041,Cumberland,county,Pennsylvania,"Harrisburg-Carlisle, PA"
+47035,Cumberland,county,Tennessee,"Crossville, TN"
+51049,Cumberland,county,Virginia,
+31039,Cuming,county,Nebraska,
+37053,Currituck,county,North Carolina,"Virginia Beach-Norfolk-Newport News, VA-NC"
+35009,Curry,county,New Mexico,"Clovis, NM"
+41015,Curry,county,Oregon,"Brookings, OR"
+08027,Custer,county,Colorado,
+16037,Custer,county,Idaho,
+30017,Custer,county,Montana,
+31041,Custer,county,Nebraska,
+40039,Custer,county,Oklahoma,"Weatherford, OK"
+46033,Custer,county,South Dakota,
+39035,Cuyahoga,county,Ohio,"Cleveland-Elyria, OH"
+13083,Dade,county,Georgia,"Chattanooga, TN-GA"
+29057,Dade,county,Missouri,
+49009,Daggett,county,Utah,
+27037,Dakota,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+31043,Dakota,county,Nebraska,"Sioux City, IA-NE-SD"
+01045,Dale,county,Alabama,"Ozark, AL"
+48111,Dallam,county,Texas,
+01047,Dallas,county,Alabama,"Selma, AL"
+05039,Dallas,county,Arkansas,
+19049,Dallas,county,Iowa,"Des Moines-West Des Moines, IA"
+29059,Dallas,county,Missouri,"Springfield, MO"
+48113,Dallas,county,Texas,"Dallas-Fort Worth-Arlington, TX"
+55025,Dane,county,Wisconsin,"Madison, WI"
+30019,Daniels,county,Montana,
+51590,Danville,county,Virginia,"Danville, VA"
+37055,Dare,county,North Carolina,"Kill Devil Hills, NC"
+39037,Darke,county,Ohio,"Greenville, OH"
+45031,Darlington,county,South Carolina,"Florence, SC"
+42043,Dauphin,county,Pennsylvania,"Harrisburg-Carlisle, PA"
+37057,Davidson,county,North Carolina,"Winston-Salem, NC"
+47037,Davidson,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+37059,Davie,county,North Carolina,"Winston-Salem, NC"
+18027,Daviess,county,Indiana,"Washington, IN"
+21059,Daviess,county,Kentucky,"Owensboro, KY"
+29061,Daviess,county,Missouri,
+19051,Davis,county,Iowa,
+49011,Davis,county,Utah,"Ogden-Clearfield, UT"
+46035,Davison,county,South Dakota,"Mitchell, SD"
+31045,Dawes,county,Nebraska,
+13085,Dawson,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+30021,Dawson,county,Montana,
+31047,Dawson,county,Nebraska,"Lexington, NE"
+48115,Dawson,county,Texas,"Lamesa, TX"
+46037,Day,county,South Dakota,
+35011,De Baca,county,New Mexico,
+01049,DeKalb,county,Alabama,"Fort Payne, AL"
+13089,DeKalb,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+17037,DeKalb,county,Illinois,"Chicago-Naperville-Elgin, IL-IN-WI"
+18033,DeKalb,county,Indiana,"Auburn, IN"
+29063,DeKalb,county,Missouri,"St. Joseph, MO-KS"
+47041,DeKalb,county,Tennessee,
+12027,DeSoto,county,Florida,"Arcadia, FL"
+22031,De Soto,county,Louisiana,"Shreveport-Bossier City, LA"
+28033,DeSoto,county,Mississippi,"Memphis, TN-MS-AR"
+17039,De Witt,county,Illinois,
+48123,DeWitt,county,Texas,
+48117,Deaf Smith,county,Texas,"Hereford, TX"
+18029,Dearborn,county,Indiana,"Cincinnati, OH-KY-IN"
+13087,Decatur,county,Georgia,"Bainbridge, GA"
+18031,Decatur,county,Indiana,"Greensburg, IN"
+19053,Decatur,county,Iowa,
+20039,Decatur,county,Kansas,
+47039,Decatur,county,Tennessee,
+30023,Deer Lodge,county,Montana,
+39039,Defiance,county,Ohio,"Defiance, OH"
+06015,Del Norte,county,California,"Crescent City, CA"
+18035,Delaware,county,Indiana,"Muncie, IN"
+19055,Delaware,county,Iowa,
+36025,Delaware,county,New York,
+39041,Delaware,county,Ohio,"Columbus, OH"
+40041,Delaware,county,Oklahoma,
+42045,Delaware,county,Pennsylvania,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"
+08029,Delta,county,Colorado,
+26041,Delta,county,Michigan,"Escanaba, MI"
+48119,Delta,county,Texas,
+02068,Denali,county,Alaska,
+29065,Dent,county,Missouri,
+48121,Denton,county,Texas,"Dallas-Fort Worth-Arlington, TX"
+08031,Denver,county,Colorado,"Denver-Aurora-Lakewood, CO"
+19057,Des Moines,county,Iowa,"Burlington, IA-IL"
+41017,Deschutes,county,Oregon,"Bend, OR"
+05041,Desha,county,Arkansas,
+31049,Deuel,county,Nebraska,
+46039,Deuel,county,South Dakota,
+40043,Dewey,county,Oklahoma,
+46041,Dewey,county,South Dakota,
+48125,Dickens,county,Texas,
+51051,Dickenson,county,Virginia,
+38021,Dickey,county,North Dakota,
+19059,Dickinson,county,Iowa,"Spirit Lake, IA"
+20041,Dickinson,county,Kansas,
+26043,Dickinson,county,Michigan,"Iron Mountain, MI-WI"
+47043,Dickson,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+02070,Dillingham,county,Alaska,
+45033,Dillon,county,South Carolina,
+48127,Dimmit,county,Texas,
+51053,Dinwiddie,county,Virginia,"Richmond, VA"
+38023,Divide,county,North Dakota,
+12029,Dixie,county,Florida,
+31051,Dixon,county,Nebraska,"Sioux City, IA-NE-SD"
+54017,Doddridge,county,West Virginia,"Clarksburg, WV"
+13091,Dodge,county,Georgia,
+27039,Dodge,county,Minnesota,"Rochester, MN"
+31053,Dodge,county,Nebraska,"Fremont, NE"
+55027,Dodge,county,Wisconsin,"Beaver Dam, WI"
+08033,Dolores,county,Colorado,
+35013,Dona Ana,county,New Mexico,"Las Cruces, NM"
+20043,Doniphan,county,Kansas,"St. Joseph, MO-KS"
+48129,Donley,county,Texas,
+13093,Dooly,county,Georgia,
+55029,Door,county,Wisconsin,
+24019,Dorchester,county,Maryland,"Cambridge, MD"
+45035,Dorchester,county,South Carolina,"Charleston-North Charleston, SC"
+13095,Dougherty,county,Georgia,"Albany, GA"
+08035,Douglas,county,Colorado,"Denver-Aurora-Lakewood, CO"
+13097,Douglas,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+17041,Douglas,county,Illinois,
+20045,Douglas,county,Kansas,"Lawrence, KS"
+27041,Douglas,county,Minnesota,"Alexandria, MN"
+29067,Douglas,county,Missouri,
+31055,Douglas,county,Nebraska,"Omaha-Council Bluffs, NE-IA"
+32005,Douglas,county,Nevada,"Gardnerville Ranchos, NV"
+41019,Douglas,county,Oregon,"Roseburg, OR"
+46043,Douglas,county,South Dakota,
+53017,Douglas,county,Washington,"Wenatchee, WA"
+55031,Douglas,county,Wisconsin,"Duluth, MN-WI"
+05043,Drew,county,Arkansas,
+17043,DuPage,county,Illinois,"Chicago-Naperville-Elgin, IL-IN-WI"
+18037,Dubois,county,Indiana,"Jasper, IN"
+19061,Dubuque,county,Iowa,"Dubuque, IA"
+49013,Duchesne,county,Utah,
+25007,Dukes,county,Massachusetts,"Vineyard Haven, MA"
+31057,Dundy,county,Nebraska,
+29069,Dunklin,county,Missouri,"Kennett, MO"
+38025,Dunn,county,North Dakota,
+55033,Dunn,county,Wisconsin,"Menomonie, WI"
+37061,Duplin,county,North Carolina,
+37063,Durham,county,North Carolina,"Durham-Chapel Hill, NC"
+36027,Dutchess,county,New York,"Poughkeepsie-Newburgh-Middletown, NY"
+12031,Duval,county,Florida,"Jacksonville, FL"
+48131,Duval,county,Texas,"Alice, TX"
+47045,Dyer,county,Tennessee,"Dyersburg, TN"
+08037,Eagle,county,Colorado,"Edwards, CO"
+13099,Early,county,Georgia,
+22033,East Baton Rouge,county,Louisiana,"Baton Rouge, LA"
+22035,East Carroll,county,Louisiana,
+22037,East Feliciana,county,Louisiana,"Baton Rouge, LA"
+48133,Eastland,county,Texas,
+26045,Eaton,county,Michigan,"Lansing-East Lansing, MI"
+55035,Eau Claire,county,Wisconsin,"Eau Claire, WI"
+13101,Echols,county,Georgia,"Valdosta, GA"
+48135,Ector,county,Texas,"Odessa, TX"
+35015,Eddy,county,New Mexico,"Carlsbad-Artesia, NM"
+38027,Eddy,county,North Dakota,
+17045,Edgar,county,Illinois,
+37065,Edgecombe,county,North Carolina,"Rocky Mount, NC"
+45037,Edgefield,county,South Carolina,"Augusta-Richmond County, GA-SC"
+21061,Edmonson,county,Kentucky,"Bowling Green, KY"
+46045,Edmunds,county,South Dakota,"Aberdeen, SD"
+17047,Edwards,county,Illinois,
+20047,Edwards,county,Kansas,
+48137,Edwards,county,Texas,
+13103,Effingham,county,Georgia,"Savannah, GA"
+17049,Effingham,county,Illinois,"Effingham, IL"
+06017,El Dorado,county,California,"Sacramento-Roseville-Folsom, CA"
+08041,El Paso,county,Colorado,"Colorado Springs, CO"
+48141,El Paso,county,Texas,"El Paso, TX"
+08039,Elbert,county,Colorado,"Denver-Aurora-Lakewood, CO"
+13105,Elbert,county,Georgia,
+20049,Elk,county,Kansas,
+42047,Elk,county,Pennsylvania,"St. Marys, PA"
+18039,Elkhart,county,Indiana,"Elkhart-Goshen, IN"
+32007,Elko,county,Nevada,"Elko, NV"
+21063,Elliott,county,Kentucky,
+20051,Ellis,county,Kansas,"Hays, KS"
+40045,Ellis,county,Oklahoma,"Woodward, OK"
+48139,Ellis,county,Texas,"Dallas-Fort Worth-Arlington, TX"
+20053,Ellsworth,county,Kansas,
+01051,Elmore,county,Alabama,"Montgomery, AL"
+16039,Elmore,county,Idaho,"Mountain Home, ID"
+13107,Emanuel,county,Georgia,
+49015,Emery,county,Utah,
+19063,Emmet,county,Iowa,
+26047,Emmet,county,Michigan,
+38029,Emmons,county,North Dakota,
+51595,Emporia,county,Virginia,
+48143,Erath,county,Texas,"Stephenville, TX"
+36029,Erie,county,New York,"Buffalo-Cheektowaga, NY"
+39043,Erie,county,Ohio,"Sandusky, OH"
+42049,Erie,county,Pennsylvania,"Erie, PA"
+01053,Escambia,county,Alabama,"Atmore, AL"
+12033,Escambia,county,Florida,"Pensacola-Ferry Pass-Brent, FL"
+32009,Esmeralda,county,Nevada,
+25009,Essex,county,Massachusetts,"Boston-Cambridge-Newton, MA-NH"
+34013,Essex,county,New Jersey,"New York-Newark-Jersey City, NY-NJ-PA"
+36031,Essex,county,New York,
+50009,Essex,county,Vermont,
+51057,Essex,county,Virginia,
+21065,Estill,county,Kentucky,"Richmond-Berea, KY"
+01055,Etowah,county,Alabama,"Gadsden, AL"
+32011,Eureka,county,Nevada,"Elko, NV"
+22039,Evangeline,county,Louisiana,
+13109,Evans,county,Georgia,
+02090,Fairbanks North Star,county,Alaska,"Fairbanks, AK"
+51600,Fairfax City,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+51059,Fairfax,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+09001,Fairfield,county,Connecticut,"Bridgeport-Stamford-Norwalk, CT"
+39045,Fairfield,county,Ohio,"Columbus, OH"
+45039,Fairfield,county,South Carolina,"Columbia, SC"
+46047,Fall River,county,South Dakota,
+30025,Fallon,county,Montana,
+51610,Falls Church,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+48145,Falls,county,Texas,"Waco, TX"
+13111,Fannin,county,Georgia,
+48147,Fannin,county,Texas,"Bonham, TX"
+27043,Faribault,county,Minnesota,
+46049,Faulk,county,South Dakota,
+05045,Faulkner,county,Arkansas,"Little Rock-North Little Rock-Conway, AR"
+51061,Fauquier,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+01057,Fayette,county,Alabama,
+13113,Fayette,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+17051,Fayette,county,Illinois,
+18041,Fayette,county,Indiana,"Connersville, IN"
+19065,Fayette,county,Iowa,
+21067,Fayette,county,Kentucky,"Lexington-Fayette, KY"
+39047,Fayette,county,Ohio,"Washington Court House, OH"
+42051,Fayette,county,Pennsylvania,"Pittsburgh, PA"
+47047,Fayette,county,Tennessee,"Memphis, TN-MS-AR"
+48149,Fayette,county,Texas,
+54019,Fayette,county,West Virginia,"Beckley, WV"
+47049,Fentress,county,Tennessee,
+30027,Fergus,county,Montana,
+53019,Ferry,county,Washington,
+27045,Fillmore,county,Minnesota,"Rochester, MN"
+31059,Fillmore,county,Nebraska,
+20055,Finney,county,Kansas,"Garden City, KS"
+48151,Fisher,county,Texas,
+12035,Flagler,county,Florida,"Deltona-Daytona Beach-Ormond Beach, FL"
+30029,Flathead,county,Montana,"Kalispell, MT"
+21069,Fleming,county,Kentucky,
+45041,Florence,county,South Carolina,"Florence, SC"
+55037,Florence,county,Wisconsin,"Iron Mountain, MI-WI"
+13115,Floyd,county,Georgia,"Rome, GA"
+18043,Floyd,county,Indiana,"Louisville/Jefferson County, KY-IN"
+19067,Floyd,county,Iowa,
+21071,Floyd,county,Kentucky,
+48153,Floyd,county,Texas,
+51063,Floyd,county,Virginia,
+51065,Fluvanna,county,Virginia,"Charlottesville, VA"
+48155,Foard,county,Texas,
+55039,Fond du Lac,county,Wisconsin,"Fond du Lac, WI"
+17053,Ford,county,Illinois,
+20057,Ford,county,Kansas,"Dodge City, KS"
+42053,Forest,county,Pennsylvania,
+55041,Forest,county,Wisconsin,
+28035,Forrest,county,Mississippi,"Hattiesburg, MS"
+13117,Forsyth,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+37067,Forsyth,county,North Carolina,"Winston-Salem, NC"
+48157,Fort Bend,county,Texas,"Houston-The Woodlands-Sugar Land, TX"
+38031,Foster,county,North Dakota,
+18045,Fountain,county,Indiana,
+51620,Franklin City,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+01059,Franklin,county,Alabama,
+05047,Franklin,county,Arkansas,"Fort Smith, AR-OK"
+12037,Franklin,county,Florida,
+13119,Franklin,county,Georgia,
+16041,Franklin,county,Idaho,"Logan, UT-ID"
+17055,Franklin,county,Illinois,
+18047,Franklin,county,Indiana,"Cincinnati, OH-KY-IN"
+19069,Franklin,county,Iowa,
+20059,Franklin,county,Kansas,"Ottawa, KS"
+21073,Franklin,county,Kentucky,"Frankfort, KY"
+22041,Franklin,county,Louisiana,
+23007,Franklin,county,Maine,
+25011,Franklin,county,Massachusetts,"Springfield, MA"
+28037,Franklin,county,Mississippi,
+29071,Franklin,county,Missouri,"St. Louis, MO-IL"
+31061,Franklin,county,Nebraska,
+36033,Franklin,county,New York,"Malone, NY"
+37069,Franklin,county,North Carolina,"Raleigh-Cary, NC"
+39049,Franklin,county,Ohio,"Columbus, OH"
+42055,Franklin,county,Pennsylvania,"Chambersburg-Waynesboro, PA"
+47051,Franklin,county,Tennessee,"Tullahoma-Manchester, TN"
+48159,Franklin,county,Texas,
+50011,Franklin,county,Vermont,"Burlington-South Burlington, VT"
+51067,Franklin,county,Virginia,"Roanoke, VA"
+53021,Franklin,county,Washington,"Kennewick-Richland, WA"
+24021,Frederick,county,Maryland,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+51069,Frederick,county,Virginia,"Winchester, VA-WV"
+51630,Fredericksburg,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+27047,Freeborn,county,Minnesota,"Albert Lea, MN"
+48161,Freestone,county,Texas,
+08043,Fremont,county,Colorado,"Cañon City, CO"
+16043,Fremont,county,Idaho,"Rexburg, ID"
+19071,Fremont,county,Iowa,
+56013,Fremont,county,Wyoming,"Riverton, WY"
+06019,Fresno,county,California,"Fresno, CA"
+48163,Frio,county,Texas,"Pearsall, TX"
+31063,Frontier,county,Nebraska,
+05049,Fulton,county,Arkansas,
+13121,Fulton,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+17057,Fulton,county,Illinois,"Peoria, IL"
+18049,Fulton,county,Indiana,
+21075,Fulton,county,Kentucky,
+36035,Fulton,county,New York,"Gloversville, NY"
+39051,Fulton,county,Ohio,"Toledo, OH"
+42057,Fulton,county,Pennsylvania,
+31065,Furnas,county,Nebraska,
+12039,Gadsden,county,Florida,"Tallahassee, FL"
+31067,Gage,county,Nebraska,"Beatrice, NE"
+48165,Gaines,county,Texas,
+51640,Galax,county,Virginia,
+17059,Gallatin,county,Illinois,
+21077,Gallatin,county,Kentucky,"Cincinnati, OH-KY-IN"
+30031,Gallatin,county,Montana,"Bozeman, MT"
+39053,Gallia,county,Ohio,"Point Pleasant, WV-OH"
+48167,Galveston,county,Texas,"Houston-The Woodlands-Sugar Land, TX"
+31069,Garden,county,Nebraska,
+08045,Garfield,county,Colorado,"Glenwood Springs, CO"
+30033,Garfield,county,Montana,
+31071,Garfield,county,Nebraska,
+40047,Garfield,county,Oklahoma,"Enid, OK"
+49017,Garfield,county,Utah,
+53023,Garfield,county,Washington,
+05051,Garland,county,Arkansas,"Hot Springs, AR"
+21079,Garrard,county,Kentucky,
+24023,Garrett,county,Maryland,
+40049,Garvin,county,Oklahoma,
+48169,Garza,county,Texas,
+29073,Gasconade,county,Missouri,
+37071,Gaston,county,North Carolina,"Charlotte-Concord-Gastonia, NC-SC"
+37073,Gates,county,North Carolina,"Virginia Beach-Norfolk-Newport News, VA-NC"
+20061,Geary,county,Kansas,"Manhattan, KS"
+39055,Geauga,county,Ohio,"Cleveland-Elyria, OH"
+16045,Gem,county,Idaho,"Boise City, ID"
+26049,Genesee,county,Michigan,"Flint, MI"
+36037,Genesee,county,New York,"Batavia, NY"
+01061,Geneva,county,Alabama,"Dothan, AL"
+29075,Gentry,county,Missouri,
+28039,George,county,Mississippi,
+45043,Georgetown,county,South Carolina,"Georgetown, SC"
+18051,Gibson,county,Indiana,
+47053,Gibson,county,Tennessee,"Jackson, TN"
+04007,Gila,county,Arizona,"Payson, AZ"
+12041,Gilchrist,county,Florida,"Gainesville, FL"
+47055,Giles,county,Tennessee,
+51071,Giles,county,Virginia,"Blacksburg-Christiansburg, VA"
+48171,Gillespie,county,Texas,"Fredericksburg, TX"
+41021,Gilliam,county,Oregon,
+13123,Gilmer,county,Georgia,
+54021,Gilmer,county,West Virginia,
+08047,Gilpin,county,Colorado,"Denver-Aurora-Lakewood, CO"
+30035,Glacier,county,Montana,
+12043,Glades,county,Florida,
+26051,Gladwin,county,Michigan,
+13125,Glascock,county,Georgia,
+48173,Glasscock,county,Texas,
+06021,Glenn,county,California,
+34015,Gloucester,county,New Jersey,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"
+51073,Gloucester,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+13127,Glynn,county,Georgia,"Brunswick, GA"
+26053,Gogebic,county,Michigan,
+30037,Golden Valley,county,Montana,
+38033,Golden Valley,county,North Dakota,
+48175,Goliad,county,Texas,"Victoria, TX"
+48177,Gonzales,county,Texas,
+51075,Goochland,county,Virginia,"Richmond, VA"
+27049,Goodhue,county,Minnesota,"Red Wing, MN"
+16047,Gooding,county,Idaho,
+13129,Gordon,county,Georgia,"Calhoun, GA"
+56015,Goshen,county,Wyoming,
+31073,Gosper,county,Nebraska,"Lexington, NE"
+20063,Gove,county,Kansas,
+13131,Grady,county,Georgia,
+40051,Grady,county,Oklahoma,"Oklahoma City, OK"
+33009,Grafton,county,New Hampshire,"Lebanon, NH-VT"
+04009,Graham,county,Arizona,"Safford, AZ"
+20065,Graham,county,Kansas,
+37075,Graham,county,North Carolina,
+47057,Grainger,county,Tennessee,"Morristown, TN"
+38035,Grand Forks,county,North Dakota,"Grand Forks, ND-MN"
+50013,Grand Isle,county,Vermont,"Burlington-South Burlington, VT"
+26055,Grand Traverse,county,Michigan,"Traverse City, MI"
+08049,Grand,county,Colorado,
+49019,Grand,county,Utah,
+30039,Granite,county,Montana,
+05053,Grant,county,Arkansas,"Little Rock-North Little Rock-Conway, AR"
+18053,Grant,county,Indiana,"Marion, IN"
+20067,Grant,county,Kansas,
+21081,Grant,county,Kentucky,"Cincinnati, OH-KY-IN"
+22043,Grant,county,Louisiana,"Alexandria, LA"
+27051,Grant,county,Minnesota,
+31075,Grant,county,Nebraska,
+35017,Grant,county,New Mexico,"Silver City, NM"
+38037,Grant,county,North Dakota,
+40053,Grant,county,Oklahoma,
+41023,Grant,county,Oregon,
+46051,Grant,county,South Dakota,
+53025,Grant,county,Washington,"Moses Lake, WA"
+54023,Grant,county,West Virginia,
+55043,Grant,county,Wisconsin,"Platteville, WI"
+37077,Granville,county,North Carolina,"Durham-Chapel Hill, NC"
+26057,Gratiot,county,Michigan,"Alma, MI"
+21083,Graves,county,Kentucky,"Mayfield, KY"
+20069,Gray,county,Kansas,
+48179,Gray,county,Texas,"Pampa, TX"
+53027,Grays Harbor,county,Washington,"Aberdeen, WA"
+21085,Grayson,county,Kentucky,
+48181,Grayson,county,Texas,"Sherman-Denison, TX"
+51077,Grayson,county,Virginia,
+20071,Greeley,county,Kansas,
+31077,Greeley,county,Nebraska,
+55047,Green Lake,county,Wisconsin,
+21087,Green,county,Kentucky,"Campbellsville, KY"
+55045,Green,county,Wisconsin,"Madison, WI"
+54025,Greenbrier,county,West Virginia,
+01063,Greene,county,Alabama,"Tuscaloosa, AL"
+05055,Greene,county,Arkansas,"Paragould, AR"
+13133,Greene,county,Georgia,
+17061,Greene,county,Illinois,
+18055,Greene,county,Indiana,
+19073,Greene,county,Iowa,
+28041,Greene,county,Mississippi,
+29077,Greene,county,Missouri,"Springfield, MO"
+36039,Greene,county,New York,
+37079,Greene,county,North Carolina,
+39057,Greene,county,Ohio,"Dayton-Kettering, OH"
+42059,Greene,county,Pennsylvania,
+47059,Greene,county,Tennessee,"Greeneville, TN"
+51079,Greene,county,Virginia,"Charlottesville, VA"
+04011,Greenlee,county,Arizona,
+51081,Greensville,county,Virginia,
+21089,Greenup,county,Kentucky,"Huntington-Ashland, WV-KY-OH"
+45045,Greenville,county,South Carolina,"Greenville-Anderson, SC"
+20073,Greenwood,county,Kansas,
+45047,Greenwood,county,South Carolina,"Greenwood, SC"
+40055,Greer,county,Oklahoma,
+48183,Gregg,county,Texas,"Longview, TX"
+46053,Gregory,county,South Dakota,
+28043,Grenada,county,Mississippi,"Grenada, MS"
+38039,Griggs,county,North Dakota,
+48185,Grimes,county,Texas,
+17063,Grundy,county,Illinois,"Chicago-Naperville-Elgin, IL-IN-WI"
+19075,Grundy,county,Iowa,"Waterloo-Cedar Falls, IA"
+29079,Grundy,county,Missouri,
+47061,Grundy,county,Tennessee,
+35019,Guadalupe,county,New Mexico,
+48187,Guadalupe,county,Texas,"San Antonio-New Braunfels, TX"
+39059,Guernsey,county,Ohio,"Cambridge, OH"
+37081,Guilford,county,North Carolina,"Greensboro-High Point, NC"
+12045,Gulf,county,Florida,
+08051,Gunnison,county,Colorado,
+19077,Guthrie,county,Iowa,"Des Moines-West Des Moines, IA"
+13135,Gwinnett,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+46055,Haakon,county,South Dakota,
+13137,Habersham,county,Georgia,"Cornelia, GA"
+02100,Haines,county,Alaska,
+01065,Hale,county,Alabama,"Tuscaloosa, AL"
+48189,Hale,county,Texas,"Plainview, TX"
+37083,Halifax,county,North Carolina,"Roanoke Rapids, NC"
+51083,Halifax,county,Virginia,
+13139,Hall,county,Georgia,"Gainesville, GA"
+31079,Hall,county,Nebraska,"Grand Island, NE"
+48191,Hall,county,Texas,
+47063,Hamblen,county,Tennessee,"Morristown, TN"
+12047,Hamilton,county,Florida,
+17065,Hamilton,county,Illinois,
+18057,Hamilton,county,Indiana,"Indianapolis-Carmel-Anderson, IN"
+19079,Hamilton,county,Iowa,
+20075,Hamilton,county,Kansas,
+31081,Hamilton,county,Nebraska,
+36041,Hamilton,county,New York,
+39061,Hamilton,county,Ohio,"Cincinnati, OH-KY-IN"
+47065,Hamilton,county,Tennessee,"Chattanooga, TN-GA"
+48193,Hamilton,county,Texas,
+46057,Hamlin,county,South Dakota,"Watertown, SD"
+25013,Hampden,county,Massachusetts,"Springfield, MA"
+25015,Hampshire,county,Massachusetts,"Springfield, MA"
+54027,Hampshire,county,West Virginia,"Winchester, VA-WV"
+45049,Hampton,county,South Carolina,
+51650,Hampton,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+13141,Hancock,county,Georgia,"Milledgeville, GA"
+17067,Hancock,county,Illinois,"Fort Madison-Keokuk, IA-IL-MO"
+18059,Hancock,county,Indiana,"Indianapolis-Carmel-Anderson, IN"
+19081,Hancock,county,Iowa,
+21091,Hancock,county,Kentucky,"Owensboro, KY"
+23009,Hancock,county,Maine,
+28045,Hancock,county,Mississippi,"Gulfport-Biloxi, MS"
+39063,Hancock,county,Ohio,"Findlay, OH"
+47067,Hancock,county,Tennessee,
+54029,Hancock,county,West Virginia,"Weirton-Steubenville, WV-OH"
+46059,Hand,county,South Dakota,
+51085,Hanover,county,Virginia,"Richmond, VA"
+48195,Hansford,county,Texas,
+46061,Hanson,county,South Dakota,"Mitchell, SD"
+13143,Haralson,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+12049,Hardee,county,Florida,"Wauchula, FL"
+47069,Hardeman,county,Tennessee,
+48197,Hardeman,county,Texas,
+17069,Hardin,county,Illinois,
+19083,Hardin,county,Iowa,
+21093,Hardin,county,Kentucky,"Elizabethtown-Fort Knox, KY"
+39065,Hardin,county,Ohio,
+47071,Hardin,county,Tennessee,
+48199,Hardin,county,Texas,"Beaumont-Port Arthur, TX"
+35021,Harding,county,New Mexico,
+46063,Harding,county,South Dakota,
+54031,Hardy,county,West Virginia,
+24025,Harford,county,Maryland,"Baltimore-Columbia-Towson, MD"
+21095,Harlan,county,Kentucky,
+31083,Harlan,county,Nebraska,
+40057,Harmon,county,Oklahoma,
+37085,Harnett,county,North Carolina,"Fayetteville, NC"
+41025,Harney,county,Oregon,
+20077,Harper,county,Kansas,
+40059,Harper,county,Oklahoma,
+13145,Harris,county,Georgia,"Columbus, GA-AL"
+48201,Harris,county,Texas,"Houston-The Woodlands-Sugar Land, TX"
+18061,Harrison,county,Indiana,"Louisville/Jefferson County, KY-IN"
+19085,Harrison,county,Iowa,"Omaha-Council Bluffs, NE-IA"
+21097,Harrison,county,Kentucky,
+28047,Harrison,county,Mississippi,"Gulfport-Biloxi, MS"
+29081,Harrison,county,Missouri,
+39067,Harrison,county,Ohio,
+48203,Harrison,county,Texas,"Longview, TX"
+54033,Harrison,county,West Virginia,"Clarksburg, WV"
+51660,Harrisonburg,county,Virginia,"Harrisonburg, VA"
+13147,Hart,county,Georgia,
+21099,Hart,county,Kentucky,
+09003,Hartford,county,Connecticut,"Hartford-East Hartford-Middletown, CT"
+48205,Hartley,county,Texas,
+20079,Harvey,county,Kansas,"Wichita, KS"
+20081,Haskell,county,Kansas,
+40061,Haskell,county,Oklahoma,
+48207,Haskell,county,Texas,
+15001,Hawaii,county,Hawaii,"Hilo, HI"
+47073,Hawkins,county,Tennessee,"Kingsport-Bristol, TN-VA"
+31085,Hayes,county,Nebraska,
+48209,Hays,county,Texas,"Austin-Round Rock-Georgetown, TX"
+37087,Haywood,county,North Carolina,"Asheville, NC"
+47075,Haywood,county,Tennessee,"Brownsville, TN"
+13149,Heard,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+48211,Hemphill,county,Texas,
+05057,Hempstead,county,Arkansas,"Hope, AR"
+17071,Henderson,county,Illinois,"Burlington, IA-IL"
+21101,Henderson,county,Kentucky,"Evansville, IN-KY"
+37089,Henderson,county,North Carolina,"Asheville, NC"
+47077,Henderson,county,Tennessee,
+48213,Henderson,county,Texas,"Athens, TX"
+18063,Hendricks,county,Indiana,"Indianapolis-Carmel-Anderson, IN"
+12051,Hendry,county,Florida,"Clewiston, FL"
+27053,Hennepin,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+51087,Henrico,county,Virginia,"Richmond, VA"
+01067,Henry,county,Alabama,"Dothan, AL"
+13151,Henry,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+17073,Henry,county,Illinois,"Davenport-Moline-Rock Island, IA-IL"
+18065,Henry,county,Indiana,"New Castle, IN"
+19087,Henry,county,Iowa,
+21103,Henry,county,Kentucky,"Louisville/Jefferson County, KY-IN"
+29083,Henry,county,Missouri,
+39069,Henry,county,Ohio,
+47079,Henry,county,Tennessee,"Paris, TN"
+51089,Henry,county,Virginia,"Martinsville, VA"
+36043,Herkimer,county,New York,"Utica-Rome, NY"
+12053,Hernando,county,Florida,"Tampa-St. Petersburg-Clearwater, FL"
+37091,Hertford,county,North Carolina,
+38041,Hettinger,county,North Dakota,
+21105,Hickman,county,Kentucky,
+47081,Hickman,county,Tennessee,
+29085,Hickory,county,Missouri,
+35023,Hidalgo,county,New Mexico,
+48215,Hidalgo,county,Texas,"McAllen-Edinburg-Mission, TX"
+39071,Highland,county,Ohio,
+51091,Highland,county,Virginia,
+12055,Highlands,county,Florida,"Sebring-Avon Park, FL"
+30041,Hill,county,Montana,
+48217,Hill,county,Texas,
+12057,Hillsborough,county,Florida,"Tampa-St. Petersburg-Clearwater, FL"
+33011,Hillsborough,county,New Hampshire,"Manchester-Nashua, NH"
+26059,Hillsdale,county,Michigan,"Hillsdale, MI"
+28049,Hinds,county,Mississippi,"Jackson, MS"
+08053,Hinsdale,county,Colorado,
+31087,Hitchcock,county,Nebraska,
+39073,Hocking,county,Ohio,"Columbus, OH"
+48219,Hockley,county,Texas,"Levelland, TX"
+20083,Hodgeman,county,Kansas,
+37093,Hoke,county,North Carolina,"Fayetteville, NC"
+12059,Holmes,county,Florida,
+28051,Holmes,county,Mississippi,"Jackson, MS"
+39075,Holmes,county,Ohio,
+29087,Holt,county,Missouri,
+31089,Holt,county,Nebraska,
+15003,Honolulu,county,Hawaii,"Urban Honolulu, HI"
+41027,Hood River,county,Oregon,"Hood River, OR"
+48221,Hood,county,Texas,"Granbury, TX"
+31091,Hooker,county,Nebraska,
+51670,Hopewell,county,Virginia,"Richmond, VA"
+21107,Hopkins,county,Kentucky,"Madisonville, KY"
+48223,Hopkins,county,Texas,"Sulphur Springs, TX"
+45051,Horry,county,South Carolina,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC"
+05059,Hot Spring,county,Arkansas,"Malvern, AR"
+56017,Hot Springs,county,Wyoming,
+26061,Houghton,county,Michigan,"Houghton, MI"
+01069,Houston,county,Alabama,"Dothan, AL"
+13153,Houston,county,Georgia,"Warner Robins, GA"
+27055,Houston,county,Minnesota,"La Crosse-Onalaska, WI-MN"
+47083,Houston,county,Tennessee,
+48225,Houston,county,Texas,
+05061,Howard,county,Arkansas,
+18067,Howard,county,Indiana,"Kokomo, IN"
+19089,Howard,county,Iowa,
+24027,Howard,county,Maryland,"Baltimore-Columbia-Towson, MD"
+29089,Howard,county,Missouri,"Columbia, MO"
+31093,Howard,county,Nebraska,"Grand Island, NE"
+48227,Howard,county,Texas,"Big Spring, TX"
+29091,Howell,county,Missouri,"West Plains, MO"
+27057,Hubbard,county,Minnesota,
+34017,Hudson,county,New Jersey,"New York-Newark-Jersey City, NY-NJ-PA"
+48229,Hudspeth,county,Texas,"El Paso, TX"
+08055,Huerfano,county,Colorado,
+40063,Hughes,county,Oklahoma,
+46065,Hughes,county,South Dakota,"Pierre, SD"
+06023,Humboldt,county,California,"Eureka-Arcata, CA"
+19091,Humboldt,county,Iowa,
+32013,Humboldt,county,Nevada,"Winnemucca, NV"
+28053,Humphreys,county,Mississippi,
+47085,Humphreys,county,Tennessee,
+48231,Hunt,county,Texas,"Dallas-Fort Worth-Arlington, TX"
+34019,Hunterdon,county,New Jersey,"New York-Newark-Jersey City, NY-NJ-PA"
+42061,Huntingdon,county,Pennsylvania,"Huntingdon, PA"
+18069,Huntington,county,Indiana,"Huntington, IN"
+26063,Huron,county,Michigan,
+39077,Huron,county,Ohio,"Norwalk, OH"
+46067,Hutchinson,county,South Dakota,
+48233,Hutchinson,county,Texas,"Borger, TX"
+37095,Hyde,county,North Carolina,
+46069,Hyde,county,South Dakota,
+22045,Iberia,county,Louisiana,"Lafayette, LA"
+22047,Iberville,county,Louisiana,"Baton Rouge, LA"
+19093,Ida,county,Iowa,
+16049,Idaho,county,Idaho,
+06025,Imperial,county,California,"El Centro, CA"
+05063,Independence,county,Arkansas,"Batesville, AR"
+12061,Indian River,county,Florida,"Sebastian-Vero Beach, FL"
+42063,Indiana,county,Pennsylvania,"Indiana, PA"
+26065,Ingham,county,Michigan,"Lansing-East Lansing, MI"
+06027,Inyo,county,California,
+26067,Ionia,county,Michigan,"Grand Rapids-Kentwood, MI"
+26069,Iosco,county,Michigan,
+19095,Iowa,county,Iowa,
+55049,Iowa,county,Wisconsin,"Madison, WI"
+37097,Iredell,county,North Carolina,"Charlotte-Concord-Gastonia, NC-SC"
+48235,Irion,county,Texas,"San Angelo, TX"
+26071,Iron,county,Michigan,
+29093,Iron,county,Missouri,
+49021,Iron,county,Utah,"Cedar City, UT"
+55051,Iron,county,Wisconsin,
+17075,Iroquois,county,Illinois,
+13155,Irwin,county,Georgia,
+26073,Isabella,county,Michigan,"Mount Pleasant, MI"
+27059,Isanti,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+53029,Island,county,Washington,"Oak Harbor, WA"
+51093,Isle of Wight,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+28055,Issaquena,county,Mississippi,
+27061,Itasca,county,Minnesota,"Grand Rapids, MN"
+28057,Itawamba,county,Mississippi,"Tupelo, MS"
+05065,Izard,county,Arkansas,
+48237,Jack,county,Texas,
+01071,Jackson,county,Alabama,"Scottsboro, AL"
+05067,Jackson,county,Arkansas,
+08057,Jackson,county,Colorado,
+12063,Jackson,county,Florida,
+13157,Jackson,county,Georgia,"Jefferson, GA"
+17077,Jackson,county,Illinois,"Carbondale-Marion, IL"
+18071,Jackson,county,Indiana,"Seymour, IN"
+19097,Jackson,county,Iowa,
+20085,Jackson,county,Kansas,"Topeka, KS"
+21109,Jackson,county,Kentucky,
+22049,Jackson,county,Louisiana,
+26075,Jackson,county,Michigan,"Jackson, MI"
+27063,Jackson,county,Minnesota,
+28059,Jackson,county,Mississippi,"Gulfport-Biloxi, MS"
+29095,Jackson,county,Missouri,"Kansas City, MO-KS"
+37099,Jackson,county,North Carolina,"Cullowhee, NC"
+39079,Jackson,county,Ohio,"Jackson, OH"
+40065,Jackson,county,Oklahoma,"Altus, OK"
+41029,Jackson,county,Oregon,"Medford, OR"
+46071,Jackson,county,South Dakota,
+47087,Jackson,county,Tennessee,"Cookeville, TN"
+48239,Jackson,county,Texas,
+54035,Jackson,county,West Virginia,"Charleston, WV"
+55053,Jackson,county,Wisconsin,
+51095,James City,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+13159,Jasper,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+17079,Jasper,county,Illinois,
+18073,Jasper,county,Indiana,"Chicago-Naperville-Elgin, IL-IN-WI"
+19099,Jasper,county,Iowa,"Des Moines-West Des Moines, IA"
+28061,Jasper,county,Mississippi,"Laurel, MS"
+29097,Jasper,county,Missouri,"Joplin, MO"
+45053,Jasper,county,South Carolina,"Hilton Head Island-Bluffton, SC"
+48241,Jasper,county,Texas,
+18075,Jay,county,Indiana,
+13161,Jeff Davis,county,Georgia,
+48243,Jeff Davis,county,Texas,
+22053,Jefferson Davis,county,Louisiana,"Jennings, LA"
+28065,Jefferson Davis,county,Mississippi,
+01073,Jefferson,county,Alabama,"Birmingham-Hoover, AL"
+05069,Jefferson,county,Arkansas,"Pine Bluff, AR"
+08059,Jefferson,county,Colorado,"Denver-Aurora-Lakewood, CO"
+12065,Jefferson,county,Florida,"Tallahassee, FL"
+13163,Jefferson,county,Georgia,
+16051,Jefferson,county,Idaho,"Idaho Falls, ID"
+17081,Jefferson,county,Illinois,"Mount Vernon, IL"
+18077,Jefferson,county,Indiana,"Madison, IN"
+19101,Jefferson,county,Iowa,"Fairfield, IA"
+20087,Jefferson,county,Kansas,"Topeka, KS"
+21111,Jefferson,county,Kentucky,"Louisville/Jefferson County, KY-IN"
+22051,Jefferson,county,Louisiana,"New Orleans-Metairie, LA"
+28063,Jefferson,county,Mississippi,
+29099,Jefferson,county,Missouri,"St. Louis, MO-IL"
+30043,Jefferson,county,Montana,"Helena, MT"
+31095,Jefferson,county,Nebraska,
+36045,Jefferson,county,New York,"Watertown-Fort Drum, NY"
+39081,Jefferson,county,Ohio,"Weirton-Steubenville, WV-OH"
+40067,Jefferson,county,Oklahoma,
+41031,Jefferson,county,Oregon,
+42065,Jefferson,county,Pennsylvania,
+47089,Jefferson,county,Tennessee,"Morristown, TN"
+48245,Jefferson,county,Texas,"Beaumont-Port Arthur, TX"
+53031,Jefferson,county,Washington,
+54037,Jefferson,county,West Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+55055,Jefferson,county,Wisconsin,"Watertown-Fort Atkinson, WI"
+13165,Jenkins,county,Georgia,
+18079,Jennings,county,Indiana,"North Vernon, IN"
+46073,Jerauld,county,South Dakota,"Huron, SD"
+16053,Jerome,county,Idaho,"Twin Falls, ID"
+17083,Jersey,county,Illinois,"St. Louis, MO-IL"
+21113,Jessamine,county,Kentucky,"Lexington-Fayette, KY"
+20089,Jewell,county,Kansas,
+48247,Jim Hogg,county,Texas,
+48249,Jim Wells,county,Texas,"Alice, TX"
+17085,Jo Daviess,county,Illinois,
+05071,Johnson,county,Arkansas,
+13167,Johnson,county,Georgia,"Dublin, GA"
+17087,Johnson,county,Illinois,"Carbondale-Marion, IL"
+18081,Johnson,county,Indiana,"Indianapolis-Carmel-Anderson, IN"
+19103,Johnson,county,Iowa,"Iowa City, IA"
+20091,Johnson,county,Kansas,"Kansas City, MO-KS"
+21115,Johnson,county,Kentucky,
+29101,Johnson,county,Missouri,"Warrensburg, MO"
+31097,Johnson,county,Nebraska,
+47091,Johnson,county,Tennessee,
+48251,Johnson,county,Texas,"Dallas-Fort Worth-Arlington, TX"
+56019,Johnson,county,Wyoming,
+37101,Johnston,county,North Carolina,"Raleigh-Cary, NC"
+40069,Johnston,county,Oklahoma,
+13169,Jones,county,Georgia,"Macon-Bibb County, GA"
+19105,Jones,county,Iowa,"Cedar Rapids, IA"
+28067,Jones,county,Mississippi,"Laurel, MS"
+37103,Jones,county,North Carolina,"New Bern, NC"
+46075,Jones,county,South Dakota,
+48253,Jones,county,Texas,"Abilene, TX"
+41033,Josephine,county,Oregon,"Grants Pass, OR"
+49023,Juab,county,Utah,"Provo-Orem, UT"
+30045,Judith Basin,county,Montana,
+02110,Juneau,county,Alaska,"Juneau, AK"
+55057,Juneau,county,Wisconsin,
+42067,Juniata,county,Pennsylvania,
+26077,Kalamazoo,county,Michigan,"Kalamazoo-Portage, MI"
+26079,Kalkaska,county,Michigan,"Traverse City, MI"
+27065,Kanabec,county,Minnesota,
+54039,Kanawha,county,West Virginia,"Charleston, WV"
+27067,Kandiyohi,county,Minnesota,"Willmar, MN"
+17089,Kane,county,Illinois,"Chicago-Naperville-Elgin, IL-IN-WI"
+49025,Kane,county,Utah,
+17091,Kankakee,county,Illinois,"Kankakee, IL"
+48255,Karnes,county,Texas,
+15007,Kauai,county,Hawaii,"Kapaa, HI"
+48257,Kaufman,county,Texas,"Dallas-Fort Worth-Arlington, TX"
+40071,Kay,county,Oklahoma,"Ponca City, OK"
+31099,Kearney,county,Nebraska,"Kearney, NE"
+20093,Kearny,county,Kansas,"Garden City, KS"
+31101,Keith,county,Nebraska,
+28069,Kemper,county,Mississippi,"Meridian, MS"
+02122,Kenai Peninsula,county,Alaska,
+17093,Kendall,county,Illinois,"Chicago-Naperville-Elgin, IL-IN-WI"
+48259,Kendall,county,Texas,"San Antonio-New Braunfels, TX"
+48261,Kenedy,county,Texas,"Kingsville, TX"
+23011,Kennebec,county,Maine,"Augusta-Waterville, ME"
+55059,Kenosha,county,Wisconsin,"Chicago-Naperville-Elgin, IL-IN-WI"
+10001,Kent,county,Delaware,"Dover, DE"
+24029,Kent,county,Maryland,
+26081,Kent,county,Michigan,"Grand Rapids-Kentwood, MI"
+44003,Kent,county,Rhode Island,"Providence-Warwick, RI-MA"
+48263,Kent,county,Texas,
+21117,Kenton,county,Kentucky,"Cincinnati, OH-KY-IN"
+19107,Keokuk,county,Iowa,
+06029,Kern,county,California,"Bakersfield, CA"
+48265,Kerr,county,Texas,"Kerrville, TX"
+45055,Kershaw,county,South Carolina,"Columbia, SC"
+02130,Ketchikan Gateway,county,Alaska,"Ketchikan, AK"
+55061,Kewaunee,county,Wisconsin,"Green Bay, WI"
+26083,Keweenaw,county,Michigan,"Houghton, MI"
+31103,Keya Paha,county,Nebraska,
+38043,Kidder,county,North Dakota,
+31105,Kimball,county,Nebraska,
+48267,Kimble,county,Texas,
+51099,King George,county,Virginia,
+51101,King William,county,Virginia,"Richmond, VA"
+48269,King,county,Texas,
+53033,King,county,Washington,"Seattle-Tacoma-Bellevue, WA"
+51097,King and Queen,county,Virginia,"Richmond, VA"
+40073,Kingfisher,county,Oklahoma,
+20095,Kingman,county,Kansas,
+06031,Kings,county,California,"Hanford-Corcoran, CA"
+36047,Kings,county,New York,"New York-Newark-Jersey City, NY-NJ-PA"
+46077,Kingsbury,county,South Dakota,
+48271,Kinney,county,Texas,
+08061,Kiowa,county,Colorado,
+20097,Kiowa,county,Kansas,
+40075,Kiowa,county,Oklahoma,
+08063,Kit Carson,county,Colorado,
+53035,Kitsap,county,Washington,"Bremerton-Silverdale-Port Orchard, WA"
+53037,Kittitas,county,Washington,"Ellensburg, WA"
+27069,Kittson,county,Minnesota,
+41035,Klamath,county,Oregon,"Klamath Falls, OR"
+48273,Kleberg,county,Texas,"Kingsville, TX"
+53039,Klickitat,county,Washington,
+21119,Knott,county,Kentucky,
+17095,Knox,county,Illinois,"Galesburg, IL"
+18083,Knox,county,Indiana,"Vincennes, IN"
+21121,Knox,county,Kentucky,"London, KY"
+23013,Knox,county,Maine,
+29103,Knox,county,Missouri,
+31107,Knox,county,Nebraska,
+39083,Knox,county,Ohio,"Mount Vernon, OH"
+47093,Knox,county,Tennessee,"Knoxville, TN"
+48275,Knox,county,Texas,
+02150,Kodiak Island,county,Alaska,
+27071,Koochiching,county,Minnesota,
+16055,Kootenai,county,Idaho,"Coeur d'Alene, ID"
+18085,Kosciusko,county,Indiana,"Warsaw, IN"
+19109,Kossuth,county,Iowa,
+55063,La Crosse,county,Wisconsin,"La Crosse-Onalaska, WI-MN"
+18087,LaGrange,county,Indiana,
+38045,LaMoure,county,North Dakota,
+04012,La Paz,county,Arizona,
+08067,La Plata,county,Colorado,"Durango, CO"
+18091,LaPorte,county,Indiana,"Michigan City-La Porte, IN"
+17099,LaSalle,county,Illinois,"Ottawa, IL"
+22059,LaSalle,county,Louisiana,
+48283,La Salle,county,Texas,
+20099,Labette,county,Kansas,"Parsons, KS"
+42069,Lackawanna,county,Pennsylvania,"Scranton--Wilkes-Barre, PA"
+29105,Laclede,county,Missouri,"Lebanon, MO"
+27073,Lac qui Parle,county,Minnesota,
+05073,Lafayette,county,Arkansas,
+12067,Lafayette,county,Florida,
+22055,Lafayette,county,Louisiana,"Lafayette, LA"
+28071,Lafayette,county,Mississippi,"Oxford, MS"
+29107,Lafayette,county,Missouri,"Kansas City, MO-KS"
+55065,Lafayette,county,Wisconsin,
+22057,Lafourche,county,Louisiana,"Houma-Thibodaux, LA"
+06033,Lake,county,California,"Clearlake, CA"
+08065,Lake,county,Colorado,
+12069,Lake,county,Florida,"Orlando-Kissimmee-Sanford, FL"
+17097,Lake,county,Illinois,"Chicago-Naperville-Elgin, IL-IN-WI"
+18089,Lake,county,Indiana,"Chicago-Naperville-Elgin, IL-IN-WI"
+26085,Lake,county,Michigan,
+27075,Lake,county,Minnesota,"Duluth, MN-WI"
+30047,Lake,county,Montana,
+39085,Lake,county,Ohio,"Cleveland-Elyria, OH"
+41037,Lake,county,Oregon,
+46079,Lake,county,South Dakota,
+47095,Lake,county,Tennessee,
+02164,Lake and Peninsula,county,Alaska,
+27077,Lake of the Woods,county,Minnesota,
+01075,Lamar,county,Alabama,
+13171,Lamar,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+28073,Lamar,county,Mississippi,"Hattiesburg, MS"
+48277,Lamar,county,Texas,"Paris, TX"
+48279,Lamb,county,Texas,
+50015,Lamoille,county,Vermont,
+48281,Lampasas,county,Texas,"Killeen-Temple, TX"
+31109,Lancaster,county,Nebraska,"Lincoln, NE"
+42071,Lancaster,county,Pennsylvania,"Lancaster, PA"
+45057,Lancaster,county,South Carolina,"Charlotte-Concord-Gastonia, NC-SC"
+51103,Lancaster,county,Virginia,
+32015,Lander,county,Nevada,
+20101,Lane,county,Kansas,
+41039,Lane,county,Oregon,"Eugene-Springfield, OR"
+55067,Langlade,county,Wisconsin,
+13173,Lanier,county,Georgia,"Valdosta, GA"
+26087,Lapeer,county,Michigan,"Detroit-Warren-Dearborn, MI"
+56021,Laramie,county,Wyoming,"Cheyenne, WY"
+08069,Larimer,county,Colorado,"Fort Collins, CO"
+21123,Larue,county,Kentucky,"Elizabethtown-Fort Knox, KY"
+08071,Las Animas,county,Colorado,
+06035,Lassen,county,California,"Susanville, CA"
+16057,Latah,county,Idaho,"Moscow, ID"
+40077,Latimer,county,Oklahoma,
+01077,Lauderdale,county,Alabama,"Florence-Muscle Shoals, AL"
+28075,Lauderdale,county,Mississippi,"Meridian, MS"
+47097,Lauderdale,county,Tennessee,
+21125,Laurel,county,Kentucky,"London, KY"
+13175,Laurens,county,Georgia,"Dublin, GA"
+45059,Laurens,county,South Carolina,"Greenville-Anderson, SC"
+48285,Lavaca,county,Texas,
+01079,Lawrence,county,Alabama,"Decatur, AL"
+05075,Lawrence,county,Arkansas,
+17101,Lawrence,county,Illinois,
+18093,Lawrence,county,Indiana,"Bedford, IN"
+21127,Lawrence,county,Kentucky,
+28077,Lawrence,county,Mississippi,
+29109,Lawrence,county,Missouri,
+39087,Lawrence,county,Ohio,"Huntington-Ashland, WV-KY-OH"
+42073,Lawrence,county,Pennsylvania,"New Castle, PA"
+46081,Lawrence,county,South Dakota,"Spearfish, SD"
+47099,Lawrence,county,Tennessee,"Lawrenceburg, TN"
+40079,Le Flore,county,Oklahoma,
+27079,Le Sueur,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+35025,Lea,county,New Mexico,"Hobbs, NM"
+28079,Leake,county,Mississippi,
+20103,Leavenworth,county,Kansas,"Kansas City, MO-KS"
+42075,Lebanon,county,Pennsylvania,"Lebanon, PA"
+01081,Lee,county,Alabama,"Auburn-Opelika, AL"
+05077,Lee,county,Arkansas,
+12071,Lee,county,Florida,"Cape Coral-Fort Myers, FL"
+13177,Lee,county,Georgia,"Albany, GA"
+17103,Lee,county,Illinois,"Dixon, IL"
+19111,Lee,county,Iowa,"Fort Madison-Keokuk, IA-IL-MO"
+21129,Lee,county,Kentucky,
+28081,Lee,county,Mississippi,"Tupelo, MS"
+37105,Lee,county,North Carolina,"Sanford, NC"
+45061,Lee,county,South Carolina,
+48287,Lee,county,Texas,
+51105,Lee,county,Virginia,
+26089,Leelanau,county,Michigan,"Traverse City, MI"
+28083,Leflore,county,Mississippi,"Greenwood, MS"
+42077,Lehigh,county,Pennsylvania,"Allentown-Bethlehem-Easton, PA-NJ"
+16059,Lemhi,county,Idaho,
+26091,Lenawee,county,Michigan,"Adrian, MI"
+37107,Lenoir,county,North Carolina,"Kinston, NC"
+12073,Leon,county,Florida,"Tallahassee, FL"
+48289,Leon,county,Texas,
+21131,Leslie,county,Kentucky,
+21133,Letcher,county,Kentucky,
+12075,Levy,county,Florida,"Gainesville, FL"
+16061,Lewis,county,Idaho,
+21135,Lewis,county,Kentucky,
+29111,Lewis,county,Missouri,"Quincy, IL-MO"
+36049,Lewis,county,New York,
+47101,Lewis,county,Tennessee,
+53041,Lewis,county,Washington,"Centralia, WA"
+54041,Lewis,county,West Virginia,
+30049,Lewis and Clark,county,Montana,"Helena, MT"
+45063,Lexington,county,South Carolina,"Columbia, SC"
+51678,Lexington,county,Virginia,
+12077,Liberty,county,Florida,
+13179,Liberty,county,Georgia,"Hinesville, GA"
+30051,Liberty,county,Montana,
+48291,Liberty,county,Texas,"Houston-The Woodlands-Sugar Land, TX"
+39089,Licking,county,Ohio,"Columbus, OH"
+01083,Limestone,county,Alabama,"Huntsville, AL"
+48293,Limestone,county,Texas,
+05079,Lincoln,county,Arkansas,"Pine Bluff, AR"
+08073,Lincoln,county,Colorado,
+13181,Lincoln,county,Georgia,"Augusta-Richmond County, GA-SC"
+16063,Lincoln,county,Idaho,
+20105,Lincoln,county,Kansas,
+21137,Lincoln,county,Kentucky,"Danville, KY"
+22061,Lincoln,county,Louisiana,"Ruston, LA"
+23015,Lincoln,county,Maine,
+27081,Lincoln,county,Minnesota,
+28085,Lincoln,county,Mississippi,"Brookhaven, MS"
+29113,Lincoln,county,Missouri,"St. Louis, MO-IL"
+30053,Lincoln,county,Montana,
+31111,Lincoln,county,Nebraska,"North Platte, NE"
+32017,Lincoln,county,Nevada,
+35027,Lincoln,county,New Mexico,"Ruidoso, NM"
+37109,Lincoln,county,North Carolina,"Charlotte-Concord-Gastonia, NC-SC"
+40081,Lincoln,county,Oklahoma,"Oklahoma City, OK"
+41041,Lincoln,county,Oregon,"Newport, OR"
+46083,Lincoln,county,South Dakota,"Sioux Falls, SD"
+47103,Lincoln,county,Tennessee,
+53043,Lincoln,county,Washington,
+54043,Lincoln,county,West Virginia,"Charleston, WV"
+55069,Lincoln,county,Wisconsin,"Wausau-Weston, WI"
+56023,Lincoln,county,Wyoming,
+19113,Linn,county,Iowa,"Cedar Rapids, IA"
+20107,Linn,county,Kansas,"Kansas City, MO-KS"
+29115,Linn,county,Missouri,
+41043,Linn,county,Oregon,"Albany-Lebanon, OR"
+48295,Lipscomb,county,Texas,
+09005,Litchfield,county,Connecticut,"Torrington, CT"
+05081,Little River,county,Arkansas,"Texarkana, TX-AR"
+48297,Live Oak,county,Texas,
+17105,Livingston,county,Illinois,"Pontiac, IL"
+21139,Livingston,county,Kentucky,"Paducah, KY-IL"
+22063,Livingston,county,Louisiana,"Baton Rouge, LA"
+26093,Livingston,county,Michigan,"Detroit-Warren-Dearborn, MI"
+29117,Livingston,county,Missouri,
+36051,Livingston,county,New York,"Rochester, NY"
+48299,Llano,county,Texas,
+05083,Logan,county,Arkansas,
+08075,Logan,county,Colorado,"Sterling, CO"
+17107,Logan,county,Illinois,"Lincoln, IL"
+20109,Logan,county,Kansas,
+21141,Logan,county,Kentucky,
+31113,Logan,county,Nebraska,"North Platte, NE"
+38047,Logan,county,North Dakota,
+39091,Logan,county,Ohio,"Bellefontaine, OH"
+40083,Logan,county,Oklahoma,"Oklahoma City, OK"
+54045,Logan,county,West Virginia,"Mount Gay-Shamrock, WV"
+13183,Long,county,Georgia,"Hinesville, GA"
+05085,Lonoke,county,Arkansas,"Little Rock-North Little Rock-Conway, AR"
+39093,Lorain,county,Ohio,"Cleveland-Elyria, OH"
+35028,Los Alamos,county,New Mexico,"Los Alamos, NM"
+06037,Los Angeles,county,California,"Los Angeles-Long Beach-Anaheim, CA"
+47105,Loudon,county,Tennessee,"Knoxville, TN"
+51107,Loudoun,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+19115,Louisa,county,Iowa,
+51109,Louisa,county,Virginia,
+31115,Loup,county,Nebraska,
+40085,Love,county,Oklahoma,"Ardmore, OK"
+48301,Loving,county,Texas,"Pecos, TX"
+01085,Lowndes,county,Alabama,"Montgomery, AL"
+13185,Lowndes,county,Georgia,"Valdosta, GA"
+28087,Lowndes,county,Mississippi,"Columbus, MS"
+48303,Lubbock,county,Texas,"Lubbock, TX"
+19117,Lucas,county,Iowa,
+39095,Lucas,county,Ohio,"Toledo, OH"
+26095,Luce,county,Michigan,
+13187,Lumpkin,county,Georgia,
+35029,Luna,county,New Mexico,"Deming, NM"
+51111,Lunenburg,county,Virginia,
+42079,Luzerne,county,Pennsylvania,"Scranton--Wilkes-Barre, PA"
+42081,Lycoming,county,Pennsylvania,"Williamsport, PA"
+46085,Lyman,county,South Dakota,
+51680,Lynchburg,county,Virginia,"Lynchburg, VA"
+48305,Lynn,county,Texas,"Lubbock, TX"
+19119,Lyon,county,Iowa,
+20111,Lyon,county,Kansas,"Emporia, KS"
+21143,Lyon,county,Kentucky,
+27083,Lyon,county,Minnesota,"Marshall, MN"
+32019,Lyon,county,Nevada,"Fernley, NV"
+26097,Mackinac,county,Michigan,
+26099,Macomb,county,Michigan,"Detroit-Warren-Dearborn, MI"
+01087,Macon,county,Alabama,
+13193,Macon,county,Georgia,
+17115,Macon,county,Illinois,"Decatur, IL"
+29121,Macon,county,Missouri,
+37113,Macon,county,North Carolina,
+47111,Macon,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+17117,Macoupin,county,Illinois,"St. Louis, MO-IL"
+06039,Madera,county,California,"Madera, CA"
+01089,Madison,county,Alabama,"Huntsville, AL"
+05087,Madison,county,Arkansas,"Fayetteville-Springdale-Rogers, AR"
+12079,Madison,county,Florida,
+13195,Madison,county,Georgia,"Athens-Clarke County, GA"
+16065,Madison,county,Idaho,"Rexburg, ID"
+17119,Madison,county,Illinois,"St. Louis, MO-IL"
+18095,Madison,county,Indiana,"Indianapolis-Carmel-Anderson, IN"
+19121,Madison,county,Iowa,"Des Moines-West Des Moines, IA"
+21151,Madison,county,Kentucky,"Richmond-Berea, KY"
+22065,Madison,county,Louisiana,
+28089,Madison,county,Mississippi,"Jackson, MS"
+29123,Madison,county,Missouri,
+30057,Madison,county,Montana,
+31119,Madison,county,Nebraska,"Norfolk, NE"
+36053,Madison,county,New York,"Syracuse, NY"
+37115,Madison,county,North Carolina,"Asheville, NC"
+39097,Madison,county,Ohio,"Columbus, OH"
+47113,Madison,county,Tennessee,"Jackson, TN"
+48313,Madison,county,Texas,
+51113,Madison,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+21153,Magoffin,county,Kentucky,
+19123,Mahaska,county,Iowa,"Oskaloosa, IA"
+27087,Mahnomen,county,Minnesota,
+39099,Mahoning,county,Ohio,"Youngstown-Warren-Boardman, OH-PA"
+40093,Major,county,Oklahoma,
+41045,Malheur,county,Oregon,"Ontario, OR-ID"
+51685,Manassas Park,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+51683,Manassas,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+12081,Manatee,county,Florida,"North Port-Sarasota-Bradenton, FL"
+26101,Manistee,county,Michigan,
+55071,Manitowoc,county,Wisconsin,"Manitowoc, WI"
+55073,Marathon,county,Wisconsin,"Wausau-Weston, WI"
+01091,Marengo,county,Alabama,
+04013,Maricopa,county,Arizona,"Phoenix-Mesa-Chandler, AZ"
+29125,Maries,county,Missouri,
+06041,Marin,county,California,"San Francisco-Oakland-Berkeley, CA"
+55075,Marinette,county,Wisconsin,"Marinette, WI-MI"
+01093,Marion,county,Alabama,
+05089,Marion,county,Arkansas,
+12083,Marion,county,Florida,"Ocala, FL"
+13197,Marion,county,Georgia,"Columbus, GA-AL"
+17121,Marion,county,Illinois,"Centralia, IL"
+18097,Marion,county,Indiana,"Indianapolis-Carmel-Anderson, IN"
+19125,Marion,county,Iowa,"Pella, IA"
+20115,Marion,county,Kansas,
+21155,Marion,county,Kentucky,
+28091,Marion,county,Mississippi,
+29127,Marion,county,Missouri,"Hannibal, MO"
+39101,Marion,county,Ohio,"Marion, OH"
+41047,Marion,county,Oregon,"Salem, OR"
+45067,Marion,county,South Carolina,
+47115,Marion,county,Tennessee,"Chattanooga, TN-GA"
+48315,Marion,county,Texas,
+54049,Marion,county,West Virginia,"Fairmont, WV"
+06043,Mariposa,county,California,
+45069,Marlboro,county,South Carolina,"Bennettsville, SC"
+26103,Marquette,county,Michigan,"Marquette, MI"
+55077,Marquette,county,Wisconsin,
+01095,Marshall,county,Alabama,"Albertville, AL"
+17123,Marshall,county,Illinois,"Peoria, IL"
+18099,Marshall,county,Indiana,"Plymouth, IN"
+19127,Marshall,county,Iowa,"Marshalltown, IA"
+20117,Marshall,county,Kansas,
+21157,Marshall,county,Kentucky,
+27089,Marshall,county,Minnesota,
+28093,Marshall,county,Mississippi,"Memphis, TN-MS-AR"
+40095,Marshall,county,Oklahoma,
+46091,Marshall,county,South Dakota,
+47117,Marshall,county,Tennessee,"Lewisburg, TN"
+54051,Marshall,county,West Virginia,"Wheeling, WV-OH"
+12085,Martin,county,Florida,"Port St. Lucie, FL"
+18101,Martin,county,Indiana,
+21159,Martin,county,Kentucky,
+27091,Martin,county,Minnesota,"Fairmont, MN"
+37117,Martin,county,North Carolina,
+48317,Martin,county,Texas,"Midland, TX"
+51690,Martinsville,county,Virginia,"Martinsville, VA"
+17125,Mason,county,Illinois,
+21161,Mason,county,Kentucky,"Maysville, KY"
+26105,Mason,county,Michigan,"Ludington, MI"
+48319,Mason,county,Texas,
+53045,Mason,county,Washington,"Shelton, WA"
+54053,Mason,county,West Virginia,"Point Pleasant, WV-OH"
+17127,Massac,county,Illinois,"Paducah, KY-IL"
+48321,Matagorda,county,Texas,"Bay City, TX"
+02170,Matanuska-Susitna,county,Alaska,"Anchorage, AK"
+51115,Mathews,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+15009,Maui,county,Hawaii,"Kahului-Wailuku-Lahaina, HI"
+47119,Maury,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+48323,Maverick,county,Texas,"Eagle Pass, TX"
+40097,Mayes,county,Oklahoma,
+40087,McClain,county,Oklahoma,"Oklahoma City, OK"
+30055,McCone,county,Montana,
+46087,McCook,county,South Dakota,"Sioux Falls, SD"
+45065,McCormick,county,South Carolina,
+21145,McCracken,county,Kentucky,"Paducah, KY-IL"
+21147,McCreary,county,Kentucky,
+48307,McCulloch,county,Texas,
+40089,McCurtain,county,Oklahoma,
+29119,McDonald,county,Missouri,
+17109,McDonough,county,Illinois,"Macomb, IL"
+37111,McDowell,county,North Carolina,"Marion, NC"
+54047,McDowell,county,West Virginia,
+13189,McDuffie,county,Georgia,"Augusta-Richmond County, GA-SC"
+17111,McHenry,county,Illinois,"Chicago-Naperville-Elgin, IL-IN-WI"
+38049,McHenry,county,North Dakota,"Minot, ND"
+13191,McIntosh,county,Georgia,"Brunswick, GA"
+38051,McIntosh,county,North Dakota,
+40091,McIntosh,county,Oklahoma,
+42083,McKean,county,Pennsylvania,"Bradford, PA"
+38053,McKenzie,county,North Dakota,
+35031,McKinley,county,New Mexico,"Gallup, NM"
+17113,McLean,county,Illinois,"Bloomington, IL"
+21149,McLean,county,Kentucky,"Owensboro, KY"
+38055,McLean,county,North Dakota,
+48309,McLennan,county,Texas,"Waco, TX"
+27085,McLeod,county,Minnesota,"Hutchinson, MN"
+47107,McMinn,county,Tennessee,"Athens, TN"
+48311,McMullen,county,Texas,
+47109,McNairy,county,Tennessee,
+20113,McPherson,county,Kansas,"McPherson, KS"
+31117,McPherson,county,Nebraska,"North Platte, NE"
+46089,McPherson,county,South Dakota,
+20119,Meade,county,Kansas,
+21163,Meade,county,Kentucky,"Elizabethtown-Fort Knox, KY"
+46093,Meade,county,South Dakota,"Rapid City, SD"
+30059,Meagher,county,Montana,
+37119,Mecklenburg,county,North Carolina,"Charlotte-Concord-Gastonia, NC-SC"
+51117,Mecklenburg,county,Virginia,
+26107,Mecosta,county,Michigan,"Big Rapids, MI"
+39103,Medina,county,Ohio,"Cleveland-Elyria, OH"
+48325,Medina,county,Texas,"San Antonio-New Braunfels, TX"
+27093,Meeker,county,Minnesota,
+39105,Meigs,county,Ohio,
+47121,Meigs,county,Tennessee,
+46095,Mellette,county,South Dakota,
+17129,Menard,county,Illinois,"Springfield, IL"
+48327,Menard,county,Texas,
+06045,Mendocino,county,California,"Ukiah, CA"
+21165,Menifee,county,Kentucky,"Mount Sterling, KY"
+26109,Menominee,county,Michigan,"Marinette, WI-MI"
+55078,Menominee,county,Wisconsin,"Shawano, WI"
+06047,Merced,county,California,"Merced, CA"
+17131,Mercer,county,Illinois,"Davenport-Moline-Rock Island, IA-IL"
+21167,Mercer,county,Kentucky,
+29129,Mercer,county,Missouri,
+34021,Mercer,county,New Jersey,"Trenton-Princeton, NJ"
+38057,Mercer,county,North Dakota,
+39107,Mercer,county,Ohio,"Celina, OH"
+42085,Mercer,county,Pennsylvania,"Youngstown-Warren-Boardman, OH-PA"
+54055,Mercer,county,West Virginia,"Bluefield, WV-VA"
+13199,Meriwether,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+31121,Merrick,county,Nebraska,"Grand Island, NE"
+33013,Merrimack,county,New Hampshire,"Concord, NH"
+08077,Mesa,county,Colorado,"Grand Junction, CO"
+21169,Metcalfe,county,Kentucky,"Glasgow, KY"
+12086,Miami-Dade,county,Florida,"Miami-Fort Lauderdale-Pompano Beach, FL"
+18103,Miami,county,Indiana,"Peru, IN"
+20121,Miami,county,Kansas,"Kansas City, MO-KS"
+39109,Miami,county,Ohio,"Dayton-Kettering, OH"
+09007,Middlesex,county,Connecticut,"Hartford-East Hartford-Middletown, CT"
+25017,Middlesex,county,Massachusetts,"Boston-Cambridge-Newton, MA-NH"
+34023,Middlesex,county,New Jersey,"New York-Newark-Jersey City, NY-NJ-PA"
+51119,Middlesex,county,Virginia,
+26111,Midland,county,Michigan,"Midland, MI"
+48329,Midland,county,Texas,"Midland, TX"
+42087,Mifflin,county,Pennsylvania,"Lewistown, PA"
+48331,Milam,county,Texas,
+49027,Millard,county,Utah,
+27095,Mille Lacs,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+05091,Miller,county,Arkansas,"Texarkana, TX-AR"
+13201,Miller,county,Georgia,
+29131,Miller,county,Missouri,
+19129,Mills,county,Iowa,"Omaha-Council Bluffs, NE-IA"
+48333,Mills,county,Texas,
+55079,Milwaukee,county,Wisconsin,"Milwaukee-Waukesha, WI"
+46097,Miner,county,South Dakota,
+08079,Mineral,county,Colorado,
+30061,Mineral,county,Montana,
+32021,Mineral,county,Nevada,
+54057,Mineral,county,West Virginia,"Cumberland, MD-WV"
+54059,Mingo,county,West Virginia,
+16067,Minidoka,county,Idaho,"Burley, ID"
+46099,Minnehaha,county,South Dakota,"Sioux Falls, SD"
+26113,Missaukee,county,Michigan,"Cadillac, MI"
+05093,Mississippi,county,Arkansas,"Blytheville, AR"
+29133,Mississippi,county,Missouri,
+30063,Missoula,county,Montana,"Missoula, MT"
+13205,Mitchell,county,Georgia,
+19131,Mitchell,county,Iowa,
+20123,Mitchell,county,Kansas,
+37121,Mitchell,county,North Carolina,
+48335,Mitchell,county,Texas,
+01097,Mobile,county,Alabama,"Mobile, AL"
+06049,Modoc,county,California,
+08081,Moffat,county,Colorado,"Craig, CO"
+04015,Mohave,county,Arizona,"Lake Havasu City-Kingman, AZ"
+29135,Moniteau,county,Missouri,"Jefferson City, MO"
+34025,Monmouth,county,New Jersey,"New York-Newark-Jersey City, NY-NJ-PA"
+06051,Mono,county,California,
+19133,Monona,county,Iowa,
+54061,Monongalia,county,West Virginia,"Morgantown, WV"
+01099,Monroe,county,Alabama,
+05095,Monroe,county,Arkansas,
+12087,Monroe,county,Florida,"Key West, FL"
+13207,Monroe,county,Georgia,"Macon-Bibb County, GA"
+17133,Monroe,county,Illinois,"St. Louis, MO-IL"
+18105,Monroe,county,Indiana,"Bloomington, IN"
+19135,Monroe,county,Iowa,
+21171,Monroe,county,Kentucky,
+26115,Monroe,county,Michigan,"Monroe, MI"
+28095,Monroe,county,Mississippi,
+29137,Monroe,county,Missouri,
+36055,Monroe,county,New York,"Rochester, NY"
+39111,Monroe,county,Ohio,
+42089,Monroe,county,Pennsylvania,"East Stroudsburg, PA"
+47123,Monroe,county,Tennessee,
+54063,Monroe,county,West Virginia,
+55081,Monroe,county,Wisconsin,
+48337,Montague,county,Texas,
+26117,Montcalm,county,Michigan,"Grand Rapids-Kentwood, MI"
+06053,Monterey,county,California,"Salinas, CA"
+08083,Montezuma,county,Colorado,
+01101,Montgomery,county,Alabama,"Montgomery, AL"
+05097,Montgomery,county,Arkansas,
+13209,Montgomery,county,Georgia,"Vidalia, GA"
+17135,Montgomery,county,Illinois,
+18107,Montgomery,county,Indiana,"Crawfordsville, IN"
+19137,Montgomery,county,Iowa,
+20125,Montgomery,county,Kansas,"Coffeyville, KS"
+21173,Montgomery,county,Kentucky,"Mount Sterling, KY"
+24031,Montgomery,county,Maryland,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+28097,Montgomery,county,Mississippi,
+29139,Montgomery,county,Missouri,
+36057,Montgomery,county,New York,"Amsterdam, NY"
+37123,Montgomery,county,North Carolina,
+39113,Montgomery,county,Ohio,"Dayton-Kettering, OH"
+42091,Montgomery,county,Pennsylvania,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"
+47125,Montgomery,county,Tennessee,"Clarksville, TN-KY"
+48339,Montgomery,county,Texas,"Houston-The Woodlands-Sugar Land, TX"
+51121,Montgomery,county,Virginia,"Blacksburg-Christiansburg, VA"
+26119,Montmorency,county,Michigan,
+42093,Montour,county,Pennsylvania,"Bloomsburg-Berwick, PA"
+08085,Montrose,county,Colorado,"Montrose, CO"
+46101,Moody,county,South Dakota,
+37125,Moore,county,North Carolina,"Pinehurst-Southern Pines, NC"
+47127,Moore,county,Tennessee,"Tullahoma-Manchester, TN"
+48341,Moore,county,Texas,"Dumas, TX"
+35033,Mora,county,New Mexico,"Las Vegas, NM"
+22067,Morehouse,county,Louisiana,"Monroe, LA"
+01103,Morgan,county,Alabama,"Decatur, AL"
+08087,Morgan,county,Colorado,"Fort Morgan, CO"
+13211,Morgan,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+17137,Morgan,county,Illinois,"Jacksonville, IL"
+18109,Morgan,county,Indiana,"Indianapolis-Carmel-Anderson, IN"
+21175,Morgan,county,Kentucky,
+29141,Morgan,county,Missouri,
+39115,Morgan,county,Ohio,
+47129,Morgan,county,Tennessee,"Knoxville, TN"
+49029,Morgan,county,Utah,"Ogden-Clearfield, UT"
+54065,Morgan,county,West Virginia,"Hagerstown-Martinsburg, MD-WV"
+31123,Morrill,county,Nebraska,
+20127,Morris,county,Kansas,
+34027,Morris,county,New Jersey,"New York-Newark-Jersey City, NY-NJ-PA"
+48343,Morris,county,Texas,
+27097,Morrison,county,Minnesota,
+39117,Morrow,county,Ohio,"Columbus, OH"
+41049,Morrow,county,Oregon,"Hermiston-Pendleton, OR"
+20129,Morton,county,Kansas,
+38059,Morton,county,North Dakota,"Bismarck, ND"
+48345,Motley,county,Texas,
+17139,Moultrie,county,Illinois,
+38061,Mountrail,county,North Dakota,
+27099,Mower,county,Minnesota,"Austin, MN"
+21177,Muhlenberg,county,Kentucky,"Central City, KY"
+41051,Multnomah,county,Oregon,"Portland-Vancouver-Hillsboro, OR-WA"
+13213,Murray,county,Georgia,"Dalton, GA"
+27101,Murray,county,Minnesota,
+40099,Murray,county,Oklahoma,
+19139,Muscatine,county,Iowa,"Muscatine, IA"
+13215,Muscogee,county,Georgia,"Columbus, GA-AL"
+26121,Muskegon,county,Michigan,"Muskegon, MI"
+39119,Muskingum,county,Ohio,"Zanesville, OH"
+40101,Muskogee,county,Oklahoma,"Muskogee, OK"
+30065,Musselshell,county,Montana,
+48347,Nacogdoches,county,Texas,"Nacogdoches, TX"
+31125,Nance,county,Nebraska,
+25019,Nantucket,county,Massachusetts,
+06055,Napa,county,California,"Napa, CA"
+37127,Nash,county,North Carolina,"Rocky Mount, NC"
+12089,Nassau,county,Florida,"Jacksonville, FL"
+36059,Nassau,county,New York,"New York-Newark-Jersey City, NY-NJ-PA"
+22069,Natchitoches,county,Louisiana,"Natchitoches, LA"
+56025,Natrona,county,Wyoming,"Casper, WY"
+04017,Navajo,county,Arizona,"Show Low, AZ"
+48349,Navarro,county,Texas,"Corsicana, TX"
+21179,Nelson,county,Kentucky,"Bardstown, KY"
+38063,Nelson,county,North Dakota,
+51125,Nelson,county,Virginia,"Charlottesville, VA"
+20131,Nemaha,county,Kansas,
+31127,Nemaha,county,Nebraska,
+20133,Neosho,county,Kansas,
+28099,Neshoba,county,Mississippi,
+20135,Ness,county,Kansas,
+05099,Nevada,county,Arkansas,"Hope, AR"
+06057,Nevada,county,California,"Truckee-Grass Valley, CA"
+10003,New Castle,county,Delaware,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"
+37129,New Hanover,county,North Carolina,"Wilmington, NC"
+09009,New Haven,county,Connecticut,"New Haven-Milford, CT"
+51127,New Kent,county,Virginia,"Richmond, VA"
+09011,New London,county,Connecticut,"Norwich-New London, CT"
+29143,New Madrid,county,Missouri,
+36061,New York City,county,New York,"New York-Newark-Jersey City, NY-NJ-PA"
+26123,Newaygo,county,Michigan,
+45071,Newberry,county,South Carolina,"Newberry, SC"
+51700,Newport News,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+44005,Newport,county,Rhode Island,"Providence-Warwick, RI-MA"
+05101,Newton,county,Arkansas,"Harrison, AR"
+13217,Newton,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+18111,Newton,county,Indiana,"Chicago-Naperville-Elgin, IL-IN-WI"
+28101,Newton,county,Mississippi,
+29145,Newton,county,Missouri,"Joplin, MO"
+48351,Newton,county,Texas,
+16069,Nez Perce,county,Idaho,"Lewiston, ID-WA"
+36063,Niagara,county,New York,"Buffalo-Cheektowaga, NY"
+21181,Nicholas,county,Kentucky,
+54067,Nicholas,county,West Virginia,
+27103,Nicollet,county,Minnesota,"Mankato, MN"
+56027,Niobrara,county,Wyoming,
+18113,Noble,county,Indiana,"Kendallville, IN"
+39121,Noble,county,Ohio,
+40103,Noble,county,Oklahoma,
+27105,Nobles,county,Minnesota,"Worthington, MN"
+29147,Nodaway,county,Missouri,"Maryville, MO"
+48353,Nolan,county,Texas,"Sweetwater, TX"
+02180,Nome,county,Alaska,
+25021,Norfolk,county,Massachusetts,"Boston-Cambridge-Newton, MA-NH"
+51710,Norfolk,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+27107,Norman,county,Minnesota,
+02185,North Slope,county,Alaska,
+37131,Northampton,county,North Carolina,"Roanoke Rapids, NC"
+42095,Northampton,county,Pennsylvania,"Allentown-Bethlehem-Easton, PA-NJ"
+51131,Northampton,county,Virginia,
+42097,Northumberland,county,Pennsylvania,"Sunbury, PA"
+51133,Northumberland,county,Virginia,
+02188,Northwest Arctic,county,Alaska,
+20137,Norton,county,Kansas,
+51720,Norton,county,Virginia,"Big Stone Gap, VA"
+51135,Nottoway,county,Virginia,
+40105,Nowata,county,Oklahoma,
+28103,Noxubee,county,Mississippi,
+31129,Nuckolls,county,Nebraska,
+48355,Nueces,county,Texas,"Corpus Christi, TX"
+32023,Nye,county,Nevada,"Pahrump, NV"
+19141,O'Brien,county,Iowa,
+26125,Oakland,county,Michigan,"Detroit-Warren-Dearborn, MI"
+47131,Obion,county,Tennessee,"Union City, TN"
+34029,Ocean,county,New Jersey,"New York-Newark-Jersey City, NY-NJ-PA"
+26127,Oceana,county,Michigan,
+48357,Ochiltree,county,Texas,
+13219,Oconee,county,Georgia,"Athens-Clarke County, GA"
+45073,Oconee,county,South Carolina,"Seneca, SC"
+55083,Oconto,county,Wisconsin,"Green Bay, WI"
+26129,Ogemaw,county,Michigan,
+46102,Oglala Lakota,county,South Dakota,
+17141,Ogle,county,Illinois,"Rochelle, IL"
+13221,Oglethorpe,county,Georgia,"Athens-Clarke County, GA"
+18115,Ohio,county,Indiana,"Cincinnati, OH-KY-IN"
+21183,Ohio,county,Kentucky,
+54069,Ohio,county,West Virginia,"Wheeling, WV-OH"
+12091,Okaloosa,county,Florida,"Crestview-Fort Walton Beach-Destin, FL"
+53047,Okanogan,county,Washington,
+12093,Okeechobee,county,Florida,"Okeechobee, FL"
+40107,Okfuskee,county,Oklahoma,
+40109,Oklahoma,county,Oklahoma,"Oklahoma City, OK"
+40111,Okmulgee,county,Oklahoma,"Tulsa, OK"
+28105,Oktibbeha,county,Mississippi,"Starkville, MS"
+21185,Oldham,county,Kentucky,"Louisville/Jefferson County, KY-IN"
+48359,Oldham,county,Texas,"Amarillo, TX"
+38065,Oliver,county,North Dakota,"Bismarck, ND"
+27109,Olmsted,county,Minnesota,"Rochester, MN"
+16071,Oneida,county,Idaho,
+36065,Oneida,county,New York,"Utica-Rome, NY"
+55085,Oneida,county,Wisconsin,
+36067,Onondaga,county,New York,"Syracuse, NY"
+37133,Onslow,county,North Carolina,"Jacksonville, NC"
+36069,Ontario,county,New York,"Rochester, NY"
+26131,Ontonagon,county,Michigan,
+06059,Orange,county,California,"Los Angeles-Long Beach-Anaheim, CA"
+12095,Orange,county,Florida,"Orlando-Kissimmee-Sanford, FL"
+18117,Orange,county,Indiana,
+36071,Orange,county,New York,"Poughkeepsie-Newburgh-Middletown, NY"
+37135,Orange,county,North Carolina,"Durham-Chapel Hill, NC"
+48361,Orange,county,Texas,"Beaumont-Port Arthur, TX"
+50017,Orange,county,Vermont,"Lebanon, NH-VT"
+51137,Orange,county,Virginia,
+45075,Orangeburg,county,South Carolina,"Orangeburg, SC"
+29149,Oregon,county,Missouri,
+22071,Orleans,county,Louisiana,"New Orleans-Metairie, LA"
+36073,Orleans,county,New York,"Rochester, NY"
+50019,Orleans,county,Vermont,
+20139,Osage,county,Kansas,"Topeka, KS"
+29151,Osage,county,Missouri,"Jefferson City, MO"
+40113,Osage,county,Oklahoma,"Tulsa, OK"
+20141,Osborne,county,Kansas,
+12097,Osceola,county,Florida,"Orlando-Kissimmee-Sanford, FL"
+19143,Osceola,county,Iowa,
+26133,Osceola,county,Michigan,
+26135,Oscoda,county,Michigan,
+36075,Oswego,county,New York,"Syracuse, NY"
+08089,Otero,county,Colorado,
+35035,Otero,county,New Mexico,"Alamogordo, NM"
+31131,Otoe,county,Nebraska,
+26137,Otsego,county,Michigan,
+36077,Otsego,county,New York,"Oneonta, NY"
+20143,Ottawa,county,Kansas,"Salina, KS"
+26139,Ottawa,county,Michigan,"Grand Rapids-Kentwood, MI"
+39123,Ottawa,county,Ohio,"Toledo, OH"
+40115,Ottawa,county,Oklahoma,"Miami, OK"
+27111,Otter Tail,county,Minnesota,"Fergus Falls, MN"
+05103,Ouachita,county,Arkansas,"Camden, AR"
+22073,Ouachita,county,Louisiana,"Monroe, LA"
+08091,Ouray,county,Colorado,"Montrose, CO"
+55087,Outagamie,county,Wisconsin,"Appleton, WI"
+47133,Overton,county,Tennessee,"Cookeville, TN"
+18119,Owen,county,Indiana,"Bloomington, IN"
+21187,Owen,county,Kentucky,
+21189,Owsley,county,Kentucky,
+16073,Owyhee,county,Idaho,"Boise City, ID"
+23017,Oxford,county,Maine,
+29153,Ozark,county,Missouri,
+55089,Ozaukee,county,Wisconsin,"Milwaukee-Waukesha, WI"
+53049,Pacific,county,Washington,
+19145,Page,county,Iowa,
+51139,Page,county,Virginia,
+12099,Palm Beach,county,Florida,"Miami-Fort Lauderdale-Pompano Beach, FL"
+19147,Palo Alto,county,Iowa,
+48363,Palo Pinto,county,Texas,"Mineral Wells, TX"
+37137,Pamlico,county,North Carolina,"New Bern, NC"
+28107,Panola,county,Mississippi,
+48365,Panola,county,Texas,
+08093,Park,county,Colorado,"Denver-Aurora-Lakewood, CO"
+30067,Park,county,Montana,
+56029,Park,county,Wyoming,
+18121,Parke,county,Indiana,"Terre Haute, IN"
+48367,Parker,county,Texas,"Dallas-Fort Worth-Arlington, TX"
+48369,Parmer,county,Texas,
+12101,Pasco,county,Florida,"Tampa-St. Petersburg-Clearwater, FL"
+37139,Pasquotank,county,North Carolina,"Elizabeth City, NC"
+34031,Passaic,county,New Jersey,"New York-Newark-Jersey City, NY-NJ-PA"
+51141,Patrick,county,Virginia,
+13223,Paulding,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+39125,Paulding,county,Ohio,
+20145,Pawnee,county,Kansas,
+31133,Pawnee,county,Nebraska,
+40117,Pawnee,county,Oklahoma,"Tulsa, OK"
+16075,Payette,county,Idaho,"Ontario, OR-ID"
+40119,Payne,county,Oklahoma,"Stillwater, OK"
+13225,Peach,county,Georgia,"Warner Robins, GA"
+28109,Pearl River,county,Mississippi,"Picayune, MS"
+48371,Pecos,county,Texas,
+38067,Pembina,county,North Dakota,
+29155,Pemiscot,county,Missouri,
+53051,Pend Oreille,county,Washington,
+37141,Pender,county,North Carolina,"Wilmington, NC"
+21191,Pendleton,county,Kentucky,"Cincinnati, OH-KY-IN"
+54071,Pendleton,county,West Virginia,
+27113,Pennington,county,Minnesota,
+46103,Pennington,county,South Dakota,"Rapid City, SD"
+23019,Penobscot,county,Maine,"Bangor, ME"
+17143,Peoria,county,Illinois,"Peoria, IL"
+55091,Pepin,county,Wisconsin,
+31135,Perkins,county,Nebraska,
+46105,Perkins,county,South Dakota,
+37143,Perquimans,county,North Carolina,"Elizabeth City, NC"
+01105,Perry,county,Alabama,
+05105,Perry,county,Arkansas,"Little Rock-North Little Rock-Conway, AR"
+17145,Perry,county,Illinois,
+18123,Perry,county,Indiana,
+21193,Perry,county,Kentucky,
+28111,Perry,county,Mississippi,"Hattiesburg, MS"
+29157,Perry,county,Missouri,
+39127,Perry,county,Ohio,"Columbus, OH"
+42099,Perry,county,Pennsylvania,"Harrisburg-Carlisle, PA"
+47135,Perry,county,Tennessee,
+32027,Pershing,county,Nevada,
+37145,Person,county,North Carolina,"Durham-Chapel Hill, NC"
+02195,Petersburg,county,Alaska,
+51730,Petersburg,county,Virginia,"Richmond, VA"
+30069,Petroleum,county,Montana,
+29159,Pettis,county,Missouri,"Sedalia, MO"
+29161,Phelps,county,Missouri,"Rolla, MO"
+31137,Phelps,county,Nebraska,
+42101,Philadelphia,county,Pennsylvania,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"
+05107,Phillips,county,Arkansas,"Helena-West Helena, AR"
+08095,Phillips,county,Colorado,
+20147,Phillips,county,Kansas,
+30071,Phillips,county,Montana,
+17147,Piatt,county,Illinois,"Champaign-Urbana, IL"
+39129,Pickaway,county,Ohio,"Columbus, OH"
+01107,Pickens,county,Alabama,"Tuscaloosa, AL"
+13227,Pickens,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+45077,Pickens,county,South Carolina,"Greenville-Anderson, SC"
+47137,Pickett,county,Tennessee,
+13229,Pierce,county,Georgia,"Waycross, GA"
+31139,Pierce,county,Nebraska,"Norfolk, NE"
+38069,Pierce,county,North Dakota,
+53053,Pierce,county,Washington,"Seattle-Tacoma-Bellevue, WA"
+55093,Pierce,county,Wisconsin,"Minneapolis-St. Paul-Bloomington, MN-WI"
+01109,Pike,county,Alabama,"Troy, AL"
+05109,Pike,county,Arkansas,
+13231,Pike,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+17149,Pike,county,Illinois,
+18125,Pike,county,Indiana,"Jasper, IN"
+21195,Pike,county,Kentucky,
+28113,Pike,county,Mississippi,"McComb, MS"
+29163,Pike,county,Missouri,
+39131,Pike,county,Ohio,
+42103,Pike,county,Pennsylvania,"New York-Newark-Jersey City, NY-NJ-PA"
+04019,Pima,county,Arizona,"Tucson, AZ"
+04021,Pinal,county,Arizona,"Phoenix-Mesa-Chandler, AZ"
+27115,Pine,county,Minnesota,
+12103,Pinellas,county,Florida,"Tampa-St. Petersburg-Clearwater, FL"
+27117,Pipestone,county,Minnesota,
+23021,Piscataquis,county,Maine,
+08097,Pitkin,county,Colorado,"Glenwood Springs, CO"
+37147,Pitt,county,North Carolina,"Greenville, NC"
+40121,Pittsburg,county,Oklahoma,"McAlester, OK"
+51143,Pittsylvania,county,Virginia,"Danville, VA"
+49031,Piute,county,Utah,
+06061,Placer,county,California,"Sacramento-Roseville-Folsom, CA"
+22075,Plaquemines,county,Louisiana,"New Orleans-Metairie, LA"
+29165,Platte,county,Missouri,"Kansas City, MO-KS"
+31141,Platte,county,Nebraska,"Columbus, NE"
+56031,Platte,county,Wyoming,
+54073,Pleasants,county,West Virginia,
+06063,Plumas,county,California,
+19149,Plymouth,county,Iowa,
+25023,Plymouth,county,Massachusetts,"Boston-Cambridge-Newton, MA-NH"
+19151,Pocahontas,county,Iowa,
+54075,Pocahontas,county,West Virginia,
+05111,Poinsett,county,Arkansas,"Jonesboro, AR"
+22077,Pointe Coupee,county,Louisiana,"Baton Rouge, LA"
+05113,Polk,county,Arkansas,
+12105,Polk,county,Florida,"Lakeland-Winter Haven, FL"
+13233,Polk,county,Georgia,"Cedartown, GA"
+19153,Polk,county,Iowa,"Des Moines-West Des Moines, IA"
+27119,Polk,county,Minnesota,"Grand Forks, ND-MN"
+29167,Polk,county,Missouri,"Springfield, MO"
+31143,Polk,county,Nebraska,
+37149,Polk,county,North Carolina,
+41053,Polk,county,Oregon,"Salem, OR"
+47139,Polk,county,Tennessee,"Cleveland, TN"
+48373,Polk,county,Texas,
+55095,Polk,county,Wisconsin,
+30073,Pondera,county,Montana,
+28115,Pontotoc,county,Mississippi,"Tupelo, MS"
+40123,Pontotoc,county,Oklahoma,"Ada, OK"
+05115,Pope,county,Arkansas,"Russellville, AR"
+17151,Pope,county,Illinois,
+27121,Pope,county,Minnesota,
+51735,Poquoson,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+39133,Portage,county,Ohio,"Akron, OH"
+55097,Portage,county,Wisconsin,"Stevens Point, WI"
+18127,Porter,county,Indiana,"Chicago-Naperville-Elgin, IL-IN-WI"
+51740,Portsmouth,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+18129,Posey,county,Indiana,"Evansville, IN-KY"
+20149,Pottawatomie,county,Kansas,"Manhattan, KS"
+40125,Pottawatomie,county,Oklahoma,"Shawnee, OK"
+19155,Pottawattamie,county,Iowa,"Omaha-Council Bluffs, NE-IA"
+42105,Potter,county,Pennsylvania,
+46107,Potter,county,South Dakota,
+48375,Potter,county,Texas,"Amarillo, TX"
+30075,Powder River,county,Montana,
+21197,Powell,county,Kentucky,
+30077,Powell,county,Montana,
+16077,Power,county,Idaho,"Pocatello, ID"
+19157,Poweshiek,county,Iowa,
+51145,Powhatan,county,Virginia,"Richmond, VA"
+05117,Prairie,county,Arkansas,
+30079,Prairie,county,Montana,
+20151,Pratt,county,Kansas,
+39135,Preble,county,Ohio,
+28117,Prentiss,county,Mississippi,"Tupelo, MS"
+48377,Presidio,county,Texas,
+26141,Presque Isle,county,Michigan,
+54077,Preston,county,West Virginia,"Morgantown, WV"
+55099,Price,county,Wisconsin,
+51147,Prince Edward,county,Virginia,
+24033,Prince George's,county,Maryland,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+51149,Prince George,county,Virginia,"Richmond, VA"
+51153,Prince William,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+44007,Providence,county,Rhode Island,"Providence-Warwick, RI-MA"
+08099,Prowers,county,Colorado,
+08101,Pueblo,county,Colorado,"Pueblo, CO"
+05119,Pulaski,county,Arkansas,"Little Rock-North Little Rock-Conway, AR"
+13235,Pulaski,county,Georgia,
+17153,Pulaski,county,Illinois,
+18131,Pulaski,county,Indiana,
+21199,Pulaski,county,Kentucky,"Somerset, KY"
+29169,Pulaski,county,Missouri,"Fort Leonard Wood, MO"
+51155,Pulaski,county,Virginia,"Blacksburg-Christiansburg, VA"
+40127,Pushmataha,county,Oklahoma,
+12107,Putnam,county,Florida,"Palatka, FL"
+13237,Putnam,county,Georgia,
+17155,Putnam,county,Illinois,"Ottawa, IL"
+18133,Putnam,county,Indiana,"Indianapolis-Carmel-Anderson, IN"
+29171,Putnam,county,Missouri,
+36079,Putnam,county,New York,"New York-Newark-Jersey City, NY-NJ-PA"
+39137,Putnam,county,Ohio,
+47141,Putnam,county,Tennessee,"Cookeville, TN"
+54079,Putnam,county,West Virginia,"Huntington-Ashland, WV-KY-OH"
+35037,Quay,county,New Mexico,
+24035,Queen Anne's,county,Maryland,"Baltimore-Columbia-Towson, MD"
+36081,Queens,county,New York,"New York-Newark-Jersey City, NY-NJ-PA"
+13239,Quitman,county,Georgia,"Eufaula, AL-GA"
+28119,Quitman,county,Mississippi,
+13241,Rabun,county,Georgia,
+55101,Racine,county,Wisconsin,"Racine, WI"
+51750,Radford,county,Virginia,"Blacksburg-Christiansburg, VA"
+48379,Rains,county,Texas,
+54081,Raleigh,county,West Virginia,"Beckley, WV"
+29173,Ralls,county,Missouri,"Hannibal, MO"
+27123,Ramsey,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+38071,Ramsey,county,North Dakota,
+48381,Randall,county,Texas,"Amarillo, TX"
+01111,Randolph,county,Alabama,
+05121,Randolph,county,Arkansas,
+13243,Randolph,county,Georgia,
+17157,Randolph,county,Illinois,
+18135,Randolph,county,Indiana,
+29175,Randolph,county,Missouri,"Moberly, MO"
+37151,Randolph,county,North Carolina,"Greensboro-High Point, NC"
+54083,Randolph,county,West Virginia,"Elkins, WV"
+28121,Rankin,county,Mississippi,"Jackson, MS"
+38073,Ransom,county,North Dakota,
+22079,Rapides,county,Louisiana,"Alexandria, LA"
+51157,Rappahannock,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+30081,Ravalli,county,Montana,
+20153,Rawlins,county,Kansas,
+29177,Ray,county,Missouri,"Kansas City, MO-KS"
+48383,Reagan,county,Texas,
+48385,Real,county,Texas,
+27125,Red Lake,county,Minnesota,
+22081,Red River,county,Louisiana,
+48387,Red River,county,Texas,
+31145,Red Willow,county,Nebraska,
+27127,Redwood,county,Minnesota,
+48389,Reeves,county,Texas,"Pecos, TX"
+48391,Refugio,county,Texas,
+20155,Reno,county,Kansas,"Hutchinson, KS"
+36083,Rensselaer,county,New York,"Albany-Schenectady-Troy, NY"
+27129,Renville,county,Minnesota,
+38075,Renville,county,North Dakota,"Minot, ND"
+20157,Republic,county,Kansas,
+29179,Reynolds,county,Missouri,
+47143,Rhea,county,Tennessee,"Dayton, TN"
+20159,Rice,county,Kansas,
+27131,Rice,county,Minnesota,"Faribault-Northfield, MN"
+49033,Rich,county,Utah,
+31147,Richardson,county,Nebraska,
+17159,Richland,county,Illinois,
+22083,Richland,county,Louisiana,
+30083,Richland,county,Montana,
+38077,Richland,county,North Dakota,"Wahpeton, ND-MN"
+39139,Richland,county,Ohio,"Mansfield, OH"
+45079,Richland,county,South Carolina,"Columbia, SC"
+55103,Richland,county,Wisconsin,
+51760,Richmond City,county,Virginia,"Richmond, VA"
+13245,Richmond,county,Georgia,"Augusta-Richmond County, GA-SC"
+36085,Richmond,county,New York,"New York-Newark-Jersey City, NY-NJ-PA"
+37153,Richmond,county,North Carolina,"Rockingham, NC"
+51159,Richmond,county,Virginia,
+20161,Riley,county,Kansas,"Manhattan, KS"
+19159,Ringgold,county,Iowa,
+35039,Rio Arriba,county,New Mexico,"Española, NM"
+08103,Rio Blanco,county,Colorado,
+08105,Rio Grande,county,Colorado,
+18137,Ripley,county,Indiana,
+29181,Ripley,county,Missouri,"Poplar Bluff, MO"
+54085,Ritchie,county,West Virginia,
+06065,Riverside,county,California,"Riverside-San Bernardino-Ontario, CA"
+47145,Roane,county,Tennessee,"Knoxville, TN"
+54087,Roane,county,West Virginia,
+51770,Roanoke City,county,Virginia,"Roanoke, VA"
+51161,Roanoke,county,Virginia,"Roanoke, VA"
+46109,Roberts,county,South Dakota,
+48393,Roberts,county,Texas,"Pampa, TX"
+21201,Robertson,county,Kentucky,
+47147,Robertson,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+48395,Robertson,county,Texas,"College Station-Bryan, TX"
+37155,Robeson,county,North Carolina,"Lumberton, NC"
+17161,Rock Island,county,Illinois,"Davenport-Moline-Rock Island, IA-IL"
+27133,Rock,county,Minnesota,
+31149,Rock,county,Nebraska,
+55105,Rock,county,Wisconsin,"Janesville-Beloit, WI"
+51163,Rockbridge,county,Virginia,
+21203,Rockcastle,county,Kentucky,
+13247,Rockdale,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+33015,Rockingham,county,New Hampshire,"Boston-Cambridge-Newton, MA-NH"
+37157,Rockingham,county,North Carolina,"Greensboro-High Point, NC"
+51165,Rockingham,county,Virginia,"Harrisonburg, VA"
+36087,Rockland,county,New York,"New York-Newark-Jersey City, NY-NJ-PA"
+48397,Rockwall,county,Texas,"Dallas-Fort Worth-Arlington, TX"
+40129,Roger Mills,county,Oklahoma,
+40131,Rogers,county,Oklahoma,"Tulsa, OK"
+38079,Rolette,county,North Dakota,
+20163,Rooks,county,Kansas,
+30085,Roosevelt,county,Montana,
+35041,Roosevelt,county,New Mexico,"Portales, NM"
+26143,Roscommon,county,Michigan,
+27135,Roseau,county,Minnesota,
+30087,Rosebud,county,Montana,
+39141,Ross,county,Ohio,"Chillicothe, OH"
+08107,Routt,county,Colorado,"Steamboat Springs, CO"
+21205,Rowan,county,Kentucky,
+37159,Rowan,county,North Carolina,"Charlotte-Concord-Gastonia, NC-SC"
+48399,Runnels,county,Texas,
+18139,Rush,county,Indiana,
+20165,Rush,county,Kansas,
+48401,Rusk,county,Texas,"Longview, TX"
+55107,Rusk,county,Wisconsin,
+01113,Russell,county,Alabama,"Columbus, GA-AL"
+20167,Russell,county,Kansas,
+21207,Russell,county,Kentucky,
+51167,Russell,county,Virginia,
+37161,Rutherford,county,North Carolina,"Forest City, NC"
+47149,Rutherford,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+50021,Rutland,county,Vermont,"Rutland, VT"
+22085,Sabine,county,Louisiana,
+48403,Sabine,county,Texas,
+19161,Sac,county,Iowa,
+06067,Sacramento,county,California,"Sacramento-Roseville-Folsom, CA"
+23023,Sagadahoc,county,Maine,"Portland-South Portland, ME"
+26145,Saginaw,county,Michigan,"Saginaw, MI"
+08109,Saguache,county,Colorado,
+34033,Salem,county,New Jersey,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"
+51775,Salem,county,Virginia,"Roanoke, VA"
+05125,Saline,county,Arkansas,"Little Rock-North Little Rock-Conway, AR"
+17165,Saline,county,Illinois,
+20169,Saline,county,Kansas,"Salina, KS"
+29195,Saline,county,Missouri,"Marshall, MO"
+31151,Saline,county,Nebraska,
+49035,Salt Lake,county,Utah,"Salt Lake City, UT"
+45081,Saluda,county,South Carolina,"Columbia, SC"
+37163,Sampson,county,North Carolina,
+48405,San Augustine,county,Texas,
+06069,San Benito,county,California,"San Jose-Sunnyvale-Santa Clara, CA"
+06071,San Bernardino,county,California,"Riverside-San Bernardino-Ontario, CA"
+06073,San Diego,county,California,"San Diego-Chula Vista-Carlsbad, CA"
+06075,San Francisco,county,California,"San Francisco-Oakland-Berkeley, CA"
+48407,San Jacinto,county,Texas,
+06077,San Joaquin,county,California,"Stockton, CA"
+08111,San Juan,county,Colorado,
+35045,San Juan,county,New Mexico,"Farmington, NM"
+49037,San Juan,county,Utah,
+53055,San Juan,county,Washington,
+06079,San Luis Obispo,county,California,"San Luis Obispo-Paso Robles, CA"
+06081,San Mateo,county,California,"San Francisco-Oakland-Berkeley, CA"
+08113,San Miguel,county,Colorado,
+35047,San Miguel,county,New Mexico,"Las Vegas, NM"
+48409,San Patricio,county,Texas,"Corpus Christi, TX"
+48411,San Saba,county,Texas,
+46111,Sanborn,county,South Dakota,
+30089,Sanders,county,Montana,
+35043,Sandoval,county,New Mexico,"Albuquerque, NM"
+39143,Sandusky,county,Ohio,"Fremont, OH"
+17167,Sangamon,county,Illinois,"Springfield, IL"
+26151,Sanilac,county,Michigan,
+49039,Sanpete,county,Utah,
+06083,Santa Barbara,county,California,"Santa Maria-Santa Barbara, CA"
+06085,Santa Clara,county,California,"San Jose-Sunnyvale-Santa Clara, CA"
+04023,Santa Cruz,county,Arizona,"Nogales, AZ"
+06087,Santa Cruz,county,California,"Santa Cruz-Watsonville, CA"
+35049,Santa Fe,county,New Mexico,"Santa Fe, NM"
+12113,Santa Rosa,county,Florida,"Pensacola-Ferry Pass-Brent, FL"
+12115,Sarasota,county,Florida,"North Port-Sarasota-Bradenton, FL"
+36091,Saratoga,county,New York,"Albany-Schenectady-Troy, NY"
+38081,Sargent,county,North Dakota,
+31153,Sarpy,county,Nebraska,"Omaha-Council Bluffs, NE-IA"
+55111,Sauk,county,Wisconsin,"Baraboo, WI"
+31155,Saunders,county,Nebraska,"Omaha-Council Bluffs, NE-IA"
+55113,Sawyer,county,Wisconsin,
+36093,Schenectady,county,New York,"Albany-Schenectady-Troy, NY"
+48413,Schleicher,county,Texas,
+13249,Schley,county,Georgia,"Americus, GA"
+36095,Schoharie,county,New York,"Albany-Schenectady-Troy, NY"
+26153,Schoolcraft,county,Michigan,
+17169,Schuyler,county,Illinois,
+29197,Schuyler,county,Missouri,"Kirksville, MO"
+36097,Schuyler,county,New York,
+42107,Schuylkill,county,Pennsylvania,"Pottsville, PA"
+39145,Scioto,county,Ohio,"Portsmouth, OH"
+29199,Scotland,county,Missouri,
+37165,Scotland,county,North Carolina,"Laurinburg, NC"
+05127,Scott,county,Arkansas,
+17171,Scott,county,Illinois,"Jacksonville, IL"
+18143,Scott,county,Indiana,"Scottsburg, IN"
+19163,Scott,county,Iowa,"Davenport-Moline-Rock Island, IA-IL"
+20171,Scott,county,Kansas,
+21209,Scott,county,Kentucky,"Lexington-Fayette, KY"
+27139,Scott,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+28123,Scott,county,Mississippi,
+29201,Scott,county,Missouri,"Sikeston, MO"
+47151,Scott,county,Tennessee,
+51169,Scott,county,Virginia,"Kingsport-Bristol, TN-VA"
+31157,Scotts Bluff,county,Nebraska,"Scottsbluff, NE"
+13251,Screven,county,Georgia,
+48415,Scurry,county,Texas,"Snyder, TX"
+05129,Searcy,county,Arkansas,
+05131,Sebastian,county,Arkansas,"Fort Smith, AR-OK"
+08115,Sedgwick,county,Colorado,
+20173,Sedgwick,county,Kansas,"Wichita, KS"
+12117,Seminole,county,Florida,"Orlando-Kissimmee-Sanford, FL"
+13253,Seminole,county,Georgia,
+40133,Seminole,county,Oklahoma,
+36099,Seneca,county,New York,"Seneca Falls, NY"
+39147,Seneca,county,Ohio,"Tiffin, OH"
+47153,Sequatchie,county,Tennessee,"Chattanooga, TN-GA"
+40135,Sequoyah,county,Oklahoma,"Fort Smith, AR-OK"
+05133,Sevier,county,Arkansas,
+47155,Sevier,county,Tennessee,"Sevierville, TN"
+49041,Sevier,county,Utah,
+20175,Seward,county,Kansas,"Liberal, KS"
+31159,Seward,county,Nebraska,"Lincoln, NE"
+48417,Shackelford,county,Texas,
+29203,Shannon,county,Missouri,
+28125,Sharkey,county,Mississippi,
+05135,Sharp,county,Arkansas,"Batesville, AR"
+06089,Shasta,county,California,"Redding, CA"
+55115,Shawano,county,Wisconsin,"Shawano, WI"
+20177,Shawnee,county,Kansas,"Topeka, KS"
+55117,Sheboygan,county,Wisconsin,"Sheboygan, WI"
+01117,Shelby,county,Alabama,"Birmingham-Hoover, AL"
+17173,Shelby,county,Illinois,
+18145,Shelby,county,Indiana,"Indianapolis-Carmel-Anderson, IN"
+19165,Shelby,county,Iowa,
+21211,Shelby,county,Kentucky,"Louisville/Jefferson County, KY-IN"
+29205,Shelby,county,Missouri,
+39149,Shelby,county,Ohio,"Sidney, OH"
+47157,Shelby,county,Tennessee,"Memphis, TN-MS-AR"
+48419,Shelby,county,Texas,
+51171,Shenandoah,county,Virginia,
+27141,Sherburne,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+20179,Sheridan,county,Kansas,
+30091,Sheridan,county,Montana,
+31161,Sheridan,county,Nebraska,
+38083,Sheridan,county,North Dakota,
+56033,Sheridan,county,Wyoming,"Sheridan, WY"
+20181,Sherman,county,Kansas,
+31163,Sherman,county,Nebraska,
+41055,Sherman,county,Oregon,
+48421,Sherman,county,Texas,
+26155,Shiawassee,county,Michigan,"Lansing-East Lansing, MI"
+16079,Shoshone,county,Idaho,
+27143,Sibley,county,Minnesota,
+06091,Sierra,county,California,
+35051,Sierra,county,New Mexico,
+30093,Silver Bow,county,Montana,"Butte-Silver Bow, MT"
+21213,Simpson,county,Kentucky,
+28127,Simpson,county,Mississippi,"Jackson, MS"
+19167,Sioux,county,Iowa,
+31165,Sioux,county,Nebraska,"Scottsbluff, NE"
+38085,Sioux,county,North Dakota,
+06093,Siskiyou,county,California,
+02220,Sitka,county,Alaska,
+53057,Skagit,county,Washington,"Mount Vernon-Anacortes, WA"
+53059,Skamania,county,Washington,"Portland-Vancouver-Hillsboro, OR-WA"
+38087,Slope,county,North Dakota,
+20183,Smith,county,Kansas,
+28129,Smith,county,Mississippi,
+47159,Smith,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+48423,Smith,county,Texas,"Tyler, TX"
+51173,Smyth,county,Virginia,
+53061,Snohomish,county,Washington,"Seattle-Tacoma-Bellevue, WA"
+42109,Snyder,county,Pennsylvania,"Selinsgrove, PA"
+35053,Socorro,county,New Mexico,
+06095,Solano,county,California,"Vallejo, CA"
+23025,Somerset,county,Maine,
+24039,Somerset,county,Maryland,"Salisbury, MD-DE"
+34035,Somerset,county,New Jersey,"New York-Newark-Jersey City, NY-NJ-PA"
+42111,Somerset,county,Pennsylvania,"Somerset, PA"
+48425,Somervell,county,Texas,
+06097,Sonoma,county,California,"Santa Rosa-Petaluma, CA"
+51175,Southampton,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+02240,Southeast Fairbanks,county,Alaska,
+13255,Spalding,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+45083,Spartanburg,county,South Carolina,"Spartanburg, SC"
+18147,Spencer,county,Indiana,
+21215,Spencer,county,Kentucky,"Louisville/Jefferson County, KY-IN"
+46115,Spink,county,South Dakota,
+53063,Spokane,county,Washington,"Spokane-Spokane Valley, WA"
+51177,Spotsylvania,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+22087,St. Bernard,county,Louisiana,"New Orleans-Metairie, LA"
+22089,St. Charles,county,Louisiana,"New Orleans-Metairie, LA"
+29183,St. Charles,county,Missouri,"St. Louis, MO-IL"
+01115,St. Clair,county,Alabama,"Birmingham-Hoover, AL"
+17163,St. Clair,county,Illinois,"St. Louis, MO-IL"
+26147,St. Clair,county,Michigan,"Detroit-Warren-Dearborn, MI"
+29185,St. Clair,county,Missouri,
+55109,St. Croix,county,Wisconsin,"Minneapolis-St. Paul-Bloomington, MN-WI"
+05123,St. Francis,county,Arkansas,"Forrest City, AR"
+29187,St. Francois,county,Missouri,"Farmington, MO"
+22091,St. Helena,county,Louisiana,"Baton Rouge, LA"
+22093,St. James,county,Louisiana,"New Orleans-Metairie, LA"
+12109,St. Johns,county,Florida,"Jacksonville, FL"
+22095,St. John the Baptist,county,Louisiana,"New Orleans-Metairie, LA"
+18141,St. Joseph,county,Indiana,"South Bend-Mishawaka, IN-MI"
+26149,St. Joseph,county,Michigan,"Sturgis, MI"
+22097,St. Landry,county,Louisiana,"Opelousas, LA"
+36089,St. Lawrence,county,New York,"Ogdensburg-Massena, NY"
+27137,St. Louis,county,Minnesota,"Duluth, MN-WI"
+29189,St. Louis,county,Missouri,"St. Louis, MO-IL"
+12111,St. Lucie,county,Florida,"Port St. Lucie, FL"
+22099,St. Martin,county,Louisiana,"Lafayette, LA"
+24037,St. Mary's,county,Maryland,"California-Lexington Park, MD"
+22101,St. Mary,county,Louisiana,"Morgan City, LA"
+22103,St. Tammany,county,Louisiana,"New Orleans-Metairie, LA"
+20185,Stafford,county,Kansas,
+51179,Stafford,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+06099,Stanislaus,county,California,"Modesto, CA"
+46117,Stanley,county,South Dakota,"Pierre, SD"
+37167,Stanly,county,North Carolina,"Albemarle, NC"
+20187,Stanton,county,Kansas,
+31167,Stanton,county,Nebraska,"Norfolk, NE"
+17175,Stark,county,Illinois,"Peoria, IL"
+38089,Stark,county,North Dakota,"Dickinson, ND"
+39151,Stark,county,Ohio,"Canton-Massillon, OH"
+18149,Starke,county,Indiana,
+48427,Starr,county,Texas,"Rio Grande City-Roma, TX"
+51790,Staunton,county,Virginia,"Staunton, VA"
+29186,Ste. Genevieve,county,Missouri,
+27145,Stearns,county,Minnesota,"St. Cloud, MN"
+27147,Steele,county,Minnesota,"Owatonna, MN"
+38091,Steele,county,North Dakota,
+13257,Stephens,county,Georgia,"Toccoa, GA"
+40137,Stephens,county,Oklahoma,"Duncan, OK"
+48429,Stephens,county,Texas,
+17177,Stephenson,county,Illinois,"Freeport, IL"
+48431,Sterling,county,Texas,"San Angelo, TX"
+18151,Steuben,county,Indiana,"Angola, IN"
+36101,Steuben,county,New York,"Corning, NY"
+20189,Stevens,county,Kansas,
+27149,Stevens,county,Minnesota,
+53065,Stevens,county,Washington,"Spokane-Spokane Valley, WA"
+13259,Stewart,county,Georgia,"Columbus, GA-AL"
+47161,Stewart,county,Tennessee,"Clarksville, TN-KY"
+30095,Stillwater,county,Montana,"Billings, MT"
+29207,Stoddard,county,Missouri,
+37169,Stokes,county,North Carolina,"Winston-Salem, NC"
+05137,Stone,county,Arkansas,
+28131,Stone,county,Mississippi,"Gulfport-Biloxi, MS"
+29209,Stone,county,Missouri,
+48433,Stonewall,county,Texas,
+32029,Storey,county,Nevada,"Reno, NV"
+19169,Story,county,Iowa,"Ames, IA"
+33017,Strafford,county,New Hampshire,"Boston-Cambridge-Newton, MA-NH"
+38093,Stutsman,county,North Dakota,"Jamestown, ND"
+56035,Sublette,county,Wyoming,
+25025,Suffolk,county,Massachusetts,"Boston-Cambridge-Newton, MA-NH"
+36103,Suffolk,county,New York,"New York-Newark-Jersey City, NY-NJ-PA"
+51800,Suffolk,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+18153,Sullivan,county,Indiana,"Terre Haute, IN"
+29211,Sullivan,county,Missouri,
+33019,Sullivan,county,New Hampshire,"Lebanon, NH-VT"
+36105,Sullivan,county,New York,
+42113,Sullivan,county,Pennsylvania,
+47163,Sullivan,county,Tennessee,"Kingsport-Bristol, TN-VA"
+46119,Sully,county,South Dakota,
+54089,Summers,county,West Virginia,
+08117,Summit,county,Colorado,"Breckenridge, CO"
+39153,Summit,county,Ohio,"Akron, OH"
+49043,Summit,county,Utah,"Heber, UT"
+20191,Sumner,county,Kansas,"Wichita, KS"
+47165,Sumner,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+01119,Sumter,county,Alabama,
+12119,Sumter,county,Florida,"The Villages, FL"
+13261,Sumter,county,Georgia,"Americus, GA"
+45085,Sumter,county,South Carolina,"Sumter, SC"
+28133,Sunflower,county,Mississippi,"Indianola, MS"
+37171,Surry,county,North Carolina,"Mount Airy, NC"
+51181,Surry,county,Virginia,
+42115,Susquehanna,county,Pennsylvania,
+10005,Sussex,county,Delaware,"Salisbury, MD-DE"
+34037,Sussex,county,New Jersey,"New York-Newark-Jersey City, NY-NJ-PA"
+51183,Sussex,county,Virginia,"Richmond, VA"
+06101,Sutter,county,California,"Yuba City, CA"
+48435,Sutton,county,Texas,
+12121,Suwannee,county,Florida,
+37173,Swain,county,North Carolina,"Cullowhee, NC"
+30097,Sweet Grass,county,Montana,
+56037,Sweetwater,county,Wyoming,"Rock Springs, WY"
+27151,Swift,county,Minnesota,
+48437,Swisher,county,Texas,
+18155,Switzerland,county,Indiana,
+13263,Talbot,county,Georgia,"Columbus, GA-AL"
+24041,Talbot,county,Maryland,"Easton, MD"
+13265,Taliaferro,county,Georgia,
+01121,Talladega,county,Alabama,"Talladega-Sylacauga, AL"
+28135,Tallahatchie,county,Mississippi,
+01123,Tallapoosa,county,Alabama,"Alexander City, AL"
+19171,Tama,county,Iowa,
+29213,Taney,county,Missouri,"Branson, MO"
+22105,Tangipahoa,county,Louisiana,"Hammond, LA"
+35055,Taos,county,New Mexico,"Taos, NM"
+48439,Tarrant,county,Texas,"Dallas-Fort Worth-Arlington, TX"
+28137,Tate,county,Mississippi,"Memphis, TN-MS-AR"
+13267,Tattnall,county,Georgia,
+12123,Taylor,county,Florida,
+13269,Taylor,county,Georgia,
+19173,Taylor,county,Iowa,
+21217,Taylor,county,Kentucky,"Campbellsville, KY"
+48441,Taylor,county,Texas,"Abilene, TX"
+54091,Taylor,county,West Virginia,"Clarksburg, WV"
+55119,Taylor,county,Wisconsin,
+17179,Tazewell,county,Illinois,"Peoria, IL"
+51185,Tazewell,county,Virginia,"Bluefield, WV-VA"
+06103,Tehama,county,California,"Red Bluff, CA"
+13271,Telfair,county,Georgia,
+08119,Teller,county,Colorado,"Colorado Springs, CO"
+22107,Tensas,county,Louisiana,
+22109,Terrebonne,county,Louisiana,"Houma-Thibodaux, LA"
+13273,Terrell,county,Georgia,"Albany, GA"
+48443,Terrell,county,Texas,
+48445,Terry,county,Texas,
+16081,Teton,county,Idaho,"Jackson, WY-ID"
+30099,Teton,county,Montana,
+56039,Teton,county,Wyoming,"Jackson, WY-ID"
+29215,Texas,county,Missouri,
+40139,Texas,county,Oklahoma,"Guymon, OK"
+31169,Thayer,county,Nebraska,
+13275,Thomas,county,Georgia,"Thomasville, GA"
+20193,Thomas,county,Kansas,
+31171,Thomas,county,Nebraska,
+48447,Throckmorton,county,Texas,
+31173,Thurston,county,Nebraska,
+53067,Thurston,county,Washington,"Olympia-Lacey-Tumwater, WA"
+13277,Tift,county,Georgia,"Tifton, GA"
+41057,Tillamook,county,Oregon,
+40141,Tillman,county,Oklahoma,
+36107,Tioga,county,New York,"Binghamton, NY"
+42117,Tioga,county,Pennsylvania,
+28139,Tippah,county,Mississippi,
+18157,Tippecanoe,county,Indiana,"Lafayette-West Lafayette, IN"
+18159,Tipton,county,Indiana,
+47167,Tipton,county,Tennessee,"Memphis, TN-MS-AR"
+28141,Tishomingo,county,Mississippi,
+48449,Titus,county,Texas,"Mount Pleasant, TX"
+21219,Todd,county,Kentucky,
+27153,Todd,county,Minnesota,
+46121,Todd,county,South Dakota,
+09013,Tolland,county,Connecticut,"Hartford-East Hartford-Middletown, CT"
+48451,Tom Green,county,Texas,"San Angelo, TX"
+36109,Tompkins,county,New York,"Ithaca, NY"
+49045,Tooele,county,Utah,"Salt Lake City, UT"
+30101,Toole,county,Montana,
+13279,Toombs,county,Georgia,"Vidalia, GA"
+35057,Torrance,county,New Mexico,"Albuquerque, NM"
+38095,Towner,county,North Dakota,
+13281,Towns,county,Georgia,
+38097,Traill,county,North Dakota,
+37175,Transylvania,county,North Carolina,"Brevard, NC"
+27155,Traverse,county,Minnesota,
+48453,Travis,county,Texas,"Austin-Round Rock-Georgetown, TX"
+30103,Treasure,county,Montana,
+20195,Trego,county,Kansas,
+55121,Trempealeau,county,Wisconsin,
+13283,Treutlen,county,Georgia,"Dublin, GA"
+21221,Trigg,county,Kentucky,"Clarksville, TN-KY"
+21223,Trimble,county,Kentucky,
+06105,Trinity,county,California,
+48455,Trinity,county,Texas,
+46123,Tripp,county,South Dakota,
+13285,Troup,county,Georgia,"LaGrange, GA-AL"
+47169,Trousdale,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+39155,Trumbull,county,Ohio,"Youngstown-Warren-Boardman, OH-PA"
+54093,Tucker,county,West Virginia,
+06107,Tulare,county,California,"Visalia, CA"
+40143,Tulsa,county,Oklahoma,"Tulsa, OK"
+28143,Tunica,county,Mississippi,"Memphis, TN-MS-AR"
+06109,Tuolumne,county,California,"Sonora, CA"
+13287,Turner,county,Georgia,
+46125,Turner,county,South Dakota,"Sioux Falls, SD"
+01125,Tuscaloosa,county,Alabama,"Tuscaloosa, AL"
+39157,Tuscarawas,county,Ohio,"New Philadelphia-Dover, OH"
+26157,Tuscola,county,Michigan,
+13289,Twiggs,county,Georgia,"Macon-Bibb County, GA"
+16083,Twin Falls,county,Idaho,"Twin Falls, ID"
+48457,Tyler,county,Texas,
+54095,Tyler,county,West Virginia,
+37177,Tyrrell,county,North Carolina,
+56041,Uinta,county,Wyoming,"Evanston, WY"
+49047,Uintah,county,Utah,"Vernal, UT"
+36111,Ulster,county,New York,"Kingston, NY"
+41059,Umatilla,county,Oregon,"Hermiston-Pendleton, OR"
+47171,Unicoi,county,Tennessee,"Johnson City, TN"
+05139,Union,county,Arkansas,"El Dorado, AR"
+12125,Union,county,Florida,
+13291,Union,county,Georgia,
+17181,Union,county,Illinois,
+18161,Union,county,Indiana,"Cincinnati, OH-KY-IN"
+19175,Union,county,Iowa,
+21225,Union,county,Kentucky,
+22111,Union,county,Louisiana,"Monroe, LA"
+28145,Union,county,Mississippi,
+34039,Union,county,New Jersey,"New York-Newark-Jersey City, NY-NJ-PA"
+35059,Union,county,New Mexico,
+37179,Union,county,North Carolina,"Charlotte-Concord-Gastonia, NC-SC"
+39159,Union,county,Ohio,"Columbus, OH"
+41061,Union,county,Oregon,"La Grande, OR"
+42119,Union,county,Pennsylvania,"Lewisburg, PA"
+45087,Union,county,South Carolina,"Union, SC"
+46127,Union,county,South Dakota,"Sioux City, IA-NE-SD"
+47173,Union,county,Tennessee,"Knoxville, TN"
+48459,Upshur,county,Texas,"Longview, TX"
+54097,Upshur,county,West Virginia,
+13293,Upson,county,Georgia,"Thomaston, GA"
+48461,Upton,county,Texas,
+49049,Utah,county,Utah,"Provo-Orem, UT"
+48463,Uvalde,county,Texas,"Uvalde, TX"
+48465,Val Verde,county,Texas,"Del Rio, TX"
+02261,Valdez-Cordova,county,Alaska,
+35061,Valencia,county,New Mexico,"Albuquerque, NM"
+16085,Valley,county,Idaho,
+30105,Valley,county,Montana,
+31175,Valley,county,Nebraska,
+05141,Van Buren,county,Arkansas,
+19177,Van Buren,county,Iowa,
+26159,Van Buren,county,Michigan,
+47175,Van Buren,county,Tennessee,
+39161,Van Wert,county,Ohio,"Van Wert, OH"
+48467,Van Zandt,county,Texas,
+37181,Vance,county,North Carolina,"Henderson, NC"
+18163,Vanderburgh,county,Indiana,"Evansville, IN-KY"
+42121,Venango,county,Pennsylvania,"Oil City, PA"
+06111,Ventura,county,California,"Oxnard-Thousand Oaks-Ventura, CA"
+17183,Vermilion,county,Illinois,"Danville, IL"
+22113,Vermilion,county,Louisiana,"Lafayette, LA"
+18165,Vermillion,county,Indiana,"Terre Haute, IN"
+22115,Vernon,county,Louisiana,"Fort Polk South, LA"
+29217,Vernon,county,Missouri,
+55123,Vernon,county,Wisconsin,
+48469,Victoria,county,Texas,"Victoria, TX"
+18167,Vigo,county,Indiana,"Terre Haute, IN"
+55125,Vilas,county,Wisconsin,
+39163,Vinton,county,Ohio,
+51810,Virginia Beach,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+12127,Volusia,county,Florida,"Deltona-Daytona Beach-Ormond Beach, FL"
+17185,Wabash,county,Illinois,
+18169,Wabash,county,Indiana,"Wabash, IN"
+27157,Wabasha,county,Minnesota,"Rochester, MN"
+20197,Wabaunsee,county,Kansas,"Topeka, KS"
+27159,Wadena,county,Minnesota,
+40145,Wagoner,county,Oklahoma,"Tulsa, OK"
+53069,Wahkiakum,county,Washington,
+37183,Wake,county,North Carolina,"Raleigh-Cary, NC"
+12129,Wakulla,county,Florida,"Tallahassee, FL"
+23027,Waldo,county,Maine,
+01127,Walker,county,Alabama,"Jasper, AL"
+13295,Walker,county,Georgia,"Chattanooga, TN-GA"
+48471,Walker,county,Texas,"Huntsville, TX"
+53071,Walla Walla,county,Washington,"Walla Walla, WA"
+20199,Wallace,county,Kansas,
+48473,Waller,county,Texas,"Houston-The Woodlands-Sugar Land, TX"
+41063,Wallowa,county,Oregon,
+38099,Walsh,county,North Dakota,
+28147,Walthall,county,Mississippi,
+12131,Walton,county,Florida,"Crestview-Fort Walton Beach-Destin, FL"
+13297,Walton,county,Georgia,"Atlanta-Sandy Springs-Alpharetta, GA"
+46129,Walworth,county,South Dakota,
+55127,Walworth,county,Wisconsin,"Whitewater, WI"
+19179,Wapello,county,Iowa,"Ottumwa, IA"
+38101,Ward,county,North Dakota,"Minot, ND"
+48475,Ward,county,Texas,
+13299,Ware,county,Georgia,"Waycross, GA"
+13301,Warren,county,Georgia,
+17187,Warren,county,Illinois,
+18171,Warren,county,Indiana,"Lafayette-West Lafayette, IN"
+19181,Warren,county,Iowa,"Des Moines-West Des Moines, IA"
+21227,Warren,county,Kentucky,"Bowling Green, KY"
+28149,Warren,county,Mississippi,"Vicksburg, MS"
+29219,Warren,county,Missouri,"St. Louis, MO-IL"
+34041,Warren,county,New Jersey,"Allentown-Bethlehem-Easton, PA-NJ"
+36113,Warren,county,New York,"Glens Falls, NY"
+37185,Warren,county,North Carolina,
+39165,Warren,county,Ohio,"Cincinnati, OH-KY-IN"
+42123,Warren,county,Pennsylvania,"Warren, PA"
+47177,Warren,county,Tennessee,"McMinnville, TN"
+51187,Warren,county,Virginia,"Washington-Arlington-Alexandria, DC-VA-MD-WV"
+18173,Warrick,county,Indiana,"Evansville, IN-KY"
+49051,Wasatch,county,Utah,"Heber, UT"
+41065,Wasco,county,Oregon,"The Dalles, OR"
+27161,Waseca,county,Minnesota,
+56043,Washakie,county,Wyoming,
+55129,Washburn,county,Wisconsin,
+01129,Washington,county,Alabama,"Mobile, AL"
+05143,Washington,county,Arkansas,"Fayetteville-Springdale-Rogers, AR"
+08121,Washington,county,Colorado,
+12133,Washington,county,Florida,
+13303,Washington,county,Georgia,
+16087,Washington,county,Idaho,
+17189,Washington,county,Illinois,
+18175,Washington,county,Indiana,"Louisville/Jefferson County, KY-IN"
+19183,Washington,county,Iowa,"Iowa City, IA"
+20201,Washington,county,Kansas,
+21229,Washington,county,Kentucky,
+22117,Washington,county,Louisiana,"Bogalusa, LA"
+23029,Washington,county,Maine,
+24043,Washington,county,Maryland,"Hagerstown-Martinsburg, MD-WV"
+27163,Washington,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+28151,Washington,county,Mississippi,"Greenville, MS"
+29221,Washington,county,Missouri,
+31177,Washington,county,Nebraska,"Omaha-Council Bluffs, NE-IA"
+36115,Washington,county,New York,"Glens Falls, NY"
+37187,Washington,county,North Carolina,
+39167,Washington,county,Ohio,"Marietta, OH"
+40147,Washington,county,Oklahoma,"Bartlesville, OK"
+41067,Washington,county,Oregon,"Portland-Vancouver-Hillsboro, OR-WA"
+42125,Washington,county,Pennsylvania,"Pittsburgh, PA"
+44009,Washington,county,Rhode Island,"Providence-Warwick, RI-MA"
+47179,Washington,county,Tennessee,"Johnson City, TN"
+48477,Washington,county,Texas,"Brenham, TX"
+49053,Washington,county,Utah,"St. George, UT"
+50023,Washington,county,Vermont,"Barre, VT"
+51191,Washington,county,Virginia,"Kingsport-Bristol, TN-VA"
+55131,Washington,county,Wisconsin,"Milwaukee-Waukesha, WI"
+40149,Washita,county,Oklahoma,
+32031,Washoe,county,Nevada,"Reno, NV"
+26161,Washtenaw,county,Michigan,"Ann Arbor, MI"
+37189,Watauga,county,North Carolina,"Boone, NC"
+27165,Watonwan,county,Minnesota,
+55133,Waukesha,county,Wisconsin,"Milwaukee-Waukesha, WI"
+55135,Waupaca,county,Wisconsin,
+55137,Waushara,county,Wisconsin,
+13305,Wayne,county,Georgia,"Jesup, GA"
+17191,Wayne,county,Illinois,
+18177,Wayne,county,Indiana,"Richmond, IN"
+19185,Wayne,county,Iowa,
+21231,Wayne,county,Kentucky,
+26163,Wayne,county,Michigan,"Detroit-Warren-Dearborn, MI"
+28153,Wayne,county,Mississippi,
+29223,Wayne,county,Missouri,
+31179,Wayne,county,Nebraska,
+36117,Wayne,county,New York,"Rochester, NY"
+37191,Wayne,county,North Carolina,"Goldsboro, NC"
+39169,Wayne,county,Ohio,"Wooster, OH"
+42127,Wayne,county,Pennsylvania,
+47181,Wayne,county,Tennessee,
+49055,Wayne,county,Utah,
+54099,Wayne,county,West Virginia,"Huntington-Ashland, WV-KY-OH"
+51820,Waynesboro,county,Virginia,"Staunton, VA"
+47183,Weakley,county,Tennessee,"Martin, TN"
+48479,Webb,county,Texas,"Laredo, TX"
+49057,Weber,county,Utah,"Ogden-Clearfield, UT"
+13307,Webster,county,Georgia,
+19187,Webster,county,Iowa,"Fort Dodge, IA"
+21233,Webster,county,Kentucky,
+22119,Webster,county,Louisiana,"Minden, LA"
+28155,Webster,county,Mississippi,"Starkville, MS"
+29225,Webster,county,Missouri,"Springfield, MO"
+31181,Webster,county,Nebraska,
+54101,Webster,county,West Virginia,
+08123,Weld,county,Colorado,"Greeley, CO"
+18179,Wells,county,Indiana,"Bluffton, IN"
+38103,Wells,county,North Dakota,
+22121,West Baton Rouge,county,Louisiana,"Baton Rouge, LA"
+22123,West Carroll,county,Louisiana,
+22125,West Feliciana,county,Louisiana,"Baton Rouge, LA"
+36119,Westchester,county,New York,"New York-Newark-Jersey City, NY-NJ-PA"
+42129,Westmoreland,county,Pennsylvania,"Pittsburgh, PA"
+51193,Westmoreland,county,Virginia,
+56045,Weston,county,Wyoming,"Gillette, WY"
+54103,Wetzel,county,West Virginia,
+26165,Wexford,county,Michigan,"Cadillac, MI"
+48481,Wharton,county,Texas,"El Campo, TX"
+53073,Whatcom,county,Washington,"Bellingham, WA"
+30107,Wheatland,county,Montana,
+13309,Wheeler,county,Georgia,
+31183,Wheeler,county,Nebraska,
+41069,Wheeler,county,Oregon,
+48483,Wheeler,county,Texas,
+32033,White Pine,county,Nevada,
+05145,White,county,Arkansas,"Searcy, AR"
+13311,White,county,Georgia,
+17193,White,county,Illinois,
+18181,White,county,Indiana,
+47185,White,county,Tennessee,
+17195,Whiteside,county,Illinois,"Sterling, IL"
+13313,Whitfield,county,Georgia,"Dalton, GA"
+18183,Whitley,county,Indiana,"Fort Wayne, IN"
+21235,Whitley,county,Kentucky,"London, KY"
+53075,Whitman,county,Washington,"Pullman, WA"
+30109,Wibaux,county,Montana,
+20203,Wichita,county,Kansas,
+48485,Wichita,county,Texas,"Wichita Falls, TX"
+24045,Wicomico,county,Maryland,"Salisbury, MD-DE"
+48487,Wilbarger,county,Texas,"Vernon, TX"
+01131,Wilcox,county,Alabama,
+13315,Wilcox,county,Georgia,
+13317,Wilkes,county,Georgia,
+37193,Wilkes,county,North Carolina,"North Wilkesboro, NC"
+27167,Wilkin,county,Minnesota,"Wahpeton, ND-MN"
+13319,Wilkinson,county,Georgia,
+28157,Wilkinson,county,Mississippi,
+17197,Will,county,Illinois,"Chicago-Naperville-Elgin, IL-IN-WI"
+48489,Willacy,county,Texas,"Raymondville, TX"
+38105,Williams,county,North Dakota,"Williston, ND"
+39171,Williams,county,Ohio,
+45089,Williamsburg,county,South Carolina,
+51830,Williamsburg,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+17199,Williamson,county,Illinois,"Carbondale-Marion, IL"
+47187,Williamson,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+48491,Williamson,county,Texas,"Austin-Round Rock-Georgetown, TX"
+20205,Wilson,county,Kansas,
+37195,Wilson,county,North Carolina,"Wilson, NC"
+47189,Wilson,county,Tennessee,"Nashville-Davidson--Murfreesboro--Franklin, TN"
+48493,Wilson,county,Texas,"San Antonio-New Braunfels, TX"
+51840,Winchester,county,Virginia,"Winchester, VA-WV"
+09015,Windham,county,Connecticut,"Worcester, MA-CT"
+50025,Windham,county,Vermont,
+50027,Windsor,county,Vermont,"Lebanon, NH-VT"
+48495,Winkler,county,Texas,
+22127,Winn,county,Louisiana,
+17201,Winnebago,county,Illinois,"Rockford, IL"
+19189,Winnebago,county,Iowa,
+55139,Winnebago,county,Wisconsin,"Oshkosh-Neenah, WI"
+19191,Winneshiek,county,Iowa,
+27169,Winona,county,Minnesota,"Winona, MN"
+01133,Winston,county,Alabama,
+28159,Winston,county,Mississippi,
+54105,Wirt,county,West Virginia,"Parkersburg-Vienna, WV"
+48497,Wise,county,Texas,"Dallas-Fort Worth-Arlington, TX"
+51195,Wise,county,Virginia,"Big Stone Gap, VA"
+21237,Wolfe,county,Kentucky,
+39173,Wood,county,Ohio,"Toledo, OH"
+48499,Wood,county,Texas,
+54107,Wood,county,West Virginia,"Parkersburg-Vienna, WV"
+55141,Wood,county,Wisconsin,"Wisconsin Rapids-Marshfield, WI"
+19193,Woodbury,county,Iowa,"Sioux City, IA-NE-SD"
+17203,Woodford,county,Illinois,"Peoria, IL"
+21239,Woodford,county,Kentucky,"Lexington-Fayette, KY"
+05147,Woodruff,county,Arkansas,
+40151,Woods,county,Oklahoma,
+20207,Woodson,county,Kansas,
+40153,Woodward,county,Oklahoma,"Woodward, OK"
+24047,Worcester,county,Maryland,"Salisbury, MD-DE"
+25027,Worcester,county,Massachusetts,"Worcester, MA-CT"
+13321,Worth,county,Georgia,"Albany, GA"
+19195,Worth,county,Iowa,"Mason City, IA"
+29227,Worth,county,Missouri,
+19197,Wright,county,Iowa,
+27171,Wright,county,Minnesota,"Minneapolis-St. Paul-Bloomington, MN-WI"
+29229,Wright,county,Missouri,
+39175,Wyandot,county,Ohio,
+20209,Wyandotte,county,Kansas,"Kansas City, MO-KS"
+36121,Wyoming,county,New York,
+42131,Wyoming,county,Pennsylvania,"Scranton--Wilkes-Barre, PA"
+54109,Wyoming,county,West Virginia,
+51197,Wythe,county,Virginia,
+37197,Yadkin,county,North Carolina,"Winston-Salem, NC"
+53077,Yakima,county,Washington,"Yakima, WA"
+02282,Yakutat,county,Alaska,
+28161,Yalobusha,county,Mississippi,
+41071,Yamhill,county,Oregon,"Portland-Vancouver-Hillsboro, OR-WA"
+37199,Yancey,county,North Carolina,
+46135,Yankton,county,South Dakota,"Yankton, SD"
+36123,Yates,county,New York,"Rochester, NY"
+04025,Yavapai,county,Arizona,"Prescott Valley-Prescott, AZ"
+28163,Yazoo,county,Mississippi,"Jackson, MS"
+05149,Yell,county,Arkansas,"Russellville, AR"
+27173,Yellow Medicine,county,Minnesota,
+30111,Yellowstone,county,Montana,"Billings, MT"
+48501,Yoakum,county,Texas,
+06113,Yolo,county,California,"Sacramento-Roseville-Folsom, CA"
+23031,York,county,Maine,"Portland-South Portland, ME"
+31185,York,county,Nebraska,
+42133,York,county,Pennsylvania,"York-Hanover, PA"
+45091,York,county,South Carolina,"Charlotte-Concord-Gastonia, NC-SC"
+51199,York,county,Virginia,"Virginia Beach-Norfolk-Newport News, VA-NC"
+48503,Young,county,Texas,
+06115,Yuba,county,California,"Yuba City, CA"
+02290,Yukon-Koyukuk,county,Alaska,
+04027,Yuma,county,Arizona,"Yuma, AZ"
+08125,Yuma,county,Colorado,
+48505,Zapata,county,Texas,"Zapata, TX"
+48507,Zavala,county,Texas,
+46137,Ziebach,county,South Dakota,
