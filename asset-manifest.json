@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/vis/static/css/main.7d629753.chunk.css",
-    "main.js": "/vis/static/js/main.ca2fdd31.chunk.js",
-    "main.js.map": "/vis/static/js/main.ca2fdd31.chunk.js.map",
+    "main.css": "/vis/static/css/main.95e5e938.chunk.css",
+    "main.js": "/vis/static/js/main.afb9b727.chunk.js",
+    "main.js.map": "/vis/static/js/main.afb9b727.chunk.js.map",
     "runtime-main.js": "/vis/static/js/runtime-main.9de2a88e.js",
     "runtime-main.js.map": "/vis/static/js/runtime-main.9de2a88e.js.map",
-    "static/js/2.11a13e04.chunk.js": "/vis/static/js/2.11a13e04.chunk.js",
-    "static/js/2.11a13e04.chunk.js.map": "/vis/static/js/2.11a13e04.chunk.js.map",
+    "static/js/2.2a22e55b.chunk.js": "/vis/static/js/2.2a22e55b.chunk.js",
+    "static/js/2.2a22e55b.chunk.js.map": "/vis/static/js/2.2a22e55b.chunk.js.map",
     "static/js/3.ea7a7184.chunk.js": "/vis/static/js/3.ea7a7184.chunk.js",
     "static/js/3.ea7a7184.chunk.js.map": "/vis/static/js/3.ea7a7184.chunk.js.map",
     "index.html": "/vis/index.html",
-    "static/css/main.7d629753.chunk.css.map": "/vis/static/css/main.7d629753.chunk.css.map",
-    "static/js/2.11a13e04.chunk.js.LICENSE.txt": "/vis/static/js/2.11a13e04.chunk.js.LICENSE.txt",
-    "static/media/JHU_IncidentCases_Country.32c0c7ba.csv": "/vis/static/media/JHU_IncidentCases_Country.32c0c7ba.csv",
-    "static/media/JHU_IncidentCases_County.ea0306e8.csv": "/vis/static/media/JHU_IncidentCases_County.ea0306e8.csv",
-    "static/media/JHU_IncidentCases_State.7048ddbf.csv": "/vis/static/media/JHU_IncidentCases_State.7048ddbf.csv",
+    "static/css/main.95e5e938.chunk.css.map": "/vis/static/css/main.95e5e938.chunk.css.map",
+    "static/js/2.2a22e55b.chunk.js.LICENSE.txt": "/vis/static/js/2.2a22e55b.chunk.js.LICENSE.txt",
+    "static/media/JHU_IncidentCases_Country.871a329c.csv": "/vis/static/media/JHU_IncidentCases_Country.871a329c.csv",
+    "static/media/JHU_IncidentCases_County.801e77d5.csv": "/vis/static/media/JHU_IncidentCases_County.801e77d5.csv",
+    "static/media/JHU_IncidentCases_State.344bf902.csv": "/vis/static/media/JHU_IncidentCases_State.344bf902.csv",
     "static/media/areum-jo.c7558542.jpg": "/vis/static/media/areum-jo.c7558542.jpg",
     "static/media/jae-cho.3d22eee1.jpg": "/vis/static/media/jae-cho.3d22eee1.jpg",
     "static/media/locations_information.d1756be8.csv": "/vis/static/media/locations_information.d1756be8.csv",
     "static/media/notFound404.4ce18fbb.svg": "/vis/static/media/notFound404.4ce18fbb.svg",
-    "static/media/one-quiet-night-logo.8256d577.jpg": "/vis/static/media/one-quiet-night-logo.8256d577.jpg"
+    "static/media/one-quiet-night-logo.8256d577.jpg": "/vis/static/media/one-quiet-night-logo.8256d577.jpg",
+    "static/media/oqn-covid-19-forecast.8a566bb3.pdf": "/vis/static/media/oqn-covid-19-forecast.8a566bb3.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.9de2a88e.js",
-    "static/js/2.11a13e04.chunk.js",
-    "static/css/main.7d629753.chunk.css",
-    "static/js/main.ca2fdd31.chunk.js"
+    "static/js/2.2a22e55b.chunk.js",
+    "static/css/main.95e5e938.chunk.css",
+    "static/js/main.afb9b727.chunk.js"
   ]
 }
