@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 import Nav from './Components/Nav';
-import Footer from './Components/Footer';
+// import Footer from './Components/Footer';
 
 import About from './Components/About';
 import PageNotFound from './Components/PageNotFound';
@@ -24,7 +24,7 @@ function App() {
         <Route path="/forecast" component={Forecast} />
         <Route component={PageNotFound} />
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -18,15 +18,15 @@ const Counties = () => {
     const [onCountyId, setOnCountyId] = useState("53033"); // initialize king county data
     const [allCountiesData, setAllCountiesData] = useState([]);
     const [oneCountyData, setoneCountyData] = useState([]);
-    const [countyCase, setCountyCase] = useState("1231");
+    const [countyCase, setCountyCase] = useState("52");
     const [countyLocation, setCountyLocation] = useState([]); 
     const [tooltip, setTooltip] = useState('');
-    const [yMax, setYMax] = useState(1411);
+    const [yMax, setYMax] = useState(52);
 
 
     useEffect(() => {
         csv(csvCounty).then(county => {
-            let co = county[county.length-9];
+            let co = county[county.length-5];
             let converted = Object.keys(co).map(key => ({ key, cases: co[key]}));
             setCountyData(converted); // console.log(countyData) -- {key: "10001", cases: "1974.1572909406702"}
             setAllCountiesData(county);
@@ -60,7 +60,7 @@ const Counties = () => {
         <div>
             {onCountyId && <CountySelection onCountyId={onCountyId} setOnCountyId={setOnCountyId} oneCountyData={oneCountyData} setCountyCase={setCountyCase} setYMax={setYMax} />}
 
-            <p style={{fontSize: "20px", fontWeight: "300"}}>In the <code>{countyName}</code>, on <code>{latestDate}</code>, there were <code>{Math.round(countyCase)}</code> reported COVID-19 cases per 100K people.</p>
+            <p style={{fontSize: "20px", fontWeight: "300"}}>In the <code>{countyName}</code>, on the week ending on <code>{latestDate}</code>, <br/>there were <code>{Math.round(countyCase)}</code> reported COVID-19 cases per 100K people.</p>
             <div className="vis-wrapper">
                 <div className="forecast usmap" >
                     <ComposableMap data-tip="" projection="geoAlbersUsa" projectionConfig={{ scale: 800 }} 

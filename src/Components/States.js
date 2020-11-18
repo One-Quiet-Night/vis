@@ -26,16 +26,16 @@ const States = () => {
     const [onStateId, setOnStateId] = useState("53"); // for initializing WA data
     const [allStatesData, setAllStatesData] = useState([]); 
     const [oneStateData, setOneStateDate] = useState([]);
-    const [stateCase, setStateCase] = useState("1411"); // for WA cumulative case data
+    const [stateCase, setStateCase] = useState("154"); // for WA cumulative case data
     const [error, setError] = useState('');
     const [tooltip, setTooltip] = useState('');
-    const [yMax, setYMax] = useState(1411);
+    const [yMax, setYMax] = useState(154);
 
     useEffect(() => {
         let isSubscribed = true;
         csv(csvState).then(state => {
             if (isSubscribed) {
-                let st = state[state.length-9];
+                let st = state[state.length-5];
                 let converted = Object.keys(st).map(key => ({ key, cases: st[key]}))
                 setStateData(converted);
                 setAllStatesData(state);
@@ -66,7 +66,7 @@ const States = () => {
     // for chart : filter out with the state fips id and plot
     return (
         <div>
-            <p style={{fontSize: "20px", fontWeight: "300"}}>In <code>{stateInfo}</code> state, on <code>{latestDate}</code>, there were <code>{Math.round(stateCase)}</code> newly reported COVID-19 cases per 100K people.</p>
+            <p style={{fontSize: "20px", fontWeight: "300"}}>In <code>{stateInfo}</code> state, on the week ending on <code>{latestDate}</code>,<br/> there were <code>{Math.round(stateCase)}</code> newly reported COVID-19 cases per 100K people.</p>
             {onStateId && <StateSelection setOnStateId={setOnStateId} oneStateData={oneStateData} setStateCase={setStateCase} setYMax={setYMax}/>}
             <div className="vis-wrapper">
                     <div className="forecast usmap" >

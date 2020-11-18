@@ -13,10 +13,11 @@ const About = () => {
             <div className="vis-wrapper" style={{ justifyContent: "center", maxWidth: "800px", margin: "70px auto"}}>
                 <div>
                     <img className="logo-img" src={logo} alt="one quiet night logo from pandemic" />
+                    <p style={{ fontSize: "12px" }}>ONE-QUIET-Night special card from <a style={{ color: "#EE3E23", textDecoration: "underline" }} target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Pandemic_(board_game)">pandemic</a></p>
                 </div>
-                <div className="text-height" style={{ margin: "0 0 0 30px", textAlign: "left"}}>
-                    <p>We want to build data-driven models to to forecast potential outbreaks and on understanding its driving forces.</p>
-                    <p><a className="c3-ai-link" href="https://c3.ai/customers/covid-19-data-lake/" target="_blank" rel="noreferrer">C3 AI COVID-19 Data Lake</a> collects and organizes various data sets that may bear on the spread of COVID-19 -- daily case reports, epidemiology line lists, clinical assets, government and regulatory policies, movement trends, public surveys, weather reports, and economic changes. Our models use this data to make predictions about the spread of COVID-19 infections in different geographic and demographic communities.</p>
+                <div className="text-height" style={{ margin: "30px 0 0 30px", textAlign: "left"}}>
+                    <p><code>One Quiet Night</code> wants to build data-driven models to forecast potential outbreaks and on understanding its driving forces.</p>
+                    <p>We develop a methodology that augments scientific models with machine-learnable structures. Our models use temporal and spatial features of the daily case reports and movement trends data to accurately predict future COVID-19 cases. Our forecast based on these models achieves state-of-the-art accuracies.</p>
                 </div>
             </div>
                   
