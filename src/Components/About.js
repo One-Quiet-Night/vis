@@ -16,8 +16,7 @@ const About = () => {
                     <p style={{ fontSize: "12px" }}>ONE-QUIET-Night special card from <a style={{ color: "#EE3E23", textDecoration: "underline" }} target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Pandemic_(board_game)">pandemic</a></p>
                 </div>
                 <div className="text-height" style={{ margin: "30px 0 0 30px", textAlign: "left"}}>
-                    <p><code>One Quiet Night</code> wants to build data-driven models to forecast potential outbreaks and on understanding its driving forces.</p>
-                    <p>We develop a methodology that augments scientific models with machine-learnable structures. Our models use temporal and spatial features of the daily case reports and movement trends data to accurately predict future COVID-19 cases. Our forecast based on these models achieves state-of-the-art accuracies.</p>
+                    <p><code>One Quiet Night</code> COVID-19 Forecast uses scientifically-driven machine learning models to accurately predict the spread of COVID-19 infections using real-time data from the <a href="https://c3.ai/customers/covid-19-data-lake/" target="_blank" rel="noreferrer" className="c3-ai-link">C3 AI COVID-19 Data Lake</a>. OneQuietNight forecasts the number of new Covid-19 cases per week for the next 4 weeks at the national, state, and county levels.</p>
                 </div>
             </div>
                   
@@ -38,8 +37,7 @@ const About = () => {
                     <p className="text-height" style={{maxWidth: "550px"}}>Jae joined Zillow in September 2019 to produce forecasts using mathematical and statistical methods. He builds data-driven models that use economic, demographic, and social data to make predictions about changes in the housing market. The outputs of his models are used to solve business problems inside and outside of Zillow. Prior to Zillow, he has worked in a quantitative hedge fund and in a national lab. He holds a Ph. D. in chemical engineering from Massachusetts Institute of Technology.</p>
                     <div className="about">
                         <a href="https://github.com/xjhc" target="_blank" rel="noreferrer"><FaGithub size={30} color="#699FD4"/></a>
-                        <a href="https://www.linkedin.com/in/jae-cho/" target="_blank" rel="noreferrer"><FaLinkedin size={30} color="#699FD4"/></a>
-                        <a href="https://www.linkedin.com/in/jae-cho/" target="_blank" rel="noreferrer"><FaLaptop size={30} color="#699FD4"/></a>
+                        <a href="https://www.linkedin.com/in/jaehuncho/" target="_blank" rel="noreferrer"><FaLinkedin size={30} color="#699FD4"/></a>
                     </div>
                 </div>
             </div>
