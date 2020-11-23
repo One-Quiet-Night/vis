@@ -23,7 +23,7 @@ const StatesChart = ( props ) => {
                 <ReferenceLine x="2020-03-28" stroke="#809f3d" strokeDasharray="4 4" label={{ position: "bottom", value: "CARES act enacted", fill: "#809f3d", offset: 30, fontSize: "12" }} />          
                 <ReferenceLine x="2020-04-18" stroke="#F48620" strokeDasharray="4 4" label={{ position: 'bottom', value: "Stimulus payments starts", fill: "#F48620", offset: 45, fontSize: "12" }} />
                 <ReferenceLine x="2020-11-07" stroke="#368243" strokeDasharray="4 4" label={{ position: "bottom", value: "Election day", fill: "#368243", offset: 20, fontSize: "12" }} />
-                <ReferenceArea x1="2020-11-14" x2="2020-12-12" y1={0} stroke="red" strokeOpacity={0.3} label={{ value: "4 wks forecast", fontSize: "16", position: "insideTopRight", fill: "323232", offset: 15 }}/>
+                <ReferenceArea x1="2020-11-21" x2="2021-01-16" y1={0} stroke="red" strokeOpacity={0.3} label={{ value: "8 wks forecast", fontSize: "16", position: "insideTopRight", fill: "323232", offset: 15 }}/>
                 <Line type="monotone" dataKey="cases" stroke="#043b4e" strokeWidth={4} dot={false} />
                 <Tooltip 
                     content={<CustomChartTooltip />}

@@ -18,7 +18,7 @@ const offsets = {
     DC: [30, 25]
 };
 
-const latestDate = 'Nov 14 2020';
+const latestDate = 'Nov 21 2020';
 
 const States = () => {
 
@@ -26,7 +26,7 @@ const States = () => {
     const [onStateId, setOnStateId] = useState("53"); // for initializing WA data
     const [allStatesData, setAllStatesData] = useState([]); 
     const [oneStateData, setOneStateDate] = useState([]);
-    const [stateCase, setStateCase] = useState("154"); // for WA cumulative case data
+    const [stateCase, setStateCase] = useState("178"); // for WA cumulative case data
     const [error, setError] = useState('');
     const [tooltip, setTooltip] = useState('');
     const [yMax, setYMax] = useState(154);
