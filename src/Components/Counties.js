@@ -10,7 +10,7 @@ import ReactTooltip from "react-tooltip";
 import CountySelection from "./CountySelection";
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json";
-const latestDate = 'Nov 21 2020';
+const latestDate = 'Nov 28 2020';
 
 const Counties = () => {
 
@@ -18,10 +18,10 @@ const Counties = () => {
     const [onCountyId, setOnCountyId] = useState("53033"); // initialize king county data
     const [allCountiesData, setAllCountiesData] = useState([]);
     const [oneCountyData, setoneCountyData] = useState([]);
-    const [countyCase, setCountyCase] = useState("169");
+    const [countyCase, setCountyCase] = useState("252");
     const [countyLocation, setCountyLocation] = useState([]); 
     const [tooltip, setTooltip] = useState('');
-    const [yMax, setYMax] = useState(52);
+    const [yMax, setYMax] = useState(252);
 
 
     useEffect(() => {
