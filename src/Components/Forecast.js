@@ -3,11 +3,20 @@ import National from "../Components/National";
 import States from "./States";
 import Counties from "./Counties";
 
+import ReactGA from 'react-ga';
+
 const Forecast = () => {
 
     const [isNational, setIsNationl] = useState(true);
     const [isState, setIsState] = useState(false);
     const [isCounty, setIsCounty] = useState(false);
+
+    const clickHandler = (name) => {
+        ReactGA.event({
+            category: name,
+            action: 'Switch forecast page view'
+        });
+    };
 
     return (
         <div className="container">
@@ -20,17 +29,20 @@ const Forecast = () => {
                     onClick={()=>{
                     setIsNationl(true)
                     setIsState(false)
-                    setIsCounty(false)} }>National</p>
+                    setIsCounty(false)
+                    clickHandler('National')}}>National</p>
                 <p className={isState ? "selected" : "option-button"}
                     onClick={()=> {
                     setIsNationl(false);
                     setIsState(true)
-                    setIsCounty(false)}} >States</p>
+                    setIsCounty(false)
+                    clickHandler('State')}} >States</p>
                 <p className={isCounty ? "selected" : "option-button"}
                     onClick={()=> {
                     setIsNationl(false);
                     setIsState(false)
-                    setIsCounty(true)}} >Counties</p>
+                    setIsCounty(true)
+                    clickHandler('County')}} >Counties</p>
             </div>
             <div style={{boxShadow: "0 0 6px rgba(0,0,0,.25)",   borderRadius: "4px", padding: "1rem .55rem"}}>
                 <h3 style={{ fontSize: "25px", fontWeight: "300"}}>Weekly reported COVID-19 new cases per 100,000 people</h3>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './App.css';
@@ -12,8 +12,16 @@ import PageNotFound from './Components/PageNotFound';
 import Forecast from './Components/Forecast';
 import Model from './Components/Model';
 
+import ReactGA from 'react-ga';
 
 function App() {
+
+  useEffect(() => {
+    ReactGA.initialize('UA-184785449-2');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    // ReactGA.pageview('/');
+  }, []);
+
   return (
     <div className="App">
       <Nav />
