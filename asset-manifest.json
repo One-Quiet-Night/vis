@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/vis/static/css/main.95e5e938.chunk.css",
-    "main.js": "/vis/static/js/main.d6f5b429.chunk.js",
-    "main.js.map": "/vis/static/js/main.d6f5b429.chunk.js.map",
-    "runtime-main.js": "/vis/static/js/runtime-main.9de2a88e.js",
-    "runtime-main.js.map": "/vis/static/js/runtime-main.9de2a88e.js.map",
-    "static/js/2.abed00e1.chunk.js": "/vis/static/js/2.abed00e1.chunk.js",
-    "static/js/2.abed00e1.chunk.js.map": "/vis/static/js/2.abed00e1.chunk.js.map",
-    "static/js/3.ea7a7184.chunk.js": "/vis/static/js/3.ea7a7184.chunk.js",
-    "static/js/3.ea7a7184.chunk.js.map": "/vis/static/js/3.ea7a7184.chunk.js.map",
+    "main.js": "/vis/static/js/main.947dd761.chunk.js",
+    "main.js.map": "/vis/static/js/main.947dd761.chunk.js.map",
+    "runtime-main.js": "/vis/static/js/runtime-main.c8bc7a01.js",
+    "runtime-main.js.map": "/vis/static/js/runtime-main.c8bc7a01.js.map",
+    "static/js/2.73075e8b.chunk.js": "/vis/static/js/2.73075e8b.chunk.js",
+    "static/js/2.73075e8b.chunk.js.map": "/vis/static/js/2.73075e8b.chunk.js.map",
+    "static/js/3.d8dd04d2.chunk.js": "/vis/static/js/3.d8dd04d2.chunk.js",
+    "static/js/3.d8dd04d2.chunk.js.map": "/vis/static/js/3.d8dd04d2.chunk.js.map",
     "index.html": "/vis/index.html",
     "static/css/main.95e5e938.chunk.css.map": "/vis/static/css/main.95e5e938.chunk.css.map",
-    "static/js/2.abed00e1.chunk.js.LICENSE.txt": "/vis/static/js/2.abed00e1.chunk.js.LICENSE.txt",
+    "static/js/2.73075e8b.chunk.js.LICENSE.txt": "/vis/static/js/2.73075e8b.chunk.js.LICENSE.txt",
     "static/media/JHU_IncidentCases_Country.9a70b1ba.csv": "/vis/static/media/JHU_IncidentCases_Country.9a70b1ba.csv",
     "static/media/JHU_IncidentCases_County.c0c10055.csv": "/vis/static/media/JHU_IncidentCases_County.c0c10055.csv",
     "static/media/JHU_IncidentCases_State.396a0717.csv": "/vis/static/media/JHU_IncidentCases_State.396a0717.csv",
@@ -23,9 +23,9 @@
     "static/media/oqn-covid-19-forecast.8a566bb3.pdf": "/vis/static/media/oqn-covid-19-forecast.8a566bb3.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.9de2a88e.js",
-    "static/js/2.abed00e1.chunk.js",
+    "static/js/runtime-main.c8bc7a01.js",
+    "static/js/2.73075e8b.chunk.js",
     "static/css/main.95e5e938.chunk.css",
-    "static/js/main.d6f5b429.chunk.js"
+    "static/js/main.947dd761.chunk.js"
   ]
 }
