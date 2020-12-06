@@ -8,13 +8,14 @@ import CustomChartTooltip from "./CustomChartTooltip";
 
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ReferenceLine, ReferenceArea } from 'recharts';
 import allStates from "../Maps/allstates.json";
+import config from "../config.json"
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
 const offsets = {
     DC: [30, 25]
 };
-const latestDate = 'Nov 28 2020';
+const latestDate = config.dataEndDate;
 
 const National = () => {
 
@@ -24,7 +25,7 @@ const National = () => {
     useEffect(() => {
         csv(csvNation).then(nat => {
             setNationlData(nat);
-            let latest = nat.filter(a => a.dates === "2020-11-28");
+            let latest = nat.filter(a => a.dates === latestDate);
             setNationalCase(latest.map(a => a["US"]));
         })
     }, []);
@@ -34,8 +35,8 @@ const National = () => {
             <p style={{fontSize: "20px", fontWeight: "300", marginBottom: "30px"}}>In the <code>U.S.</code>, on the week ending on <code>{latestDate}</code>,<br/> there were <code>{Math.round(nationalCase)}</code> newly reported COVID-19 cases per 100K people.</p>
             <div className="vis-wrapper">
                 <div className="forecast usmap" >
-                    <ComposableMap projection="geoAlbersUsa" 
-                    projectionConfig={{ scale: 800 }} 
+                    <ComposableMap projection="geoAlbersUsa"
+                    projectionConfig={{ scale: 800 }}
                     width={900}
                     style={{ width: "100%", height: "auto" }}>
                         <Geographies geography={geoUrl}>
@@ -87,8 +88,8 @@ const National = () => {
                         </Geographies>
                     </ComposableMap>
                 </div>
-                
-            { nationalData && 
+
+            { nationalData &&
             <div className="forecast">
                 <LineChart width={600} height={400} margin={{ top: 10, right: 40, bottom: 40, left: 5 }}>
                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" vertical={false} />
@@ -96,12 +97,12 @@ const National = () => {
                     <YAxis fontSize="10" axisLine={false} tickLine={false} domain={[0, 1300]}/>
                     <ReferenceLine x="2020-01-25" stroke="#EE3E23" strokeDasharray="4 4" label={{ position: "bottom", value: "First case in US", fontSize: "12", fill:"#EE3E23", offset: 20 }} />
                     <ReferenceLine x="2020-03-14" stroke="#4A72B7" strokeDasharray="4 4" label={{ position: 'insideTopLeft',  value: 'National emergency declared', fill: '#4A72B7', fontSize: "12" }} />
-                    <ReferenceLine x="2020-03-28" stroke="#809f3d" strokeDasharray="4 4" label={{ position: "bottom", value: "CARES act enacted", fill: "#809f3d", offset: 30, fontSize: "12" }} />          
+                    <ReferenceLine x="2020-03-28" stroke="#809f3d" strokeDasharray="4 4" label={{ position: "bottom", value: "CARES act enacted", fill: "#809f3d", offset: 30, fontSize: "12" }} />
                     <ReferenceLine x="2020-04-18" stroke="#F48620" strokeDasharray="4 4" label={{ position: 'bottom', value: "Stimulus payments starts", fill: "#F48620", offset: 45, fontSize: "12" }} />
                     <ReferenceLine x="2020-11-07" stroke="#368243" strokeDasharray="4 4" label={{ position: "bottom", value: "Election day", fill: "#368243", offset: 20, fontSize: "12" }} />
-                    <ReferenceArea x1="2020-11-28" x2="2020-12-26" y1={0} stroke="red" strokeOpacity={0.3} label={{ value: "4 wks forecast", fontSize: "16", position: "insideTopRight", fill: "323232", offset: 15 }}/>
+                    <ReferenceArea x1={config.forecastStartDate} x2={config.forecastEndDate} y1={0} stroke="red" strokeOpacity={0.3} label={{ value: "4 wks forecast", fontSize: "16", position: "insideTopRight", fill: "323232", offset: 15 }}/>
                     <Line type="monotone" data={nationalData} dataKey="US" stroke="#043b4e" strokeWidth={4} dot={false} />
-                    <Tooltip 
+                    <Tooltip
                         content={<CustomChartTooltip />}
                     />
                 </LineChart>

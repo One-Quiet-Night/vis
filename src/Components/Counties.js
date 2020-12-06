@@ -8,9 +8,11 @@ import { scaleQuantile } from "d3-scale";
 import CountyChart from "./CountyChart";
 import ReactTooltip from "react-tooltip";
 import CountySelection from "./CountySelection";
+import config from "../config.json"
+
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json";
-const latestDate = 'Nov 28 2020';
+const latestDate = config.dataEndDate;
 
 const Counties = () => {
 
@@ -18,10 +20,10 @@ const Counties = () => {
     const [onCountyId, setOnCountyId] = useState("53033"); // initialize king county data
     const [allCountiesData, setAllCountiesData] = useState([]);
     const [oneCountyData, setoneCountyData] = useState([]);
-    const [countyCase, setCountyCase] = useState("252");
-    const [countyLocation, setCountyLocation] = useState([]); 
+    const [countyCase, setCountyCase] = useState(config.dataKingCountyEndValue);
+    const [countyLocation, setCountyLocation] = useState([]);
     const [tooltip, setTooltip] = useState('');
-    const [yMax, setYMax] = useState(252);
+    const [yMax, setYMax] = useState(config.dataKingCountyEndValue);
 
 
     useEffect(() => {
@@ -63,7 +65,7 @@ const Counties = () => {
             <p style={{fontSize: "20px", fontWeight: "300"}}>In the <code>{countyName}</code>, on the week ending on <code>{latestDate}</code>, <br/>there were <code>{Math.round(countyCase)}</code> reported COVID-19 cases per 100K people.</p>
             <div className="vis-wrapper">
                 <div className="forecast usmap" >
-                    <ComposableMap data-tip="" projection="geoAlbersUsa" projectionConfig={{ scale: 800 }} 
+                    <ComposableMap data-tip="" projection="geoAlbersUsa" projectionConfig={{ scale: 800 }}
                             width={900} style={{ width: "100%", height: "auto" }}>
                         <Geographies geography={geoUrl}>
                             {({ geographies }) =>

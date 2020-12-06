@@ -11,6 +11,7 @@ import allStates from "../Maps/allstates.json";
 import { scaleQuantile } from "d3-scale";
 import StatesChart from "./StatesChart";
 import StateSelection from "./StateSelection";
+import config from "../config.json"
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
@@ -18,18 +19,18 @@ const offsets = {
     DC: [30, 25]
 };
 
-const latestDate = 'Nov 28 2020';
+const latestDate = config.dataEndDate;
 
 const States = () => {
 
     const [stateData, setStateData] = useState([]); // for mapping
     const [onStateId, setOnStateId] = useState("53"); // for initializing WA data
-    const [allStatesData, setAllStatesData] = useState([]); 
+    const [allStatesData, setAllStatesData] = useState([]);
     const [oneStateData, setOneStateDate] = useState([]);
-    const [stateCase, setStateCase] = useState("254"); // for WA cumulative case data
+    const [stateCase, setStateCase] = useState(config.dataWashingtonStateEndValue); // for WA cumulative case data
     const [error, setError] = useState('');
     const [tooltip, setTooltip] = useState('');
-    const [yMax, setYMax] = useState(254);
+    const [yMax, setYMax] = useState(config.dataWashingtonStateEndValue);
 
     useEffect(() => {
         let isSubscribed = true;
@@ -40,7 +41,7 @@ const States = () => {
                 setStateData(converted);
                 setAllStatesData(state);
                 setOneStateDate(st);
-            } 
+            }
         })
         .catch(error => (isSubscribed ? setError(error.toString()) : null));
         return () => isSubscribed = false;
@@ -70,8 +71,8 @@ const States = () => {
             {onStateId && <StateSelection setOnStateId={setOnStateId} oneStateData={oneStateData} setStateCase={setStateCase} setYMax={setYMax}/>}
             <div className="vis-wrapper">
                     <div className="forecast usmap" >
-                    <ComposableMap data-tip="" projection="geoAlbersUsa" 
-                    projectionConfig={{ scale: 800 }} 
+                    <ComposableMap data-tip="" projection="geoAlbersUsa"
+                    projectionConfig={{ scale: 800 }}
                     width={900}
                     style={{ width: "100%", height: "auto" }}>
                         <Geographies geography={geoUrl}>
@@ -88,7 +89,7 @@ const States = () => {
                                         style={{
                                             hover: {
                                                 stroke: "#782618",
-                                                strokeWidth: 2, 
+                                                strokeWidth: 2,
                                             }
                                         }}
                                         onClick={() => {
@@ -102,7 +103,7 @@ const States = () => {
                                         onMouseLeave={() => {
                                             setTooltip("");
                                         }}
-                                    />                                    
+                                    />
                                     );
                                 })}
                                 {geographies.map(geo => {
@@ -134,7 +135,7 @@ const States = () => {
             {allStatesData && <StatesChart yMax={yMax} onStateId={onStateId} allStatesData={allStatesData} stateCase={stateCase} /> }
             </div>
             </div>
-            
+
     )
 }
 
