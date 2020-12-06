@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/vis/static/css/main.95e5e938.chunk.css",
-    "main.js": "/vis/static/js/main.947dd761.chunk.js",
-    "main.js.map": "/vis/static/js/main.947dd761.chunk.js.map",
-    "runtime-main.js": "/vis/static/js/runtime-main.c8bc7a01.js",
-    "runtime-main.js.map": "/vis/static/js/runtime-main.c8bc7a01.js.map",
-    "static/js/2.73075e8b.chunk.js": "/vis/static/js/2.73075e8b.chunk.js",
-    "static/js/2.73075e8b.chunk.js.map": "/vis/static/js/2.73075e8b.chunk.js.map",
-    "static/js/3.d8dd04d2.chunk.js": "/vis/static/js/3.d8dd04d2.chunk.js",
-    "static/js/3.d8dd04d2.chunk.js.map": "/vis/static/js/3.d8dd04d2.chunk.js.map",
+    "main.js": "/vis/static/js/main.cd738435.chunk.js",
+    "main.js.map": "/vis/static/js/main.cd738435.chunk.js.map",
+    "runtime-main.js": "/vis/static/js/runtime-main.8a72569a.js",
+    "runtime-main.js.map": "/vis/static/js/runtime-main.8a72569a.js.map",
+    "static/js/2.d29a2b9c.chunk.js": "/vis/static/js/2.d29a2b9c.chunk.js",
+    "static/js/2.d29a2b9c.chunk.js.map": "/vis/static/js/2.d29a2b9c.chunk.js.map",
+    "static/js/3.dac98a41.chunk.js": "/vis/static/js/3.dac98a41.chunk.js",
+    "static/js/3.dac98a41.chunk.js.map": "/vis/static/js/3.dac98a41.chunk.js.map",
     "index.html": "/vis/index.html",
     "static/css/main.95e5e938.chunk.css.map": "/vis/static/css/main.95e5e938.chunk.css.map",
-    "static/js/2.73075e8b.chunk.js.LICENSE.txt": "/vis/static/js/2.73075e8b.chunk.js.LICENSE.txt",
-    "static/media/JHU_IncidentCases_Country.9a70b1ba.csv": "/vis/static/media/JHU_IncidentCases_Country.9a70b1ba.csv",
-    "static/media/JHU_IncidentCases_County.c0c10055.csv": "/vis/static/media/JHU_IncidentCases_County.c0c10055.csv",
-    "static/media/JHU_IncidentCases_State.396a0717.csv": "/vis/static/media/JHU_IncidentCases_State.396a0717.csv",
+    "static/js/2.d29a2b9c.chunk.js.LICENSE.txt": "/vis/static/js/2.d29a2b9c.chunk.js.LICENSE.txt",
+    "static/media/JHU_IncidentCases_Country.5ed8859c.csv": "/vis/static/media/JHU_IncidentCases_Country.5ed8859c.csv",
+    "static/media/JHU_IncidentCases_County.a2c3c108.csv": "/vis/static/media/JHU_IncidentCases_County.a2c3c108.csv",
+    "static/media/JHU_IncidentCases_State.f17b64e8.csv": "/vis/static/media/JHU_IncidentCases_State.f17b64e8.csv",
     "static/media/areum-jo.c7558542.jpg": "/vis/static/media/areum-jo.c7558542.jpg",
     "static/media/jae-cho.3d22eee1.jpg": "/vis/static/media/jae-cho.3d22eee1.jpg",
     "static/media/locations_information.d1756be8.csv": "/vis/static/media/locations_information.d1756be8.csv",
@@ -23,9 +23,9 @@
     "static/media/oqn-covid-19-forecast.8a566bb3.pdf": "/vis/static/media/oqn-covid-19-forecast.8a566bb3.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.c8bc7a01.js",
-    "static/js/2.73075e8b.chunk.js",
+    "static/js/runtime-main.8a72569a.js",
+    "static/js/2.d29a2b9c.chunk.js",
     "static/css/main.95e5e938.chunk.css",
-    "static/js/main.947dd761.chunk.js"
+    "static/js/main.cd738435.chunk.js"
   ]
 }
