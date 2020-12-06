@@ -14,3 +14,11 @@
 
 - County level : King county
 ![forecasts county level](./src/Forecasts/11-14-2020-county.png)
+
+
+## Testing
+
+Use Docker for local builds
+```sh
+docker run --rm -it -p 3000:3000 $(docker build -q .)
+```
