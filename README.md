@@ -22,3 +22,9 @@ Use Docker for local builds
 ```sh
 docker run --rm -it -p 3000:3000 $(docker build -q .)
 ```
+
+## Deployment
+Deploy react app with [`GitHub Pages`](https://create-react-app.dev/docs/deployment/#github-pages).
+```sh
+npm run deploy
+```
