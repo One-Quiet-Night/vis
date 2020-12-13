@@ -1,7 +1,1 @@
-{
-    "dataEndDate": "2020-12-05",
-    "dataKingCountyEndValue": 165,
-    "dataWashingtonStateEndValue": 199,
-    "forecastStartDate": "2020-12-12",
-    "forecastEndDate": "2021-01-02"
-}
+{"dataEndDate": "2020-12-12", "dataKingCountyEndValue": 277, "dataWashingtonStateEndValue": 314, "forecastStartDate": "2020-12-19", "forecastEndDate": "2021-01-09"}
