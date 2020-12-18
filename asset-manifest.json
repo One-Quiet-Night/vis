@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/vis/static/css/main.95e5e938.chunk.css",
-    "main.js": "/vis/static/js/main.cd738435.chunk.js",
-    "main.js.map": "/vis/static/js/main.cd738435.chunk.js.map",
+    "main.js": "/vis/static/js/main.9e1592e6.chunk.js",
+    "main.js.map": "/vis/static/js/main.9e1592e6.chunk.js.map",
     "runtime-main.js": "/vis/static/js/runtime-main.8a72569a.js",
     "runtime-main.js.map": "/vis/static/js/runtime-main.8a72569a.js.map",
-    "static/js/2.d29a2b9c.chunk.js": "/vis/static/js/2.d29a2b9c.chunk.js",
-    "static/js/2.d29a2b9c.chunk.js.map": "/vis/static/js/2.d29a2b9c.chunk.js.map",
+    "static/js/2.5363e2ac.chunk.js": "/vis/static/js/2.5363e2ac.chunk.js",
+    "static/js/2.5363e2ac.chunk.js.map": "/vis/static/js/2.5363e2ac.chunk.js.map",
     "static/js/3.dac98a41.chunk.js": "/vis/static/js/3.dac98a41.chunk.js",
     "static/js/3.dac98a41.chunk.js.map": "/vis/static/js/3.dac98a41.chunk.js.map",
     "index.html": "/vis/index.html",
     "static/css/main.95e5e938.chunk.css.map": "/vis/static/css/main.95e5e938.chunk.css.map",
-    "static/js/2.d29a2b9c.chunk.js.LICENSE.txt": "/vis/static/js/2.d29a2b9c.chunk.js.LICENSE.txt",
-    "static/media/JHU_IncidentCases_Country.5ed8859c.csv": "/vis/static/media/JHU_IncidentCases_Country.5ed8859c.csv",
-    "static/media/JHU_IncidentCases_County.a2c3c108.csv": "/vis/static/media/JHU_IncidentCases_County.a2c3c108.csv",
-    "static/media/JHU_IncidentCases_State.f17b64e8.csv": "/vis/static/media/JHU_IncidentCases_State.f17b64e8.csv",
+    "static/js/2.5363e2ac.chunk.js.LICENSE.txt": "/vis/static/js/2.5363e2ac.chunk.js.LICENSE.txt",
+    "static/media/JHU_IncidentCases_Country.33794ed8.csv": "/vis/static/media/JHU_IncidentCases_Country.33794ed8.csv",
+    "static/media/JHU_IncidentCases_County.60b98506.csv": "/vis/static/media/JHU_IncidentCases_County.60b98506.csv",
+    "static/media/JHU_IncidentCases_State.06a4bbde.csv": "/vis/static/media/JHU_IncidentCases_State.06a4bbde.csv",
     "static/media/areum-jo.c7558542.jpg": "/vis/static/media/areum-jo.c7558542.jpg",
     "static/media/jae-cho.3d22eee1.jpg": "/vis/static/media/jae-cho.3d22eee1.jpg",
     "static/media/locations_information.d1756be8.csv": "/vis/static/media/locations_information.d1756be8.csv",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8a72569a.js",
-    "static/js/2.d29a2b9c.chunk.js",
+    "static/js/2.5363e2ac.chunk.js",
     "static/css/main.95e5e938.chunk.css",
-    "static/js/main.cd738435.chunk.js"
+    "static/js/main.9e1592e6.chunk.js"
   ]
 }
