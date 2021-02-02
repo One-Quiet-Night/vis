@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vis/static/css/main.95e5e938.chunk.css",
-    "main.js": "/vis/static/js/main.fe2da216.chunk.js",
-    "main.js.map": "/vis/static/js/main.fe2da216.chunk.js.map",
+    "main.js": "/vis/static/js/main.418a684a.chunk.js",
+    "main.js.map": "/vis/static/js/main.418a684a.chunk.js.map",
     "runtime-main.js": "/vis/static/js/runtime-main.8a72569a.js",
     "runtime-main.js.map": "/vis/static/js/runtime-main.8a72569a.js.map",
     "static/js/2.8a8118bc.chunk.js": "/vis/static/js/2.8a8118bc.chunk.js",
@@ -12,9 +12,9 @@
     "index.html": "/vis/index.html",
     "static/css/main.95e5e938.chunk.css.map": "/vis/static/css/main.95e5e938.chunk.css.map",
     "static/js/2.8a8118bc.chunk.js.LICENSE.txt": "/vis/static/js/2.8a8118bc.chunk.js.LICENSE.txt",
-    "static/media/JHU_IncidentCases_Country.68e5ba90.csv": "/vis/static/media/JHU_IncidentCases_Country.68e5ba90.csv",
-    "static/media/JHU_IncidentCases_County.f6339693.csv": "/vis/static/media/JHU_IncidentCases_County.f6339693.csv",
-    "static/media/JHU_IncidentCases_State.3afa9a80.csv": "/vis/static/media/JHU_IncidentCases_State.3afa9a80.csv",
+    "static/media/JHU_IncidentCases_Country.78cb011d.csv": "/vis/static/media/JHU_IncidentCases_Country.78cb011d.csv",
+    "static/media/JHU_IncidentCases_County.8145f1cd.csv": "/vis/static/media/JHU_IncidentCases_County.8145f1cd.csv",
+    "static/media/JHU_IncidentCases_State.d594e695.csv": "/vis/static/media/JHU_IncidentCases_State.d594e695.csv",
     "static/media/areum-jo.c7558542.jpg": "/vis/static/media/areum-jo.c7558542.jpg",
     "static/media/jae-cho.3d22eee1.jpg": "/vis/static/media/jae-cho.3d22eee1.jpg",
     "static/media/locations_information.d1756be8.csv": "/vis/static/media/locations_information.d1756be8.csv",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.8a72569a.js",
     "static/js/2.8a8118bc.chunk.js",
     "static/css/main.95e5e938.chunk.css",
-    "static/js/main.fe2da216.chunk.js"
+    "static/js/main.418a684a.chunk.js"
   ]
 }
