@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import pdf from '../Assets/oqn-covid-19-forecast.pdf';
+import pdf from '../Assets/OQN.pdf';
 
 import ReactGA from 'react-ga';
 
