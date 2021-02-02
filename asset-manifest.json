@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vis/static/css/main.95e5e938.chunk.css",
-    "main.js": "/vis/static/js/main.418a684a.chunk.js",
-    "main.js.map": "/vis/static/js/main.418a684a.chunk.js.map",
+    "main.js": "/vis/static/js/main.e7b81ca6.chunk.js",
+    "main.js.map": "/vis/static/js/main.e7b81ca6.chunk.js.map",
     "runtime-main.js": "/vis/static/js/runtime-main.8a72569a.js",
     "runtime-main.js.map": "/vis/static/js/runtime-main.8a72569a.js.map",
     "static/js/2.8a8118bc.chunk.js": "/vis/static/js/2.8a8118bc.chunk.js",
@@ -12,20 +12,20 @@
     "index.html": "/vis/index.html",
     "static/css/main.95e5e938.chunk.css.map": "/vis/static/css/main.95e5e938.chunk.css.map",
     "static/js/2.8a8118bc.chunk.js.LICENSE.txt": "/vis/static/js/2.8a8118bc.chunk.js.LICENSE.txt",
-    "static/media/JHU_IncidentCases_Country.78cb011d.csv": "/vis/static/media/JHU_IncidentCases_Country.78cb011d.csv",
-    "static/media/JHU_IncidentCases_County.8145f1cd.csv": "/vis/static/media/JHU_IncidentCases_County.8145f1cd.csv",
-    "static/media/JHU_IncidentCases_State.d594e695.csv": "/vis/static/media/JHU_IncidentCases_State.d594e695.csv",
+    "static/media/JHU_IncidentCases_Country.71474350.csv": "/vis/static/media/JHU_IncidentCases_Country.71474350.csv",
+    "static/media/JHU_IncidentCases_County.e4375bd1.csv": "/vis/static/media/JHU_IncidentCases_County.e4375bd1.csv",
+    "static/media/JHU_IncidentCases_State.f978d577.csv": "/vis/static/media/JHU_IncidentCases_State.f978d577.csv",
+    "static/media/OQN.631fe207.pdf": "/vis/static/media/OQN.631fe207.pdf",
     "static/media/areum-jo.c7558542.jpg": "/vis/static/media/areum-jo.c7558542.jpg",
     "static/media/jae-cho.3d22eee1.jpg": "/vis/static/media/jae-cho.3d22eee1.jpg",
     "static/media/locations_information.d1756be8.csv": "/vis/static/media/locations_information.d1756be8.csv",
     "static/media/notFound404.4ce18fbb.svg": "/vis/static/media/notFound404.4ce18fbb.svg",
-    "static/media/one-quiet-night-logo.8256d577.jpg": "/vis/static/media/one-quiet-night-logo.8256d577.jpg",
-    "static/media/oqn-covid-19-forecast.8a566bb3.pdf": "/vis/static/media/oqn-covid-19-forecast.8a566bb3.pdf"
+    "static/media/one-quiet-night-logo.8256d577.jpg": "/vis/static/media/one-quiet-night-logo.8256d577.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8a72569a.js",
     "static/js/2.8a8118bc.chunk.js",
     "static/css/main.95e5e938.chunk.css",
-    "static/js/main.418a684a.chunk.js"
+    "static/js/main.e7b81ca6.chunk.js"
   ]
 }
