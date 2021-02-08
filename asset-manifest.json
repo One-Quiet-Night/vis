@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/vis/static/css/main.95e5e938.chunk.css",
-    "main.js": "/vis/static/js/main.e7b81ca6.chunk.js",
-    "main.js.map": "/vis/static/js/main.e7b81ca6.chunk.js.map",
+    "main.js": "/vis/static/js/main.39febd5d.chunk.js",
+    "main.js.map": "/vis/static/js/main.39febd5d.chunk.js.map",
     "runtime-main.js": "/vis/static/js/runtime-main.8a72569a.js",
     "runtime-main.js.map": "/vis/static/js/runtime-main.8a72569a.js.map",
-    "static/js/2.8a8118bc.chunk.js": "/vis/static/js/2.8a8118bc.chunk.js",
-    "static/js/2.8a8118bc.chunk.js.map": "/vis/static/js/2.8a8118bc.chunk.js.map",
+    "static/js/2.83d5f411.chunk.js": "/vis/static/js/2.83d5f411.chunk.js",
+    "static/js/2.83d5f411.chunk.js.map": "/vis/static/js/2.83d5f411.chunk.js.map",
     "static/js/3.dac98a41.chunk.js": "/vis/static/js/3.dac98a41.chunk.js",
     "static/js/3.dac98a41.chunk.js.map": "/vis/static/js/3.dac98a41.chunk.js.map",
     "index.html": "/vis/index.html",
     "static/css/main.95e5e938.chunk.css.map": "/vis/static/css/main.95e5e938.chunk.css.map",
-    "static/js/2.8a8118bc.chunk.js.LICENSE.txt": "/vis/static/js/2.8a8118bc.chunk.js.LICENSE.txt",
-    "static/media/JHU_IncidentCases_Country.71474350.csv": "/vis/static/media/JHU_IncidentCases_Country.71474350.csv",
-    "static/media/JHU_IncidentCases_County.e4375bd1.csv": "/vis/static/media/JHU_IncidentCases_County.e4375bd1.csv",
-    "static/media/JHU_IncidentCases_State.f978d577.csv": "/vis/static/media/JHU_IncidentCases_State.f978d577.csv",
+    "static/js/2.83d5f411.chunk.js.LICENSE.txt": "/vis/static/js/2.83d5f411.chunk.js.LICENSE.txt",
+    "static/media/JHU_IncidentCases_Country.505b1bf9.csv": "/vis/static/media/JHU_IncidentCases_Country.505b1bf9.csv",
+    "static/media/JHU_IncidentCases_County.31acdf73.csv": "/vis/static/media/JHU_IncidentCases_County.31acdf73.csv",
+    "static/media/JHU_IncidentCases_State.a859b7c8.csv": "/vis/static/media/JHU_IncidentCases_State.a859b7c8.csv",
     "static/media/OQN.631fe207.pdf": "/vis/static/media/OQN.631fe207.pdf",
     "static/media/areum-jo.c7558542.jpg": "/vis/static/media/areum-jo.c7558542.jpg",
     "static/media/jae-cho.3d22eee1.jpg": "/vis/static/media/jae-cho.3d22eee1.jpg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8a72569a.js",
-    "static/js/2.8a8118bc.chunk.js",
+    "static/js/2.83d5f411.chunk.js",
     "static/css/main.95e5e938.chunk.css",
-    "static/js/main.e7b81ca6.chunk.js"
+    "static/js/main.39febd5d.chunk.js"
   ]
 }
