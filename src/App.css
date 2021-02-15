@@ -103,7 +103,6 @@ footer > a > p{
 .forecast {
   display: inline-block;
   max-width: 600px;
-  width: 50%
 }
 
 .map {
@@ -246,4 +245,46 @@ li {
 .tooltip-label {
   margin: 0px;
   font-size: 12px;
+}
+
+/* Media query -- @1260 */
+
+@media only screen and (max-width: 1260px) {
+  .vis-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .App-header {
+    flex-direction: column;
+    height: 120px;
+    padding: 0 10px
+  }
+
+  .recharts-surface {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+
+  .container {
+    margin: 0 20px;
+  }
+
+  .forecast {
+    width: 350px;
+  }
+  
+  .recharts-surface {
+    width: 330px;
+  }
+
+  .recharts-wrapper {
+    /* border: red 1px solid; */
+    width: 0;
+    margin-left: 10px;
+  }
 }
