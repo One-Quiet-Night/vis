@@ -51,6 +51,7 @@ const Forecast = () => {
                 {
                     isNational ? <National /> : isState ? <States /> : <Counties />
                 }
+                <p className="text-height">* First Covid-19 Vaccine Given to U.S. on Dec 14, 2020 in New York.</p>
             </div>
             <p className="text-height" style={{maxWidth: "500px", fontSize: "12px", margin: "30px auto 0 auto"}}>Weekly data last updated: {config.dataEndDate}</p>
             <p className="text-height" style={{maxWidth: "500px", fontSize: "12px", margin: "15px auto 0 auto"}}><code>One Quiet Night</code> uses data from <a href="https://c3.ai/customers/covid-19-data-lake/" className="c3-ai-link">C3 AI COVID-19 Data Lake</a> and visualizes weekly COVID-19 cases and 4 weeks forecast from our forecasting model.</p>

@@ -6,6 +6,9 @@ import { csv } from "d3-fetch";
 import csvNation from "../Data/Country/JHU_IncidentCases_Country.csv";
 import CustomChartTooltip from "./CustomChartTooltip";
 
+import csvState from "../Data/State/JHU_IncidentCases_State.csv";
+import { scaleQuantile } from "d3-scale";
+
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ReferenceLine, ReferenceArea } from 'recharts';
 import allStates from "../Maps/allstates.json";
 import config from "../config.json"
@@ -22,13 +25,46 @@ const National = () => {
     const [nationalData, setNationlData] = useState([]);
     const [nationalCase, setNationalCase] = useState("");
 
+    // state data
+    const [stateData, setStateData] = useState([]); // for mapping
+    const [allStatesData, setAllStatesData] = useState([]);
+    const [oneStateData, setOneStateDate] = useState([]);
+    const [stateCase, setStateCase] = useState(config.dataWashingtonStateEndValue); // for WA cumulative case data
+    const [error, setError] = useState('');
+
     useEffect(() => {
+        let isSubscribed = true;
         csv(csvNation).then(nat => {
             setNationlData(nat);
             let latest = nat.filter(a => a.dates === latestDate);
             setNationalCase(latest.map(a => a["US"]));
         })
+        csv(csvState).then(state => {
+            if (isSubscribed) {
+                let st = state[state.length-5];
+                let converted = Object.keys(st).map(key => ({ key, cases: st[key]}))
+                setStateData(converted);
+                setAllStatesData(state);
+                setOneStateDate(st);
+            }
+        })
+        .catch(error => (isSubscribed ? setError(error.toString()) : null));
+        return () => isSubscribed = false;
     }, []);
+
+    const colorScale = scaleQuantile()
+        .domain(stateData.map(d => d.cases))
+        .range([
+            "#ffedea",
+            "#ffcec5",
+            "#ffad9f",
+            "#ff8a75",
+            "#ff5533",
+            "#e2492d",
+            "#be3d26",
+            "#9a311f",
+            "#782618"
+    ]);
 
     return (
         <div>
@@ -42,7 +78,7 @@ const National = () => {
                         <Geographies geography={geoUrl}>
                             {({ geographies }) => (
                             <>
-                                {geographies.map(geo => (
+                                {/* {geographies.map(geo => (
                                 <Geography
                                     key={geo.rsmKey}
                                     stroke="#FFF"
@@ -62,7 +98,24 @@ const National = () => {
                                                 fill: "#EE3E23",
                                                 stroke: "#EE3E23",
                                                 outline: "none",}}}/>
-                                ))}
+                                ))} */}
+                                { geographies.map(geo => {
+                                    const cur = stateData.find(s => s.key === geo.id);
+                                    return (
+                                        <Geography
+                                        key={geo.rsmKey}
+                                        geography={geo}
+                                        fill={cur ? colorScale(cur.cases) : "#EEE"}
+                                        stroke="#fff"
+                                        style={{
+                                            hover: {
+                                                stroke: "#782618",
+                                                strokeWidth: 2,
+                                            }
+                                        }}
+                                    />
+                                    );
+                                })}
                                 {geographies.map(geo => {
                                 const centroid = geoCentroid(geo);
                                 const cur = allStates.find(s => s.val === geo.id);
@@ -99,10 +152,10 @@ const National = () => {
                     <ReferenceLine x="2020-03-14" stroke="#4A72B7" strokeDasharray="4 4" label={{ position: 'insideTopLeft',  value: 'National emergency declared', fill: '#4A72B7', fontSize: "12" }} />
                     <ReferenceLine x="2020-03-28" stroke="#809f3d" strokeDasharray="4 4" label={{ position: "bottom", value: "CARES act enacted", fill: "#809f3d", offset: 30, fontSize: "12" }} />
                     <ReferenceLine x="2020-04-18" stroke="#F48620" strokeDasharray="4 4" label={{ position: 'bottom', value: "Stimulus payments starts", fill: "#F48620", offset: 45, fontSize: "12" }} />
-                    <ReferenceLine x="2020-11-07" stroke="#4A72B7" strokeDasharray="4 4" label={{ position: "insideTopRight", value: "Election day", fill: "#4A72B7", fontSize: "12" }} />
+                    <ReferenceLine x="2020-11-07" stroke="#4A72B7" strokeDasharray="4 4" label={{ position: "insideTopLeft", value: "Election", fill: "#4A72B7", fontSize: "12" }} />
                     <ReferenceLine x="2020-11-28" stroke="#368243" strokeDasharray="4 4" label={{ position: "bottom", value: "Thanksgiving", fill: "#368243", offset: 20, fontSize: "12" }} />
-                    <ReferenceLine x="2020-12-26" stroke="#EE3E23" strokeDasharray="4 4" label={{ position: "bottom", value: "Christmas", fill: "#EE3E23", offset: 35, fontSize: "12" }} />
-                    <ReferenceArea x1={config.forecastStartDate} x2={config.forecastEndDate} y1={0} stroke="red" strokeOpacity={0.3} label={{ value: "4 wks forecast", fontSize: "16", position: "insideTopRight", fill: "323232", offset: 15 }}/>
+                    <ReferenceLine x="2020-12-12" stroke="#EE3E23" strokeDasharray="4 4" label={{ position: "insideLeft", value: "First vaccine*", fill: "#EE3E23", fontSize: "12" }} />
+                    <ReferenceArea x1={config.forecastStartDate} x2={config.forecastEndDate} y1={0} stroke="red" strokeOpacity={0.3} label={{ value: "4 wks forecast", fontSize: "16", position: "insideTopRight", fill: "323232", offset: 30 }}/>
                     <Line type="monotone" data={nationalData} dataKey="US" stroke="#043b4e" strokeWidth={4} dot={false} />
                     <Tooltip
                         content={<CustomChartTooltip />}
