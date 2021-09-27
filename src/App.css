@@ -1,38 +1,38 @@
 :root {
   --brand: #1a1a1a;
   --black: #1a1a1a;
-  --black20: hsl(0,0%,20%);
-  --black30: hsl(0,0%,30%);
-  --black50: hsl(0,0%,50%);
-  --white50: hsl(0,0%,50%);
-  --white60: hsl(0,0%,60%);
+  --black20: hsl(0, 0%, 20%);
+  --black30: hsl(0, 0%, 30%);
+  --black50: hsl(0, 0%, 50%);
+  --white50: hsl(0, 0%, 50%);
+  --white60: hsl(0, 0%, 60%);
   --white70: #b3b3b3;
   --white: #fff;
   --fs: #368243;
-  --og: #F5A51C;
-  --tc: #4A72B7;
-  --mf: #EE3E23;
-  --ps: #699FD4;
-  --it: #F16622;
-  --df: #F48620;
-  --as: #81C581;
-  --ut: #32A7DF;
-  --am: #2CB466;
+  --og: #f5a51c;
+  --tc: #4a72b7;
+  --mf: #ee3e23;
+  --ps: #699fd4;
+  --it: #f16622;
+  --df: #f48620;
+  --as: #81c581;
+  --ut: #32a7df;
+  --am: #2cb466;
   --hc: #f5a51c;
   --ne: #809f3d;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
   color: var(--fs);
 }
@@ -86,7 +86,7 @@ footer {
   padding: 50px 0;
 }
 
-footer > a > p{
+footer > a > p {
   margin: 10px 0;
 }
 
@@ -116,7 +116,7 @@ footer > a > p{
 
 .recharts-wrapper {
   /* border: red 1px solid; */
-  width: 50% 
+  width: 50%;
 }
 
 .recharts-tooltip-wrapper {
@@ -126,7 +126,7 @@ footer > a > p{
 button {
   color: #000;
   font-weight: 700;
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
   font-size: 14px;
   text-transform: uppercase;
   cursor: pointer;
@@ -149,27 +149,26 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  box-shadow: 0 0 6px rgba(0,0,0,.25);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
-  padding: 0 .55rem;
-  margin-bottom: 50px;;
+  padding: 0 0.55rem;
+  margin-bottom: 50px;
 }
 
-.option-button  {
+.option-button {
   cursor: pointer;
   margin-left: 20px;
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 12px;
   background-color: none;
   border-radius: 3px;
   color: black;
-  
 }
 
 .selected {
   cursor: pointer;
   margin-left: 20px;
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 12px;
   background-color: var(--ps);
   border-radius: 3px;
@@ -235,10 +234,10 @@ li {
 }
 
 .custom-tooltip {
-  margin: 0px; 
-  padding: 10px; 
-  background-color: var(--white); 
-  border: 1px solid rgb(204, 204, 204); 
+  margin: 0px;
+  padding: 10px;
+  background-color: var(--white);
+  border: 1px solid rgb(204, 204, 204);
   white-space: nowrap;
 }
 
@@ -260,7 +259,7 @@ li {
   .App-header {
     flex-direction: column;
     height: 120px;
-    padding: 0 10px
+    padding: 0 10px;
   }
 
   .recharts-surface {
@@ -269,7 +268,6 @@ li {
 }
 
 @media only screen and (max-width: 420px) {
-
   .container {
     margin: 0 20px;
   }
@@ -277,7 +275,7 @@ li {
   .forecast {
     width: 350px;
   }
-  
+
   .recharts-surface {
     width: 330px;
   }
@@ -286,5 +284,6 @@ li {
     /* border: red 1px solid; */
     width: 0;
     margin-left: 10px;
+    width: 0;
   }
 }
