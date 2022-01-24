@@ -1,13 +1,1 @@
-<<<<<<< HEAD
-{"dataEndDate": "2021-12-04", "dataKingCountyEndValue": 110, "dataWashingtonStateEndValue": 166, "forecastStartDate": "2021-12-11", "forecastEndDate": "2022-01-01"}
-||||||| ce1b576
-{"dataEndDate": "2021-11-20", "dataKingCountyEndValue": 94, "dataWashingtonStateEndValue": 152, "forecastStartDate": "2021-11-27", "forecastEndDate": "2021-12-18"}
-=======
-<<<<<<< HEAD
-{"dataEndDate": "2022-01-01", "dataKingCountyEndValue": 685, "dataWashingtonStateEndValue": 464, "forecastStartDate": "2022-01-08", "forecastEndDate": "2022-01-29"}
-||||||| ce1b576
-{"dataEndDate": "2021-11-20", "dataKingCountyEndValue": 94, "dataWashingtonStateEndValue": 152, "forecastStartDate": "2021-11-27", "forecastEndDate": "2021-12-18"}
-=======
-{"dataEndDate": "2021-12-04", "dataKingCountyEndValue": 110, "dataWashingtonStateEndValue": 166, "forecastStartDate": "2021-12-11", "forecastEndDate": "2022-01-01"}
->>>>>>> main
->>>>>>> origin/forecast/2022-01-03
+{"dataEndDate": "2022-01-15", "dataKingCountyEndValue": 1741, "dataWashingtonStateEndValue": 1449, "forecastStartDate": "2022-01-22", "forecastEndDate": "2022-02-12"}
